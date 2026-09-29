@@ -29,17 +29,92 @@ function applyTheme(id) {
   document.querySelectorAll("[data-theme-id]").forEach(b => b.classList.toggle("on", b.dataset.themeId === id));
 }
 
+function pic(m) { return m.img || IMGS[m.night]; }
+
 const SHOP = [
   { name: "Saucepan", q: "saucepan" },
   { name: "Skillet", q: "cast iron skillet" },
-  { name: "Baking sheet", q: "baking sheet tray" },
+  { name: "Baking sheet", q: "baking sheet" },
   { name: "Mixing bowl", q: "mixing bowl" },
   { name: "Piping bag", q: "piping bag" },
   { name: "Candy eyes", q: "candy eyes" }
 ];
 
+const STORES = {
+  US: { host: "www.amazon.com", label: "Amazon.com", tag: "" },
+  IN: { host: "www.amazon.in", label: "Amazon.in", tag: "" },
+  GB: { host: "www.amazon.co.uk", label: "Amazon.co.uk", tag: "" },
+  UK: { host: "www.amazon.co.uk", label: "Amazon.co.uk", tag: "" },
+  CA: { host: "www.amazon.ca", label: "Amazon.ca", tag: "" },
+  AU: { host: "www.amazon.com.au", label: "Amazon.com.au", tag: "" },
+  DE: { host: "www.amazon.de", label: "Amazon.de", tag: "" },
+  AT: { host: "www.amazon.de", label: "Amazon.de", tag: "" },
+  FR: { host: "www.amazon.fr", label: "Amazon.fr", tag: "" },
+  BE: { host: "www.amazon.fr", label: "Amazon.fr", tag: "" },
+  IT: { host: "www.amazon.it", label: "Amazon.it", tag: "" },
+  ES: { host: "www.amazon.es", label: "Amazon.es", tag: "" },
+  NL: { host: "www.amazon.nl", label: "Amazon.nl", tag: "" },
+  SE: { host: "www.amazon.se", label: "Amazon.se", tag: "" },
+  PL: { host: "www.amazon.pl", label: "Amazon.pl", tag: "" },
+  JP: { host: "www.amazon.co.jp", label: "Amazon.co.jp", tag: "" },
+  AE: { host: "www.amazon.ae", label: "Amazon.ae", tag: "" },
+  SA: { host: "www.amazon.sa", label: "Amazon.sa", tag: "" },
+  EG: { host: "www.amazon.eg", label: "Amazon.eg", tag: "" },
+  BR: { host: "www.amazon.com.br", label: "Amazon.com.br", tag: "" },
+  MX: { host: "www.amazon.com.mx", label: "Amazon.com.mx", tag: "" },
+  SG: { host: "www.amazon.sg", label: "Amazon.sg", tag: "" }
+};
+
+let visitor = { country: "IN", store: STORES.IN };
+
+function storeFor(code) {
+  const id = String(code || "IN").toUpperCase();
+  return STORES[id] || STORES.US;
+}
+
 function shopUrl(q) {
-  return "https://www.amazon.in/s?k=" + encodeURIComponent(q);
+  const s = visitor.store;
+  let url = "https://" + s.host + "/s?k=" + encodeURIComponent(q);
+  if (s.tag) url += "&tag=" + encodeURIComponent(s.tag);
+  return url;
+}
+
+function shopLinks() {
+  return SHOP.map(s => `<a href="${shopUrl(s.q)}" target="_blank" rel="noopener sponsored">${s.name}</a>`).join("");
+}
+
+function paintShop() {
+  const grid = document.querySelector(".shop-grid");
+  if (grid) grid.innerHTML = shopLinks();
+  const fine = document.querySelector(".shop .fine");
+  if (fine) fine.textContent = "Shop links open " + visitor.store.label + " for your country. We only use country, not your address.";
+  document.querySelectorAll(".kit-row").forEach(el => { el.innerHTML = shopLinks(); });
+}
+
+async function detectCountry() {
+  const cached = sessionStorage.getItem("emma-country");
+  if (cached) {
+    visitor = { country: cached, store: storeFor(cached) };
+    paintShop();
+    return;
+  }
+  let code = "";
+  try {
+    const t = await fetch("https://www.cloudflare.com/cdn-cgi/trace").then(r => r.text());
+    const line = t.split("\n").find(l => l.startsWith("loc="));
+    if (line) code = line.slice(4).trim();
+  } catch (e) {}
+  if (!code) {
+    try {
+      const j = await fetch("https://ipapi.co/json/").then(r => r.json());
+      code = j && j.country_code;
+    } catch (e) {}
+  }
+  code = (code || "IN").toUpperCase();
+  if (code === "XX" || code === "T1") code = "IN";
+  sessionStorage.setItem("emma-country", code);
+  visitor = { country: code, store: storeFor(code) };
+  paintShop();
 }
 
 let active = "all";
@@ -96,7 +171,7 @@ function showRecipe(night) {
       <p class="tweak">${m.tweak || ""}</p>
       <div class="kit">
         <p class="eyebrow">Emma uses</p>
-        <div class="kit-row">${SHOP.map(s => `<a href="${shopUrl(s.q)}" target="_blank" rel="noopener sponsored">${s.name}</a>`).join("")}</div>
+        <div class="kit-row">${shopLinks()}</div>
       </div>
       <aside class="haunt">
         <p>Food in the oven? <a href="https://isardeepg.github.io/" target="_blank" rel="noopener">Play Holly Haunt</a> while it bakes.</p>
@@ -154,5 +229,7 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("hashchange", onHash);
   applyTheme(localStorage.getItem("emma-theme") || "halloween");
   render();
+  paintShop();
+  detectCountry();
   onHash();
 });
