@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="halloween">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emma's Kitchen</title>
+  <meta name="description" content="Emma's Kitchen — one festive meal a night, recipes on the site, and a Halloween game in the next room." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=5" />
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="scene" aria-hidden="true">
+    <span class="prop p1" id="p1"></span>
+    <span class="prop p2" id="p2"></span>
+    <span class="prop p3" id="p3"></span>
+    <span class="prop p4" id="p4"></span>
+  </div>
+
+  <header class="site-head">
+    <div class="feel-wrap" id="festive">
+      <button class="feel" id="festiveBtn" type="button">Feel · <span id="festiveLabel">Halloween</span></button>
+      <div class="feel-menu" id="festiveMenu"></div>
+    </div>
+    <a class="mark" href="#">Emma's Kitchen</a>
+    <p class="ribbon" id="ribbon"></p>
+    <nav>
+      <a href="#recipes">Recipes</a>
+      <a href="#about">About</a>
+      <a href="#shop">Shop</a>
+      <a href="https://isardeepg.github.io/" target="_blank" rel="noopener">Play Holly Haunt</a>
+      <a href="https://instagram.com/emma.goodwitch" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </header>
+
+  <section class="tiles" id="start">
+    <button class="tile" data-cat="dinner" style="background-image:url('img/meals/15.jpg?v=2')"><span>Quick & Easy</span></button>
+    <button class="tile" data-cat="all" style="background-image:url('img/meals/30.jpg?v=2')"><span>Most Popular</span></button>
+    <button class="tile" data-cat="dessert" style="background-image:url('img/meals/08.jpg?v=2')"><span>Sweets</span></button>
+    <button class="tile" data-cat="board" style="background-image:url('img/meals/25.jpg?v=2')"><span>Boards & Parties</span></button>
+  </section>
+
+  <section class="mail">
+    <p>Our recipes, your inbox.</p>
+    <form onsubmit="event.preventDefault(); this.querySelector('button').textContent='Saved for later';">
+      <input type="email" placeholder="Email address" required />
+      <button type="submit">Go</button>
+    </form>
+  </section>
+
+  <section class="game" id="game">
+    <div>
+      <p class="eyebrow">Also from this house</p>
+      <h2>Holly Haunt</h2>
+      <p>A hidden-object game in Emma’s rooms. Find the objects, then unlock Kitchen and Bedroom on your phone.</p>
+      <p class="game-actions">
+        <a class="btn" href="https://isardeepg.github.io/" target="_blank" rel="noopener">Play the game</a>
+        <a class="btn ghost" href="https://rzp.io/rzp/hollyhaunt-unlock" target="_blank" rel="noopener">Unlock rooms · $1</a>
+      </p>
+    </div>
+  </section>
+
+  <main class="page" id="recipes">
+    <h1>The Latest & Greatest</h1>
+    <p class="lede" id="count">31 recipes from Emma's Kitchen</p>
+    <div id="list"></div>
+  </main>
+
+  <section class="shop" id="shop">
+    <p class="eyebrow">Emma uses</p>
+    <h2>Tools from the recipes</h2>
+    <p class="lede">Same pans and bits that show up in the methods. Opens Amazon so you can grab them.</p>
+    <div class="shop-grid">
+      <a href="https://www.amazon.in/s?k=saucepan" target="_blank" rel="noopener sponsored">Saucepan</a>
+      <a href="https://www.amazon.in/s?k=cast+iron+skillet" target="_blank" rel="noopener sponsored">Skillet</a>
+      <a href="https://www.amazon.in/s?k=baking+sheet" target="_blank" rel="noopener sponsored">Baking sheet</a>
+      <a href="https://www.amazon.in/s?k=mixing+bowl" target="_blank" rel="noopener sponsored">Mixing bowl</a>
+      <a href="https://www.amazon.in/s?k=piping+bag" target="_blank" rel="noopener sponsored">Piping bag</a>
+      <a href="https://www.amazon.in/s?k=candy+eyes" target="_blank" rel="noopener sponsored">Candy eyes</a>
+    </div>
+    <p class="fine">Shop links go to Amazon. If Emma joins Associates later, these become tracked links.</p>
+  </section>
+
+  <section class="hi" id="about">
+    <img src="img/emma.jpg" alt="Emma in her kitchen" />
+    <div>
+      <p class="eyebrow">About</p>
+      <h2>Hi! I’m Emma.</h2>
+      <p>Nice to meet you. I’m a good witch who cooks one meal a night until Halloween.</p>
+      <p>Every recipe lives here — ingredients, method, and a small twist from my kitchen.</p>
+      <p>When the food is in the oven, play <a href="https://isardeepg.github.io/">Holly Haunt</a>.</p>
+      <p><a href="mailto:info@merahissa.co.in">info@merahissa.co.in</a> · <a href="https://instagram.com/emma.goodwitch">@emma.goodwitch</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Emma's Kitchen</p>
+    <p><a href="https://isardeepg.github.io/">Play Holly Haunt</a> · Recipes written in Emma's kitchen.</p>
+  </footer>
+
+  <div id="recipe"></div>
+  <script src="meals.js?v=5"></script>
+  <script src="app.js?v=5"></script>
+</body>
+</html>
