@@ -32,17 +32,35 @@ function applyTheme(id) {
 function pic(m) { return m.img || IMGS[m.night]; }
 
 const SHOP = [
-  { name: "Saucepan", q: "saucepan" },
-  { name: "Skillet", q: "cast iron skillet" },
-  { name: "Baking sheet", q: "baking sheet" },
-  { name: "Mixing bowl", q: "mixing bowl" },
-  { name: "Piping bag", q: "piping bag" },
-  { name: "Candy eyes", q: "candy eyes" }
+  { name: "Candy eyes", q: "candy eyes", in: "https://www.amazon.in/dp/B0CJ98W882/?tag=emmathegoodwi-21" },
+  { name: "Edible markers", q: "edible ink markers", in: "https://www.amazon.in/dp/B07M9VYZ7C/?tag=emmathegoodwi-21" },
+  { name: "Black gel colour", q: "black gel food color", in: "https://www.amazon.in/dp/B08R7ZCT4X/?tag=emmathegoodwi-21" },
+  { name: "Orange gel colour", q: "orange gel food color", in: "https://www.amazon.in/dp/B08R7ZMV2T/?tag=emmathegoodwi-21" },
+  { name: "Green gel colour", q: "green gel food color", in: "https://www.amazon.in/dp/B07MDGYRB1/?tag=emmathegoodwi-21" },
+  { name: "Blue food colour", q: "blue liquid food color", in: "https://www.amazon.in/dp/B06XPFWW66/?tag=emmathegoodwi-21" },
+  { name: "Gummy worms", q: "gummy worms", in: "https://www.amazon.in/dp/B07Z5MVJBC/?tag=emmathegoodwi-21" },
+  { name: "Mini marshmallows", q: "mini marshmallows", in: "https://www.amazon.in/dp/B09412FYDP/?tag=emmathegoodwi-21" },
+  { name: "Large marshmallows", q: "large marshmallows", in: "https://www.amazon.in/dp/B08CRT3SSQ/?tag=emmathegoodwi-21" },
+  { name: "Chocolate kisses", q: "chocolate kisses", in: "https://www.amazon.in/dp/B07RX7CHP4/?tag=emmathegoodwi-21" },
+  { name: "Pretzel rods", q: "pretzel rods", in: "https://www.amazon.in/dp/B0CPM56W7N/?tag=emmathegoodwi-21" },
+  { name: "Lolly sticks", q: "lolly sticks", in: "https://www.amazon.in/dp/B0BYVHJNQ5/?tag=emmathegoodwi-21" },
+  { name: "Food-safe gloves", q: "food safe gloves", in: "https://www.amazon.in/dp/B0895PLYW2/?tag=emmathegoodwi-21" },
+  { name: "Cupcake liners", q: "cupcake liners", in: "https://www.amazon.in/dp/B07NTJYQTK/?tag=emmathegoodwi-21" },
+  { name: "Brownie pan", q: "brownie pan", in: "https://www.amazon.in/dp/B077L1W8RG/?tag=emmathegoodwi-21" },
+  { name: "Muffin tin", q: "muffin tin", in: "https://www.amazon.in/dp/B096S4F6K4/?tag=emmathegoodwi-21" },
+  { name: "Brain mould", q: "brain mold", in: "https://www.amazon.in/dp/B08QD1QV1B/?tag=emmathegoodwi-21" },
+  { name: "Cookie cutters", q: "halloween cookie cutters", in: "https://www.amazon.in/dp/B0872BL33D/?tag=emmathegoodwi-21" },
+  { name: "Wooden board", q: "wooden serving board", in: "https://www.amazon.in/dp/B01M0VD650/?tag=emmathegoodwi-21" },
+  { name: "Dessert cups", q: "clear dessert cups", in: "https://www.amazon.in/dp/B09S3QX63B/?tag=emmathegoodwi-21" },
+  { name: "Punch ladle", q: "punch ladle", in: "https://www.amazon.in/dp/B083ZFV1RV/?tag=emmathegoodwi-21" },
+  { name: "Toothpicks", q: "toothpicks", in: "https://www.amazon.in/dp/B01N3KK7Z0/?tag=emmathegoodwi-21" },
+  { name: "Piping bags", q: "piping bags tips", in: "https://www.amazon.in/dp/B07G5FYNMF/?tag=emmathegoodwi-21" },
+  { name: "Candy thermometer", q: "candy thermometer", in: "https://www.amazon.in/dp/B07Z7NJ7HN/?tag=emmathegoodwi-21" }
 ];
 
 const STORES = {
   US: { host: "www.amazon.com", label: "Amazon.com", tag: "" },
-  IN: { host: "www.amazon.in", label: "Amazon.in", tag: "" },
+  IN: { host: "www.amazon.in", label: "Amazon.in", tag: "emmathegoodwi-21" },
   GB: { host: "www.amazon.co.uk", label: "Amazon.co.uk", tag: "" },
   UK: { host: "www.amazon.co.uk", label: "Amazon.co.uk", tag: "" },
   CA: { host: "www.amazon.ca", label: "Amazon.ca", tag: "" },
@@ -72,15 +90,16 @@ function storeFor(code) {
   return STORES[id] || STORES.US;
 }
 
-function shopUrl(q) {
+function shopUrl(item) {
   const s = visitor.store;
-  let url = "https://" + s.host + "/s?k=" + encodeURIComponent(q);
+  if (s.host === "www.amazon.in" && item.in) return item.in;
+  let url = "https://" + s.host + "/s?k=" + encodeURIComponent(item.q);
   if (s.tag) url += "&tag=" + encodeURIComponent(s.tag);
   return url;
 }
 
 function shopLinks() {
-  return SHOP.map(s => `<a href="${shopUrl(s.q)}" target="_blank" rel="noopener sponsored">${s.name}</a>`).join("");
+  return SHOP.map(s => `<a href="${shopUrl(s)}" target="_blank" rel="noopener sponsored">${s.name}</a>`).join("");
 }
 
 function paintShop() {
