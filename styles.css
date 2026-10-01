@@ -10,8 +10,13 @@
   --serif: "Playfair Display", Georgia, serif;
 }
 [data-theme="halloween"] {
-  --paper: #f7efe4; --ink: #2a1a12; --muted: #6d5340; --line: #e4d2b8;
-  --purple: #6c3d7a; --gold: #e08a1e; --glow: rgba(255, 122, 24, .22);
+  --paper: #f6c27a;
+  --ink: #3a1c08;
+  --muted: #7a4520;
+  --line: #e8a85a;
+  --purple: #c2410c;
+  --gold: #e07a1a;
+  --glow: rgba(255, 160, 60, .35);
 }
 [data-theme="diwali"] {
   --paper: #fff6e8; --ink: #3a1608; --muted: #8a5a2a; --line: #f0d7a8;
@@ -118,30 +123,10 @@ img { max-width: 100%; display: block; }
 }
 .season[hidden] { display: none; }
 .season.on-halloween {
-  color: #ffb04a;
-  border: 1px solid #e08a1e;
-  box-shadow: 0 0 0 4px rgba(224, 138, 30, .2);
-}
-[data-theme="halloween"] body,
-[data-theme="halloween"] {
-  background:
-    radial-gradient(900px 280px at 50% 0, rgba(224, 138, 30, .28), transparent 60%),
-    #1a1210;
-}
-[data-theme="halloween"] .mark,
-[data-theme="halloween"] nav a { color: #f7efe4; }
-[data-theme="halloween"] .tag { color: #ffb04a; }
-[data-theme="halloween"] .page h1,
-[data-theme="halloween"] .card h3 { color: #2a1a12; }
-  margin: 8px 0 2px;
-  letter-spacing: .55em;
-  font-size: 18px;
-  opacity: .9;
-}
-  margin: 8px 0 2px;
-  letter-spacing: .55em;
-  font-size: 18px;
-  opacity: .9;
+  background: #c2410c;
+  color: #fff8ee;
+  border: 0;
+  box-shadow: none;
 }
 nav { display: flex; justify-content: center; gap: 22px; margin: 12px 0 8px; flex-wrap: wrap; }
 nav a {
