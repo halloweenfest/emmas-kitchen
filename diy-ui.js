@@ -6,6 +6,7 @@ function showSection(name) {
   });
   document.querySelectorAll("nav a[data-tab]").forEach(a => a.classList.toggle("on", a.dataset.tab === name));
 }
+
 let diyActive = "all";
 function renderDiy() {
   const list = (window.EMMA_DIY || []).filter(d => diyActive === "all" || d.type === diyActive);
@@ -23,6 +24,7 @@ function renderDiy() {
       </div>
     </article>`).join("");
 }
+
 function showDiy(id) {
   const d = (window.EMMA_DIY || []).find(x => x.id === Number(id));
   if (!d) return;
@@ -31,19 +33,19 @@ function showDiy(id) {
   const page = document.getElementById("recipe");
   page.innerHTML = `
     <div class="recipe-bar">
-      <button class="back" type="button" id="backBtn">\u2190 DIY</button>
+      <button class="back" type="button" id="backBtn">← DIY</button>
       <span>Make</span>
     </div>
     <img class="hero" src="${d.img}" alt="${d.title}" onerror="this.src='img/meals/08.jpg'" />
     <div class="recipe-body">
       <p class="eyebrow">DIY</p>
       <h2>${d.title}</h2>
-      <p class="meta">${d.time} \u00b7 Makes ${d.makes}</p>
-      <p class="quote">\u201c${d.hook}\u201d</p>
+      <p class="meta">${d.time} · Makes ${d.makes}</p>
+      <p class="quote">“${d.hook}”</p>
       <p class="lede-r">${d.blurb}</p>
       <h3>You need</h3>
       <ul class="ings">${materials}</ul>
-      <h3>Method, step by step</h3>
+      <h3>How to build</h3>
       <ol class="steps">${steps}</ol>
       <p class="tweak">${d.tweak || ""}</p>
     </div>`;
@@ -58,16 +60,19 @@ function showDiy(id) {
     showSection("diy");
   };
 }
+
 function openDiy(id) {
   if (location.hash !== "#diy-" + id) location.hash = "diy-" + id;
   else showDiy(id);
 }
+
 function onDiyHash() {
   const diy = location.hash.match(/^#diy-(\d+)/);
   if (diy) { showSection("diy"); showDiy(diy[1]); return; }
   if (location.hash === "#diy") showSection("diy");
   else if (location.hash === "#recipes" || location.hash === "" || location.hash === "#") showSection("recipes");
 }
+
 document.addEventListener("DOMContentLoaded", () => {
   renderDiy();
   const diyTiles = document.getElementById("diy-tiles");
