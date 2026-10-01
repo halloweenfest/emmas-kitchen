@@ -6,17 +6,12 @@
   <title>Emma's Kitchen</title>
   <meta name="description" content="Emma's Kitchen — recipes and DIY from the same table." />
   <link rel="canonical" href="https://emmas-kitchen-ce0.pages.dev/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://emmas-kitchen-ce0.pages.dev/" />
   <meta property="og:title" content="Emma's Kitchen" />
-  <meta property="og:description" content="Recipes and DIY till Halloween." />
   <meta property="og:image" content="https://emmas-kitchen-ce0.pages.dev/img/emma.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="theme-color" content="#f7efe4" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=10" />
+  <link rel="stylesheet" href="styles.css?v=11" />
   <style>
     html.in-ig .nav-ig{display:none}
     nav{row-gap:8px}
@@ -36,17 +31,9 @@
 </head>
 <body>
   <div class="glow" aria-hidden="true"></div>
-  <div class="scene" aria-hidden="true">
-    <span class="prop p1" id="p1"></span>
-    <span class="prop p2" id="p2"></span>
-    <span class="prop p3" id="p3"></span>
-    <span class="prop p4" id="p4"></span>
-  </div>
+  <div class="scene" aria-hidden="true"><span class="prop p1" id="p1"></span><span class="prop p2" id="p2"></span><span class="prop p3" id="p3"></span><span class="prop p4" id="p4"></span></div>
   <header class="site-head">
-    <div class="feel-wrap" id="festive">
-      <button class="feel" id="festiveBtn" type="button">Feel · <span id="festiveLabel">Halloween</span></button>
-      <div class="feel-menu" id="festiveMenu"></div>
-    </div>
+    <div class="feel-wrap" id="festive"><button class="feel" id="festiveBtn" type="button">Feel · <span id="festiveLabel">Halloween</span></button><div class="feel-menu" id="festiveMenu"></div></div>
     <a class="mark" href="#">Emma's Kitchen</a>
     <p class="ribbon" id="ribbon"></p>
     <nav>
@@ -65,65 +52,22 @@
     <button class="tile" data-cat="board" style="background-image:url('img/meals/25.jpg?v=2')"><span>Boards & Parties</span></button>
   </section>
   <section class="tiles panel" id="diy-tiles" data-panel="diy">
+    <button class="tile" data-diy-type="all" style="background-image:url('img/meals/30.jpg')"><span>All 30</span></button>
     <button class="tile" data-diy-type="table" style="background-image:url('img/meals/08.jpg')"><span>Table</span></button>
     <button class="tile" data-diy-type="window" style="background-image:url('img/meals/01.jpg')"><span>Windows</span></button>
-    <button class="tile" data-diy-type="favors" style="background-image:url('img/prep/board.jpg')"><span>Favors</span></button>
     <button class="tile" data-diy-type="light" style="background-image:url('img/meals/15.jpg')"><span>Lights</span></button>
   </section>
-  <section class="mail">
-    <p>Our recipes, your inbox.</p>
-    <form onsubmit="event.preventDefault(); this.querySelector('button').textContent='Saved for later';">
-      <input type="email" placeholder="Email address" required />
-      <button type="submit">Go</button>
-    </form>
-  </section>
-  <section class="game" id="game">
-    <div>
-      <p class="eyebrow">Also from this house</p>
-      <h2>Holly Haunt</h2>
-      <p>A hidden-object game in Emma’s rooms. Find the objects, then unlock Kitchen and Bedroom on your phone.</p>
-      <p class="game-actions">
-        <a class="btn" href="https://isardeepg.github.io/">Play the game</a>
-        <a class="btn ghost" href="https://rzp.io/rzp/hollyhaunt-unlock">Unlock rooms · $1</a>
-      </p>
-    </div>
-  </section>
-  <main class="page panel on" id="recipes" data-panel="recipes">
-    <h1>The Latest & Greatest</h1>
-    <p class="lede" id="count">31 recipes from Emma's Kitchen</p>
-    <div id="list"></div>
-  </main>
-  <main class="page panel" id="diy" data-panel="diy">
-    <h1>Make it yourself</h1>
-    <p class="lede" id="diy-count">Projects from Emma's kitchen table</p>
-    <div id="diy-list"></div>
-  </main>
-  <section class="shop" id="shop">
-    <p class="eyebrow">Emma uses</p>
-    <h2>Candy & decorating</h2>
-    <p class="lede">The bits these recipes actually call for. India opens Emma’s Amazon picks. Other countries get the local Amazon search.</p>
-    <div class="shop-grid"></div>
-    <p class="fine">Detecting your store…</p>
-  </section>
-  <section class="hi" id="about">
-    <img src="img/emma.jpg?v=6" alt="Emma" />
-    <div>
-      <p class="eyebrow">About</p>
-      <h2>Hi! I’m Emma.</h2>
-      <p>Nice to meet you. I’m a good witch who cooks one meal a night until Halloween.</p>
-      <p>Every recipe lives here — ingredients, method, and a small twist from my kitchen. DIY is the next room.</p>
-      <p>When the food is in the oven, play <a href="https://isardeepg.github.io/">Holly Haunt</a>.</p>
-      <p><a href="mailto:info@merahissa.co.in">info@merahissa.co.in</a> · <a href="https://www.instagram.com/emma.goodwitch/">@emma.goodwitch</a></p>
-    </div>
-  </section>
-  <footer>
-    <p>Emma's Kitchen</p>
-    <p><a href="https://isardeepg.github.io/">Play Holly Haunt</a> · Recipes and DIY from Emma's kitchen.</p>
-  </footer>
+  <section class="mail"><p>Our recipes, your inbox.</p><form onsubmit="event.preventDefault(); this.querySelector('button').textContent='Saved for later';"><input type="email" placeholder="Email address" required /><button type="submit">Go</button></form></section>
+  <section class="game" id="game"><div><p class="eyebrow">Also from this house</p><h2>Holly Haunt</h2><p>A hidden-object game in Emma’s rooms. Find the objects, then unlock Kitchen and Bedroom on your phone.</p><p class="game-actions"><a class="btn" href="https://isardeepg.github.io/">Play the game</a><a class="btn ghost" href="https://rzp.io/rzp/hollyhaunt-unlock">Unlock rooms · $1</a></p></div></section>
+  <main class="page panel on" id="recipes" data-panel="recipes"><h1>The Latest & Greatest</h1><p class="lede" id="count">31 recipes from Emma's Kitchen</p><div id="list"></div></main>
+  <main class="page panel" id="diy" data-panel="diy"><h1>Make it yourself</h1><p class="lede" id="diy-count">30 Halloween projects, written here</p><div id="diy-list"></div></main>
+  <section class="shop" id="shop"><p class="eyebrow">Emma uses</p><h2>Candy & decorating</h2><p class="lede">The bits these recipes actually call for. India opens Emma’s Amazon picks. Other countries get the local Amazon search.</p><div class="shop-grid"></div><p class="fine">Detecting your store…</p></section>
+  <section class="hi" id="about"><img src="img/emma.jpg?v=6" alt="Emma" /><div><p class="eyebrow">About</p><h2>Hi! I’m Emma.</h2><p>Nice to meet you. I’m a good witch who cooks one meal a night until Halloween.</p><p>Every recipe lives here. DIY does too — materials, steps, and a small twist.</p><p>When the food is in the oven, play <a href="https://isardeepg.github.io/">Holly Haunt</a>.</p><p><a href="mailto:info@merahissa.co.in">info@merahissa.co.in</a> · <a href="https://www.instagram.com/emma.goodwitch/">@emma.goodwitch</a></p></div></section>
+  <footer><p>Emma's Kitchen</p><p><a href="https://isardeepg.github.io/">Play Holly Haunt</a> · Recipes and DIY from Emma's kitchen.</p></footer>
   <div id="recipe"></div>
-  <script src="meals.js?v=10"></script>
-  <script src="diy.js?v=10"></script>
-  <script src="app.js?v=10"></script>
-  <script src="diy-ui.js?v=10"></script>
+  <script src="meals.js?v=11"></script>
+  <script src="diy.js?v=11"></script>
+  <script src="app.js?v=11"></script>
+  <script src="diy-ui.js?v=11"></script>
 </body>
 </html>
