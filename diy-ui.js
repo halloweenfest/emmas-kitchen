@@ -29,9 +29,14 @@ function showDiy(id) {
   const d = (window.EMMA_DIY || []).find(x => x.id === Number(id));
   if (!d) return;
   const materials = (d.materials || []).map(i => `<li>${i}</li>`).join("");
-  const steps = (d.steps || []).map((s, i) => `<li><span class="n">${i + 1}</span><p>${s}</p></li>`).join("");
+  const steps = (d.steps || []).map((s, i) => {
+    const text = typeof s === "string" ? s : s.text;
+    const img = (s && s.img) ? `<img class="step-img" src="${s.img}" alt="" />` : "";
+    return `<li><span class="n">${i + 1}</span><div><p>${text}</p>${img}</div></li>`;
+  }).join("");
+  const stepText = (d.steps || []).map(s => typeof s === "string" ? s : s.text);
   const related = (typeof relatedShop === "function")
-    ? relatedShop([d.title, d.blurb, ...(d.materials || []), ...(d.steps || [])].join(" "))
+    ? relatedShop([d.title, d.blurb, ...(d.materials || []), ...stepText].join(" "))
     : [];
   const shop = (typeof shopLinks === "function") ? shopLinks(related) : "";
   const page = document.getElementById("recipe");

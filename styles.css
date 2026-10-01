@@ -303,8 +303,13 @@ body.reading { overflow: hidden; }
 .btn.ghost { background: transparent; color: #f4e8d8; border: 1px solid #f4e8d8; }
 
 .split { display: grid; grid-template-columns: 1fr 220px; gap: 28px; align-items: start; }
-.need { position: sticky; top: 16px; }
-.need-note { color: var(--muted); font-size: 13px; margin: 4px 0 10px; }
+.need {
+  position: static;
+  background: color-mix(in srgb, var(--paper) 94%, white);
+  border: 1px solid var(--line);
+  padding: 14px 12px 16px;
+}
+.need-note { color: var(--muted); font-size: 13px; margin: 4px 0 10px; line-height: 1.4; }
 .need-list { display: grid; gap: 8px; }
 .need-list a {
   display: block; text-decoration: none; border: 1px solid var(--line);
@@ -312,7 +317,7 @@ body.reading { overflow: hidden; }
   text-align: center;
 }
 .need-list a:hover { border-color: var(--purple); color: var(--purple); }
-.recipe-wrap { width: min(980px, calc(100% - 28px)); margin: 0 auto; display: grid; grid-template-columns: 1fr 220px; gap: 28px; align-items: start; }
+.recipe-wrap { width: min(980px, calc(100% - 28px)); margin: 18px auto 0; display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 32px; align-items: start; }
 .recipe-wrap .recipe-body { width: auto; margin: 0; padding-top: 22px; }
 .shop h2 { font-family: var(--serif); font-size: 36px; font-weight: 500; margin: 6px 0 8px; }
 .shop-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 18px; }
