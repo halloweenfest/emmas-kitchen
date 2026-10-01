@@ -90,7 +90,20 @@ img { max-width: 100%; display: block; }
   color: var(--ink);
   text-decoration: none;
 }
+.tag {
+  margin-top: 2px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--purple);
+}
 .ribbon {
+  margin: 8px 0 2px;
+  letter-spacing: .55em;
+  font-size: 18px;
+  opacity: .9;
+}
   margin: 8px 0 2px;
   letter-spacing: .55em;
   font-size: 18px;

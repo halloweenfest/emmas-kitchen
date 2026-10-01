@@ -139,7 +139,7 @@ async function detectCountry() {
 let active = "all";
 function render() {
   const list = EMMA_MEALS.filter(m => active === "all" || m.type === active);
-  document.getElementById("count").textContent = list.length + " recipes from Emma's kitchen";
+  document.getElementById("count").textContent = list.length + " recipes";
   document.getElementById("list").innerHTML = list.map(m => `
     <article class="card">
       <img src="${pic(m)}" alt="${m.title}" loading="lazy" />
