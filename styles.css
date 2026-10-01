@@ -128,12 +128,34 @@ img { max-width: 100%; display: block; }
   border: 0;
   box-shadow: none;
 }
-nav { display: flex; justify-content: center; gap: 22px; margin: 12px 0 8px; flex-wrap: wrap; }
-nav a {
-  color: var(--ink); text-decoration: none; font-weight: 600;
-  font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+nav {
+  display: flex; justify-content: center; align-items: center;
+  gap: 10px; margin: 18px auto 12px; flex-wrap: wrap;
+  width: min(1040px, calc(100% - 20px));
 }
-nav a:hover { color: var(--purple); }
+nav a {
+  color: #3a1c08;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  background: #fff8ee;
+  border: 1px solid rgba(58, 28, 8, .16);
+  border-radius: 999px;
+  padding: 11px 16px;
+  line-height: 1;
+  box-shadow: 0 2px 0 rgba(58, 28, 8, .06);
+  transition: transform .16s ease, background .16s ease, color .16s ease, box-shadow .16s ease;
+}
+nav a:hover,
+nav a.on {
+  color: #fff8ee;
+  background: #c2410c;
+  border-color: #c2410c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(194, 65, 12, .3);
+}
 
 .feel-wrap { position: absolute; right: 8px; top: 10px; z-index: 8; }
 .feel {
