@@ -90,11 +90,13 @@ window.EMMA_MEALS = [
       "salt, pepper, olive oil"
     ],
     steps: [
-      "Heat the oven to 175°C. Slice a lid off each pepper and pull out the seeds.",
-      "Carve two eyes and a mouth in the front with a small knife.",
-      "Brown onion and mince in a pan. Stir in tomatoes, paprika, pasta, salt and half the cheese.",
-      "Spoon the filling into the peppers. Set the lids back on.",
-      "Bake 28–32 minutes. Scatter the rest of the cheese for the last 5 minutes."
+      { text: "Heat the oven to 175°C / 350°F and put a rack in the middle. While it heats, cook the small pasta in salted water until it is just shy of done, then drain. Leave it a little firm — it finishes inside the pepper." },
+      { text: "Slice a lid off each orange pepper, about 1 cm down from the stem, and keep the lids. Pull out the seeds and the white membranes with your fingers. If the wall splits, the filling leaks later, so go gently.", img: "img/steps/04-1.jpg" },
+      { text: "With a small sharp knife, cut two triangle eyes and a short jagged mouth in the front of each pepper. Stop as soon as you see the hollow inside. A cut that goes all the way through will let sauce run out in the oven.", img: "img/steps/04-2.jpg" },
+      { text: "Film a skillet with olive oil over medium heat. Soften the chopped onion for 4 minutes until it looks clear. Add the mince, break it up, and cook until no pink remains, about 6 minutes. Stir in the crushed tomatoes, paprika, chilli flakes, salt and pepper. Simmer 5 minutes so the sauce thickens instead of watering down the pasta.", img: "img/steps/04-3.jpg" },
+      { text: "Take the pan off the heat. Fold in the pasta and half the cheddar. Taste the filling — it should be a little saltier than you want on its own, because the pepper itself is bland.", img: "img/steps/04-3.jpg" },
+      { text: "Stand the peppers in a snug baking dish. Spoon the filling in and press lightly so there are no air pockets. Set the lids back on. Pour a splash of water around the peppers so they steam instead of drying out.", img: "img/steps/04-4.jpg" },
+      { text: "Bake 28–32 minutes, until the walls slump when you press them. For the last 5 minutes, lift the lids and scatter the rest of the cheddar so the faces look glossy. Rest 5 minutes before you serve, or the filling floods the plate.", img: "img/steps/04-5.jpg" }
     ],
     tweak: "Emma's twist: paprika in the mince and cheddar on top so the faces look glossy, not dry."
   },

@@ -174,8 +174,13 @@ function showRecipe(night) {
     return `<figure><img src="${src}" alt="${cap || m.title}" onerror="this.parentNode.style.display='none'" /><figcaption>${cap}</figcaption></figure>`;
   }).join("");
   const ingredients = (m.ingredients || []).map(i => `<li>${i}</li>`).join("");
-  const steps = (m.steps || []).map((s, i) => `<li><span class="n">${i + 1}</span><p>${s}</p></li>`).join("");
-  const related = relatedShop([m.title, m.blurb, ...(m.ingredients || []), ...(m.steps || [])].join(" "));
+  const steps = (m.steps || []).map((s, i) => {
+    const text = typeof s === "string" ? s : s.text;
+    const img = (s && s.img) ? `<img class="step-img" src="${s.img}" alt="" />` : "";
+    return `<li><span class="n">${i + 1}</span><div><p>${text}</p>${img}</div></li>`;
+  }).join("");
+  const stepText = (m.steps || []).map(s => typeof s === "string" ? s : s.text);
+  const related = relatedShop([m.title, m.blurb, ...(m.ingredients || []), ...stepText].join(" "));
   const page = document.getElementById("recipe");
   page.innerHTML = `
     <div class="recipe-bar"><button class="back" type="button" id="backBtn">\u2190 Kitchen</button><span>Night ${m.night}</span></div>
