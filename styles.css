@@ -104,6 +104,40 @@ img { max-width: 100%; display: block; }
   font-size: 18px;
   opacity: .9;
 }
+.season {
+  display: inline-block;
+  margin: 12px auto 0;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #1a1210;
+  color: #f4e8d8;
+  letter-spacing: .28em;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 800;
+}
+.season[hidden] { display: none; }
+.season.on-halloween {
+  color: #ffb04a;
+  border: 1px solid #e08a1e;
+  box-shadow: 0 0 0 4px rgba(224, 138, 30, .2);
+}
+[data-theme="halloween"] body,
+[data-theme="halloween"] {
+  background:
+    radial-gradient(900px 280px at 50% 0, rgba(224, 138, 30, .28), transparent 60%),
+    #1a1210;
+}
+[data-theme="halloween"] .mark,
+[data-theme="halloween"] nav a { color: #f7efe4; }
+[data-theme="halloween"] .tag { color: #ffb04a; }
+[data-theme="halloween"] .page h1,
+[data-theme="halloween"] .card h3 { color: #2a1a12; }
+  margin: 8px 0 2px;
+  letter-spacing: .55em;
+  font-size: 18px;
+  opacity: .9;
+}
   margin: 8px 0 2px;
   letter-spacing: .55em;
   font-size: 18px;

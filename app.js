@@ -19,6 +19,12 @@ function applyTheme(id) {
   localStorage.setItem("emma-theme", id);
   document.getElementById("festiveLabel").textContent = theme.label;
   document.getElementById("ribbon").textContent = theme.ribbon;
+  const season = document.getElementById("season");
+  if (season) {
+    season.hidden = id === "kitchen";
+    season.textContent = id === "halloween" ? "Halloween" : theme.label;
+    season.classList.toggle("on-halloween", id === "halloween");
+  }
   placeProps(theme.props);
   document.querySelectorAll("[data-theme-id]").forEach(b => b.classList.toggle("on", b.dataset.themeId === id));
 }
