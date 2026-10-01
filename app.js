@@ -141,8 +141,8 @@ function render() {
   const list = EMMA_MEALS.filter(m => active === "all" || m.type === active);
   document.getElementById("count").textContent = list.length + " recipes from Emma's kitchen";
   document.getElementById("list").innerHTML = list.map(m => `
-    <article class="row">
-      <img class="thumb" src="${pic(m)}" alt="${m.title}" loading="lazy" />
+    <article class="card">
+      <img src="${pic(m)}" alt="${m.title}" loading="lazy" />
       <div>
         <h3>${m.title}</h3>
         <p>${m.blurb}</p>

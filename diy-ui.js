@@ -15,8 +15,8 @@ function renderDiy() {
   if (!box) return;
   if (count) count.textContent = list.length + " projects from Emma's kitchen table";
   box.innerHTML = list.map(d => `
-    <article class="row">
-      <img class="thumb" src="${d.img}" alt="${d.title}" loading="lazy" onerror="this.src='img/meals/08.jpg'" />
+    <article class="card">
+      <img src="${d.img}" alt="${d.title}" loading="lazy" onerror="this.src='img/meals/08.jpg'" />
       <div>
         <h3>${d.title}</h3>
         <p>${d.blurb}</p>
