@@ -187,7 +187,7 @@ function showRecipe(night) {
       <h3>Method, step by step</h3>
       <ol class="steps">${steps}</ol>
       <p class="tweak">${m.tweak || ""}</p>
-      <aside class="haunt"><p>Food in the oven? <a href="https://isardeepg.github.io/">Play Holly Haunt</a></p></aside>
+      <aside class="haunt"><p>Food in the oven? <a href="https://halloweenfest.github.io/">Play Holly Haunt</a></p></aside>
     </div>
     <aside class="need">
       <p class="eyebrow">For this recipe</p>
