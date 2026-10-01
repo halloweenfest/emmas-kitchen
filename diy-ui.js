@@ -81,6 +81,7 @@ function onDiyHash() {
   const diy = location.hash.match(/^#diy-(\d+)/);
   if (diy) { showSection("diy"); showDiy(diy[1]); return; }
   if (location.hash === "#diy") showSection("diy");
+  else if (location.hash === "#shop") showSection("shop");
   else if (location.hash === "#recipes" || location.hash === "" || location.hash === "#") showSection("recipes");
 }
 

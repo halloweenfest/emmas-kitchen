@@ -36,30 +36,30 @@ function fixInAppLinks() {
 }
 function pic(m) { return m.img || IMGS[m.night]; }
 const SHOP = [
-  { name: "Candy eyes", q: "candy eyes", in: "https://www.amazon.in/dp/B0CJ98W882/?tag=emmathegoodwi-21" },
-  { name: "Edible markers", q: "edible ink markers", in: "https://www.amazon.in/dp/B07M9VYZ7C/?tag=emmathegoodwi-21" },
-  { name: "Black gel colour", q: "black gel food color", in: "https://www.amazon.in/dp/B08R7ZCT4X/?tag=emmathegoodwi-21" },
-  { name: "Orange gel colour", q: "orange gel food color", in: "https://www.amazon.in/dp/B08R7ZMV2T/?tag=emmathegoodwi-21" },
-  { name: "Green gel colour", q: "green gel food color", in: "https://www.amazon.in/dp/B07MDGYRB1/?tag=emmathegoodwi-21" },
-  { name: "Blue food colour", q: "blue liquid food color", in: "https://www.amazon.in/dp/B06XPFWW66/?tag=emmathegoodwi-21" },
-  { name: "Gummy worms", q: "gummy worms", in: "https://www.amazon.in/dp/B07Z5MVJBC/?tag=emmathegoodwi-21" },
-  { name: "Mini marshmallows", q: "mini marshmallows", in: "https://www.amazon.in/dp/B09412FYDP/?tag=emmathegoodwi-21" },
-  { name: "Large marshmallows", q: "large marshmallows", in: "https://www.amazon.in/dp/B08CRT3SSQ/?tag=emmathegoodwi-21" },
-  { name: "Chocolate kisses", q: "chocolate kisses", in: "https://www.amazon.in/dp/B07RX7CHP4/?tag=emmathegoodwi-21" },
-  { name: "Pretzel rods", q: "pretzel rods", in: "https://www.amazon.in/dp/B0CPM56W7N/?tag=emmathegoodwi-21" },
-  { name: "Lolly sticks", q: "lolly sticks", in: "https://www.amazon.in/dp/B0BYVHJNQ5/?tag=emmathegoodwi-21" },
-  { name: "Food-safe gloves", q: "food safe gloves", in: "https://www.amazon.in/dp/B0895PLYW2/?tag=emmathegoodwi-21" },
-  { name: "Cupcake liners", q: "cupcake liners", in: "https://www.amazon.in/dp/B07NTJYQTK/?tag=emmathegoodwi-21" },
-  { name: "Brownie pan", q: "brownie pan", in: "https://www.amazon.in/dp/B077L1W8RG/?tag=emmathegoodwi-21" },
-  { name: "Muffin tin", q: "muffin tin", in: "https://www.amazon.in/dp/B096S4F6K4/?tag=emmathegoodwi-21" },
-  { name: "Brain mould", q: "brain mold", in: "https://www.amazon.in/dp/B08QD1QV1B/?tag=emmathegoodwi-21" },
-  { name: "Cookie cutters", q: "halloween cookie cutters", in: "https://www.amazon.in/dp/B0872BL33D/?tag=emmathegoodwi-21" },
-  { name: "Wooden board", q: "wooden serving board", in: "https://www.amazon.in/dp/B01M0VD650/?tag=emmathegoodwi-21" },
-  { name: "Dessert cups", q: "clear dessert cups", in: "https://www.amazon.in/dp/B09S3QX63B/?tag=emmathegoodwi-21" },
-  { name: "Punch ladle", q: "punch ladle", in: "https://www.amazon.in/dp/B083ZFV1RV/?tag=emmathegoodwi-21" },
-  { name: "Toothpicks", q: "toothpicks", in: "https://www.amazon.in/dp/B01N3KK7Z0/?tag=emmathegoodwi-21" },
-  { name: "Piping bags", q: "piping bags tips", in: "https://www.amazon.in/dp/B07G5FYNMF/?tag=emmathegoodwi-21" },
-  { name: "Candy thermometer", q: "candy thermometer", in: "https://www.amazon.in/dp/B07Z7NJ7HN/?tag=emmathegoodwi-21" }
+  { name: "Candy eyes", file: "01.jpg", q: "candy eyes", in: "https://www.amazon.in/dp/B0CJ98W882/?tag=emmathegoodwi-21" },
+  { name: "Edible markers", file: "02.jpg", q: "edible ink markers", in: "https://www.amazon.in/dp/B07M9VYZ7C/?tag=emmathegoodwi-21" },
+  { name: "Black gel colour", file: "03.jpg", q: "black gel food color", in: "https://www.amazon.in/dp/B08R7ZCT4X/?tag=emmathegoodwi-21" },
+  { name: "Orange gel colour", file: "04.jpg", q: "orange gel food color", in: "https://www.amazon.in/dp/B08R7ZMV2T/?tag=emmathegoodwi-21" },
+  { name: "Green gel colour", file: "05.jpg", q: "green gel food color", in: "https://www.amazon.in/dp/B07MDGYRB1/?tag=emmathegoodwi-21" },
+  { name: "Blue food colour", file: "06.jpg", q: "blue liquid food color", in: "https://www.amazon.in/dp/B06XPFWW66/?tag=emmathegoodwi-21" },
+  { name: "Gummy worms", file: "07.jpg", q: "gummy worms", in: "https://www.amazon.in/dp/B07Z5MVJBC/?tag=emmathegoodwi-21" },
+  { name: "Mini marshmallows", file: "08.jpg", q: "mini marshmallows", in: "https://www.amazon.in/dp/B09412FYDP/?tag=emmathegoodwi-21" },
+  { name: "Large marshmallows", file: "09.jpg", q: "large marshmallows", in: "https://www.amazon.in/dp/B08CRT3SSQ/?tag=emmathegoodwi-21" },
+  { name: "Chocolate kisses", file: "10.jpg", q: "chocolate kisses", in: "https://www.amazon.in/dp/B07RX7CHP4/?tag=emmathegoodwi-21" },
+  { name: "Pretzel rods", file: "11.jpg", q: "pretzel rods", in: "https://www.amazon.in/dp/B0CPM56W7N/?tag=emmathegoodwi-21" },
+  { name: "Lolly sticks", file: "12.jpg", q: "lolly sticks", in: "https://www.amazon.in/dp/B0BYVHJNQ5/?tag=emmathegoodwi-21" },
+  { name: "Food-safe gloves", file: "13.jpg", q: "food safe gloves", in: "https://www.amazon.in/dp/B0895PLYW2/?tag=emmathegoodwi-21" },
+  { name: "Cupcake liners", file: "14.jpg", q: "cupcake liners", in: "https://www.amazon.in/dp/B07NTJYQTK/?tag=emmathegoodwi-21" },
+  { name: "Brownie pan", file: "15.jpg", q: "brownie pan", in: "https://www.amazon.in/dp/B077L1W8RG/?tag=emmathegoodwi-21" },
+  { name: "Muffin tin", file: "16.jpg", q: "muffin tin", in: "https://www.amazon.in/dp/B096S4F6K4/?tag=emmathegoodwi-21" },
+  { name: "Brain mould", file: "17.jpg", q: "brain mold", in: "https://www.amazon.in/dp/B08QD1QV1B/?tag=emmathegoodwi-21" },
+  { name: "Cookie cutters", file: "18.jpg", q: "halloween cookie cutters", in: "https://www.amazon.in/dp/B0872BL33D/?tag=emmathegoodwi-21" },
+  { name: "Wooden board", file: "19.jpg", q: "wooden serving board", in: "https://www.amazon.in/dp/B01M0VD650/?tag=emmathegoodwi-21" },
+  { name: "Dessert cups", file: "20.jpg", q: "clear dessert cups", in: "https://www.amazon.in/dp/B09S3QX63B/?tag=emmathegoodwi-21" },
+  { name: "Punch ladle", file: "21.jpg", q: "punch ladle", in: "https://www.amazon.in/dp/B083ZFV1RV/?tag=emmathegoodwi-21" },
+  { name: "Toothpicks", file: "22.jpg", q: "toothpicks", in: "https://www.amazon.in/dp/B01N3KK7Z0/?tag=emmathegoodwi-21" },
+  { name: "Piping bags", file: "23.jpg", q: "piping bags tips", in: "https://www.amazon.in/dp/B07G5FYNMF/?tag=emmathegoodwi-21" },
+  { name: "Candy thermometer", file: "24.jpg", q: "candy thermometer", in: "https://www.amazon.in/dp/B07Z7NJ7HN/?tag=emmathegoodwi-21" }
 ];
 const STORES = {
   US:{host:"www.amazon.com",label:"Amazon.com",tag:""},
@@ -118,14 +118,15 @@ function relatedShop(text) {
   const picks = scored.map(x => x.s);
   return (picks.length ? picks : SHOP.slice(0, 4)).slice(0, 6);
 }
+function shopCards() {
+  const extra = inAppBrowser() ? "" : " target=\"_blank\" rel=\"noopener sponsored\"";
+  return SHOP.map(s => `<a class="shop-card" href="${shopUrl(s)}"${extra}><img src="img/shop/${s.file}" alt="${s.name}"><span>${s.name}</span></a>`).join("");
+}
 function paintShop() {
   const grid = document.querySelector(".shop-grid");
-  if (grid) grid.innerHTML = shopLinks();
+  if (grid) grid.innerHTML = shopCards();
   const fine = document.querySelector(".shop .fine");
   if (fine) fine.textContent = "Shop links open " + visitor.store.label + " for your country.";
-  document.querySelectorAll(".kit-row, #need-recipes .need-list").forEach(el => { el.innerHTML = shopLinks(); });
-  const diyNeed = document.querySelector("#need-diy .need-list");
-  if (diyNeed) diyNeed.innerHTML = shopLinks(SHOP.filter(s => /eye|marker|colour|color|glove|cutter|board|stick|toothpick/i.test(s.name + s.q)));
 }
 async function detectCountry() {
   const cached = sessionStorage.getItem("emma-country");
