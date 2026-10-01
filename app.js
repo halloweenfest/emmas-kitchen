@@ -59,7 +59,39 @@ const SHOP = [
   { name: "Punch ladle", file: "21.jpg", q: "punch ladle", in: "https://www.amazon.in/dp/B083ZFV1RV/?tag=emmathegoodwi-21" },
   { name: "Toothpicks", file: "22.jpg", q: "toothpicks", in: "https://www.amazon.in/dp/B01N3KK7Z0/?tag=emmathegoodwi-21" },
   { name: "Piping bags", file: "23.jpg", q: "piping bags tips", in: "https://www.amazon.in/dp/B07G5FYNMF/?tag=emmathegoodwi-21" },
-  { name: "Candy thermometer", file: "24.jpg", q: "candy thermometer", in: "https://www.amazon.in/dp/B07Z7NJ7HN/?tag=emmathegoodwi-21" }
+  { name: "Candy thermometer", file: "24.jpg", q: "candy thermometer", in: "https://www.amazon.in/dp/B07Z7NJ7HN/?tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Cocoa powder", file: "25.jpg", q: "unsweetened cocoa powder", in: "https://www.amazon.in/s?k=unsweetened+cocoa+powder&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Puff pastry", file: "26.jpg", q: "puff pastry sheet", in: "https://www.amazon.in/s?k=puff+pastry+sheet&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Pizza dough", file: "27.jpg", q: "pizza dough", in: "https://www.amazon.in/s?k=pizza+dough&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Sausages", file: "28.jpg", q: "chicken sausages", in: "https://www.amazon.in/s?k=chicken+sausages&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Mozzarella", file: "29.jpg", q: "mozzarella balls", in: "https://www.amazon.in/s?k=mozzarella+balls&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "White chocolate", file: "30.jpg", q: "white chocolate", in: "https://www.amazon.in/s?k=white+chocolate&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Chocolate biscuits", file: "31.jpg", q: "chocolate biscuits", in: "https://www.amazon.in/s?k=chocolate+biscuits&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Cream cheese", file: "32.jpg", q: "cream cheese", in: "https://www.amazon.in/s?k=cream+cheese&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Chicken wings", file: "33.jpg", q: "chicken wings", in: "https://www.amazon.in/s?k=chicken+wings&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Ginger ale", file: "34.jpg", q: "ginger ale", in: "https://www.amazon.in/s?k=ginger+ale&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Tortillas", file: "35.jpg", q: "flour tortillas", in: "https://www.amazon.in/s?k=flour+tortillas&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Icing sugar", file: "36.jpg", q: "icing sugar", in: "https://www.amazon.in/s?k=icing+sugar&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Pumpkin", file: "37.jpg", q: "small pumpkin", in: "https://www.amazon.in/s?k=small+pumpkin&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Apple juice", file: "38.jpg", q: "apple juice", in: "https://www.amazon.in/s?k=apple+juice&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Chocolate pudding", file: "39.jpg", q: "chocolate pudding mix", in: "https://www.amazon.in/s?k=chocolate+pudding+mix&tag=emmathegoodwi-21" },
+  { group: "From the recipes", name: "Slivered almonds", file: "40.jpg", q: "slivered almonds", in: "https://www.amazon.in/s?k=slivered+almonds&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Cheesecloth", file: "41.jpg", q: "cheesecloth gauze", in: "https://www.amazon.in/s?k=cheesecloth&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Tissue paper", file: "42.jpg", q: "white tissue paper", in: "https://www.amazon.in/s?k=white+tissue+paper&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Battery tea lights", file: "43.jpg", q: "battery tea lights", in: "https://www.amazon.in/s?k=battery+tea+lights&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Black paint", file: "44.jpg", q: "matte black paint", in: "https://www.amazon.in/s?k=matte+black+acrylic+paint&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Orange paint", file: "45.jpg", q: "orange acrylic paint", in: "https://www.amazon.in/s?k=orange+acrylic+paint&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "White glue", file: "46.jpg", q: "white craft glue", in: "https://www.amazon.in/s?k=white+craft+glue&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Black card", file: "47.jpg", q: "black card paper", in: "https://www.amazon.in/s?k=black+card+paper&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "White yarn", file: "48.jpg", q: "white yarn", in: "https://www.amazon.in/s?k=white+yarn&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Glass jars", file: "49.jpg", q: "glass jars", in: "https://www.amazon.in/s?k=glass+jars&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Cinnamon sticks", file: "50.jpg", q: "cinnamon sticks", in: "https://www.amazon.in/s?k=cinnamon+sticks&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Googly eyes", file: "51.jpg", q: "googly eyes", in: "https://www.amazon.in/s?k=googly+eyes&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Ping-pong balls", file: "52.jpg", q: "ping pong balls", in: "https://www.amazon.in/s?k=ping+pong+balls&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Kitchen twine", file: "53.jpg", q: "kitchen twine", in: "https://www.amazon.in/s?k=kitchen+twine&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Coffee filters", file: "54.jpg", q: "coffee filters", in: "https://www.amazon.in/s?k=coffee+filters&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Black ribbon", file: "55.jpg", q: "black ribbon", in: "https://www.amazon.in/s?k=black+ribbon&tag=emmathegoodwi-21" },
+  { group: "From the makes", name: "Foam board", file: "56.jpg", q: "foam board", in: "https://www.amazon.in/s?k=foam+board&tag=emmathegoodwi-21" }
 ];
 const STORES = {
   US:{host:"www.amazon.com",label:"Amazon.com",tag:""},
@@ -120,13 +152,22 @@ function relatedShop(text) {
 }
 function shopCards() {
   const extra = inAppBrowser() ? "" : " target=\"_blank\" rel=\"noopener sponsored\"";
-  return SHOP.map(s => `<a class="shop-card" href="${shopUrl(s)}"${extra}><img src="img/shop/${s.file}" alt="${s.name}"><span>${s.name}</span></a>`).join("");
+  const order = ["From the recipes", "From the makes", "Candy & decorating"];
+  const groups = {};
+  SHOP.forEach(s => {
+    const g = s.group || "Candy & decorating";
+    (groups[g] = groups[g] || []).push(s);
+  });
+  return order.filter(g => groups[g]).map(g => {
+    const cards = groups[g].map(s => `<a class="shop-card" href="${shopUrl(s)}"${extra}><img src="img/shop/${s.file}" alt="${s.name}"><span>${s.name}</span></a>`).join("");
+    return `<h3 class="shop-h">${g}</h3><div class="shop-grid">${cards}</div>`;
+  }).join("");
 }
 function paintShop() {
-  const grid = document.querySelector(".shop-grid");
+  const grid = document.getElementById("shop-groups");
   if (grid) grid.innerHTML = shopCards();
   const fine = document.querySelector(".shop .fine");
-  if (fine) fine.textContent = "Shop links open " + visitor.store.label + " for your country.";
+  if (fine) fine.textContent = "Shop links open " + visitor.store.label + " for your country. " + SHOP.length + " things this site uses.";
 }
 async function detectCountry() {
   const cached = sessionStorage.getItem("emma-country");
