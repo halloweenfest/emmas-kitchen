@@ -72,16 +72,54 @@ function shopUrl(item) {
   if (s.tag) url += "&tag=" + encodeURIComponent(s.tag);
   return url;
 }
-function shopLinks() {
+function shopLinks(items) {
+  const list = items && items.length ? items : SHOP;
   const extra = inAppBrowser() ? "" : " target=\"_blank\" rel=\"noopener sponsored\"";
-  return SHOP.map(s => `<a href="${shopUrl(s)}"${extra}>${s.name}</a>`).join("");
+  return list.map(s => `<a href="${shopUrl(s)}"${extra}>${s.name}</a>`).join("");
+}
+function relatedShop(text) {
+  const blob = String(text || "").toLowerCase();
+  const keys = {
+    "Candy eyes": ["eye", "cupcake", "mummy", "spider"],
+    "Edible markers": ["marker", "label", "potion", "write", "ink"],
+    "Black gel colour": ["black", "paint", "gel", "colour", "color"],
+    "Orange gel colour": ["orange", "pumpkin", "paint"],
+    "Green gel colour": ["green", "stem", "paint"],
+    "Blue food colour": ["blue", "paint"],
+    "Gummy worms": ["gummy", "worm"],
+    "Mini marshmallows": ["marshmallow", "ghost", "cocoa"],
+    "Large marshmallows": ["marshmallow", "ghost"],
+    "Chocolate kisses": ["chocolate", "kiss", "cupcake"],
+    "Pretzel rods": ["pretzel"],
+    "Lolly sticks": ["stick", "lolly", "broom"],
+    "Food-safe gloves": ["paint", "glove"],
+    "Cupcake liners": ["cupcake", "liner"],
+    "Brownie pan": ["brownie", "pan", "bake"],
+    "Muffin tin": ["muffin", "cupcake", "tin"],
+    "Brain mould": ["mould", "mold", "brain"],
+    "Cookie cutters": ["cutter", "bat", "pumpkin", "cut"],
+    "Wooden board": ["board", "serve", "wreath"],
+    "Dessert cups": ["cup", "eyeball", "dessert"],
+    "Punch ladle": ["punch", "ladle"],
+    "Toothpicks": ["toothpick", "broom"],
+    "Piping bags": ["frosting", "piping", "cupcake"],
+    "Candy thermometer": ["thermometer", "cocoa", "candy"]
+  };
+  const scored = SHOP.map(s => ({
+    s,
+    score: (keys[s.name] || [s.name.toLowerCase()]).reduce((n, k) => n + (blob.includes(k) ? 1 : 0), 0)
+  })).filter(x => x.score > 0).sort((a, b) => b.score - a.score);
+  const picks = scored.map(x => x.s);
+  return (picks.length ? picks : SHOP.slice(0, 4)).slice(0, 6);
 }
 function paintShop() {
   const grid = document.querySelector(".shop-grid");
   if (grid) grid.innerHTML = shopLinks();
   const fine = document.querySelector(".shop .fine");
   if (fine) fine.textContent = "Shop links open " + visitor.store.label + " for your country.";
-  document.querySelectorAll(".kit-row").forEach(el => { el.innerHTML = shopLinks(); });
+  document.querySelectorAll(".kit-row, #need-recipes .need-list").forEach(el => { el.innerHTML = shopLinks(); });
+  const diyNeed = document.querySelector("#need-diy .need-list");
+  if (diyNeed) diyNeed.innerHTML = shopLinks(SHOP.filter(s => /eye|marker|colour|color|glove|cutter|board|stick|toothpick/i.test(s.name + s.q)));
 }
 async function detectCountry() {
   const cached = sessionStorage.getItem("emma-country");
@@ -130,10 +168,12 @@ function showRecipe(night) {
   }).join("");
   const ingredients = (m.ingredients || []).map(i => `<li>${i}</li>`).join("");
   const steps = (m.steps || []).map((s, i) => `<li><span class="n">${i + 1}</span><p>${s}</p></li>`).join("");
+  const related = relatedShop([m.title, m.blurb, ...(m.ingredients || []), ...(m.steps || [])].join(" "));
   const page = document.getElementById("recipe");
   page.innerHTML = `
     <div class="recipe-bar"><button class="back" type="button" id="backBtn">\u2190 Kitchen</button><span>Night ${m.night}</span></div>
     <img class="hero" src="${pic(m)}" alt="${m.title}" />
+    <div class="recipe-wrap">
     <div class="recipe-body">
       <p class="eyebrow">Night ${m.night} \u00b7 ${m.date}</p>
       <h2>${m.title}</h2>
@@ -147,8 +187,13 @@ function showRecipe(night) {
       <h3>Method, step by step</h3>
       <ol class="steps">${steps}</ol>
       <p class="tweak">${m.tweak || ""}</p>
-      <div class="kit"><p class="eyebrow">Emma uses</p><div class="kit-row">${shopLinks()}</div></div>
       <aside class="haunt"><p>Food in the oven? <a href="https://isardeepg.github.io/">Play Holly Haunt</a></p></aside>
+    </div>
+    <aside class="need">
+      <p class="eyebrow">For this recipe</p>
+      <p class="need-note">The shop bits this one actually uses.</p>
+      <div class="need-list">${shopLinks(related)}</div>
+    </aside>
     </div>`;
   page.classList.add("open");
   document.body.classList.add("reading");

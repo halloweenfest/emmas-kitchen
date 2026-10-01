@@ -30,6 +30,10 @@ function showDiy(id) {
   if (!d) return;
   const materials = (d.materials || []).map(i => `<li>${i}</li>`).join("");
   const steps = (d.steps || []).map((s, i) => `<li><span class="n">${i + 1}</span><p>${s}</p></li>`).join("");
+  const related = (typeof relatedShop === "function")
+    ? relatedShop([d.title, d.blurb, ...(d.materials || []), ...(d.steps || [])].join(" "))
+    : [];
+  const shop = (typeof shopLinks === "function") ? shopLinks(related) : "";
   const page = document.getElementById("recipe");
   page.innerHTML = `
     <div class="recipe-bar">
@@ -37,6 +41,7 @@ function showDiy(id) {
       <span>Make</span>
     </div>
     <img class="hero" src="${d.img}" alt="${d.title}" onerror="this.src='img/meals/08.jpg'" />
+    <div class="recipe-wrap">
     <div class="recipe-body">
       <p class="eyebrow">DIY</p>
       <h2>${d.title}</h2>
@@ -48,6 +53,12 @@ function showDiy(id) {
       <h3>How to build</h3>
       <ol class="steps">${steps}</ol>
       <p class="tweak">${d.tweak || ""}</p>
+    </div>
+    <aside class="need">
+      <p class="eyebrow">For this make</p>
+      <p class="need-note">Shop bits that match this project.</p>
+      <div class="need-list">${shop}</div>
+    </aside>
     </div>`;
   page.classList.add("open");
   document.body.classList.add("reading");
