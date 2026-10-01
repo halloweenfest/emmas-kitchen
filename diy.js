@@ -18,28 +18,28 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Blow up the balloon to head size. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Blow up the balloon to head size.",
+        "img": "img/diy/01.jpg"
       },
       {
-        "text": "Dip the cheesecloth in the glue water and drape it over the balloon, leaving a hem at the bottom. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-gauze.jpg"
+        "text": "Dip the cheesecloth in the glue water and drape it over the balloon, leaving a hem at the bottom.",
+        "img": "img/diy/01.jpg"
       },
       {
-        "text": "Let it dry hard, then pop the balloon. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Let it dry hard, then pop the balloon.",
+        "img": "img/diy/01.jpg"
       },
       {
-        "text": "Draw two eyes. Leave the mouth off. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Draw two eyes. Leave the mouth off.",
+        "img": "img/diy/01.jpg"
       },
       {
-        "text": "Set a battery tea light inside. Hang it from clear thread. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Set a battery tea light inside. Hang it from clear thread.",
+        "img": "img/diy/01.jpg"
       },
       {
-        "text": "Keep it away from a real flame. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Keep it away from a real flame.",
+        "img": "img/diy/01.jpg"
       }
     ],
     "tweak": "Emma dips the hem in cocoa dust so the ghost looks like it passed the stove."
@@ -61,28 +61,28 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Cut tissue into hand-size squares. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cut tissue into hand-size squares.",
+        "img": "img/diy/02.jpg"
       },
       {
-        "text": "Fold each square over the twine and pinch the top. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Fold each square over the twine and pinch the top.",
+        "img": "img/diy/02.jpg"
       },
       {
-        "text": "Trim the bottom into an uneven hem. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Trim the bottom into an uneven hem.",
+        "img": "img/diy/02.jpg"
       },
       {
-        "text": "Draw two small eyes. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Draw two small eyes.",
+        "img": "img/diy/02.jpg"
       },
       {
-        "text": "Space them a palm apart. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Space them a palm apart.",
+        "img": "img/diy/02.jpg"
       },
       {
-        "text": "Hang away from the candle. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Hang away from the candle.",
+        "img": "img/diy/02.jpg"
       }
     ],
     "tweak": "Emma leaves the last ghost a little longer, like it is late."
@@ -104,24 +104,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Draw a simple face. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Draw a simple face.",
+        "img": "img/diy/03.jpg"
       },
       {
-        "text": "Cut the eyes, nose, and smile wide enough to glow. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Cut the eyes, nose, and smile wide enough to glow.",
+        "img": "img/diy/03.jpg"
       },
       {
-        "text": "Scrunch the top into a stem and tape it. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Scrunch the top into a stem and tape it.",
+        "img": "img/diy/03.jpg"
       },
       {
-        "text": "Drop in a battery tea light. No real flame. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Drop in a battery tea light. No real flame.",
+        "img": "img/diy/03.jpg"
       },
       {
-        "text": "Set it on the counter, away from water. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Set it on the counter, away from water.",
+        "img": "img/diy/03.jpg"
       }
     ],
     "tweak": "Emma cuts a tiny bat beside the smile."
@@ -144,24 +144,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Wash off old labels. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-jar.jpg"
+        "text": "Wash off old labels.",
+        "img": "img/diy/04.jpg"
       },
       {
-        "text": "Glue tissue over the glass in thin pieces. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Glue tissue over the glass in thin pieces.",
+        "img": "img/diy/04.jpg"
       },
       {
-        "text": "Cut a small bat, cat, or house from black paper and stick it on. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cut a small bat, cat, or house from black paper and stick it on.",
+        "img": "img/diy/04.jpg"
       },
       {
-        "text": "Drop in a battery tea light. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Drop in a battery tea light.",
+        "img": "img/diy/04.jpg"
       },
       {
-        "text": "Line them on the table. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-sheet.jpg"
+        "text": "Line them on the table.",
+        "img": "img/diy/04.jpg"
       }
     ],
     "tweak": "Emma uses one green jar and calls it the pickle potion."
@@ -183,24 +183,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Wipe the pumpkin dry. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Wipe the pumpkin dry.",
+        "img": "img/diy/05.jpg"
       },
       {
-        "text": "Paint a base coat and let it dry. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paint.jpg"
+        "text": "Paint a base coat and let it dry.",
+        "img": "img/diy/05.jpg"
       },
       {
-        "text": "Add eyes and a small mouth with the thin brush. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Add eyes and a small mouth with the thin brush.",
+        "img": "img/diy/05.jpg"
       },
       {
-        "text": "Blot any drip you do not want. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Blot any drip you do not want.",
+        "img": "img/diy/05.jpg"
       },
       {
-        "text": "Leave the stem natural. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Leave the stem natural.",
+        "img": "img/diy/05.jpg"
       }
     ],
     "tweak": "Emma paints one eye winking."
@@ -223,20 +223,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Paint the tubes black and let them dry. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paint.jpg"
+        "text": "Paint the tubes black and let them dry.",
+        "img": "img/diy/06.jpg"
       },
       {
-        "text": "Cut two wing shapes and glue them on. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Cut two wing shapes and glue them on.",
+        "img": "img/diy/06.jpg"
       },
       {
-        "text": "Add eyes. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Add eyes.",
+        "img": "img/diy/06.jpg"
       },
       {
-        "text": "Thread twine through and hang them in a row. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Thread twine through and hang them in a row.",
+        "img": "img/diy/06.jpg"
       }
     ],
     "tweak": "Emma folds one wing down so that bat looks mid-turn."
@@ -258,20 +258,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Fold paper and cut a simple bat so both wings match. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Fold paper and cut a simple bat so both wings match.",
+        "img": "img/diy/07.jpg"
       },
       {
-        "text": "Cut eight to twelve. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cut eight to twelve.",
+        "img": "img/diy/07.jpg"
       },
       {
-        "text": "Space them on the twine and tape the backs. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Space them on the twine and tape the backs.",
+        "img": "img/diy/07.jpg"
       },
       {
-        "text": "Hang in the doorway, not over the stove. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Hang in the doorway, not over the stove.",
+        "img": "img/diy/07.jpg"
       }
     ],
     "tweak": "Emma makes the middle bat a little bigger."
@@ -293,28 +293,28 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Cut sticks to one length. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cut sticks to one length.",
+        "img": "img/diy/08.jpg"
       },
       {
-        "text": "Bundle five or six. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Bundle five or six.",
+        "img": "img/diy/08.jpg"
       },
       {
-        "text": "Tie twine a third of the way down. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Tie twine a third of the way down.",
+        "img": "img/diy/08.jpg"
       },
       {
-        "text": "Add a black bow. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Add a black bow.",
+        "img": "img/diy/08.jpg"
       },
       {
-        "text": "Trim the bristle end flat. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Trim the bristle end flat.",
+        "img": "img/diy/08.jpg"
       },
       {
-        "text": "Set one at each place. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Set one at each place.",
+        "img": "img/diy/08.jpg"
       }
     ],
     "tweak": "Emma tucks a guest's initial into the bow."
@@ -337,24 +337,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Wash and dry the jars. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-jar.jpg"
+        "text": "Wash and dry the jars.",
+        "img": "img/diy/09.jpg"
       },
       {
-        "text": "Paint the outside, leaving one oval clear. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paint.jpg"
+        "text": "Paint the outside, leaving one oval clear.",
+        "img": "img/diy/09.jpg"
       },
       {
-        "text": "Add a second coat when dry. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Add a second coat when dry.",
+        "img": "img/diy/09.jpg"
       },
       {
-        "text": "Write the label. Use an edible marker if it holds food. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-jar.jpg"
+        "text": "Write the label. Use an edible marker if it holds food.",
+        "img": "img/diy/09.jpg"
       },
       {
-        "text": "Fill with cocoa, sugar, or wrapped sweets. Do not store open food against fresh paint. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paint.jpg"
+        "text": "Fill with cocoa, sugar, or wrapped sweets. Do not store open food against fresh paint.",
+        "img": "img/diy/09.jpg"
       }
     ],
     "tweak": "Emma names one jar after the night's drink."
@@ -376,24 +376,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Roll a half-circle into a cone and glue the seam. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Roll a half-circle into a cone and glue the seam.",
+        "img": "img/diy/10.jpg"
       },
       {
-        "text": "Cut a brim with a hole the size of the cone base. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Cut a brim with a hole the size of the cone base.",
+        "img": "img/diy/10.jpg"
       },
       {
-        "text": "Glue the cone into the brim. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Glue the cone into the brim.",
+        "img": "img/diy/10.jpg"
       },
       {
-        "text": "Glue the hat onto a paper ring. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Glue the hat onto a paper ring.",
+        "img": "img/diy/10.jpg"
       },
       {
-        "text": "Slip a folded napkin through. Leave it a little loose. A tight wrap splits when it heats or dries.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Slip a folded napkin through.",
+        "img": "img/diy/10.jpg"
       }
     ],
     "tweak": "Emma bends every tip so the hats look windblown."
@@ -414,24 +414,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Tape yarn from one side of the corner to the other. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Tape yarn from one side of the corner to the other.",
+        "img": "img/diy/11.jpg"
       },
       {
-        "text": "Add five or six spokes. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Add five or six spokes.",
+        "img": "img/diy/11.jpg"
       },
       {
-        "text": "Spiral a second piece across the spokes. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Spiral a second piece across the spokes.",
+        "img": "img/diy/11.jpg"
       },
       {
-        "text": "Knot the joins lightly. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Knot the joins lightly.",
+        "img": "img/diy/11.jpg"
       },
       {
-        "text": "Take it down with warm water if tape marks the glass. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Take it down with warm water if tape marks the glass.",
+        "img": "img/diy/11.jpg"
       }
     ],
     "tweak": "Emma leaves one gap, as if something just left."
@@ -454,24 +454,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Color the plate orange. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Color the plate orange.",
+        "img": "img/diy/12.jpg"
       },
       {
-        "text": "Cut triangle eyes and a smile from black paper. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Cut triangle eyes and a smile from black paper.",
+        "img": "img/diy/12.jpg"
       },
       {
-        "text": "Glue them on. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Glue them on.",
+        "img": "img/diy/12.jpg"
       },
       {
-        "text": "Add a green stem at the top. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Add a green stem at the top.",
+        "img": "img/diy/12.jpg"
       },
       {
-        "text": "Prop it on the board. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Prop it on the board.",
+        "img": "img/diy/12.jpg"
       }
     ],
     "tweak": "Emma gives this one a crooked tooth."
@@ -493,20 +493,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Paint the cones and let them dry. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paint.jpg"
+        "text": "Paint the cones and let them dry.",
+        "img": "img/diy/13.jpg"
       },
       {
-        "text": "Cut small felt stems. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cut small felt stems.",
+        "img": "img/diy/13.jpg"
       },
       {
-        "text": "Glue a stem on the top of each. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Glue a stem on the top of each.",
+        "img": "img/diy/13.jpg"
       },
       {
-        "text": "Group them on the board. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Group them on the board.",
+        "img": "img/diy/13.jpg"
       }
     ],
     "tweak": "Emma leaves one cone unpainted, the quiet one."
@@ -528,24 +528,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Cut the apple across, not lengthwise. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cut the apple across, not lengthwise.",
+        "img": "img/diy/14.jpg"
       },
       {
-        "text": "Press the cut face in a thin layer of paint. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paint.jpg"
+        "text": "Press the cut face in a thin layer of paint.",
+        "img": "img/diy/14.jpg"
       },
       {
-        "text": "Stamp on paper. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Stamp on paper.",
+        "img": "img/diy/14.jpg"
       },
       {
-        "text": "Add two white dots for eyes when dry. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Add two white dots for eyes when dry.",
+        "img": "img/diy/14.jpg"
       },
       {
-        "text": "Wash the board before food comes back. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Wash the board before food comes back.",
+        "img": "img/diy/14.jpg"
       }
     ],
     "tweak": "Emma stamps one bat upside down."
@@ -567,24 +567,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Fill the can with water and freeze so it holds its shape. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Fill the can with water and freeze so it holds its shape.",
+        "img": "img/diy/15.jpg"
       },
       {
-        "text": "Mark a simple star pattern. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Mark a simple star pattern.",
+        "img": "img/diy/15.jpg"
       },
       {
-        "text": "Tap holes with a nail. Adult hands only. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Tap holes with a nail. Adult hands only.",
+        "img": "img/diy/15.jpg"
       },
       {
-        "text": "Let the ice melt, dry the can, paint if you want. Stir in short bursts and stop while it is still a little thick. Leftover heat finishes the melt.",
-        "img": "img/steps/lib-paint.jpg"
+        "text": "Let the ice melt, dry the can, paint if you want.",
+        "img": "img/diy/15.jpg"
       },
       {
-        "text": "Set a battery tea light inside. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Set a battery tea light inside.",
+        "img": "img/diy/15.jpg"
       }
     ],
     "tweak": "Emma adds two extra holes for eyes."
@@ -606,24 +606,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Cut a rounded top. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cut a rounded top.",
+        "img": "img/diy/16.jpg"
       },
       {
-        "text": "Paint gray and dry. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paint.jpg"
+        "text": "Paint gray and dry.",
+        "img": "img/diy/16.jpg"
       },
       {
-        "text": "Write a short silly line, not a real name. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-sheet.jpg"
+        "text": "Write a short silly line, not a real name.",
+        "img": "img/diy/16.jpg"
       },
       {
-        "text": "Weight the base so wind does not take it. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Weight the base so wind does not take it.",
+        "img": "img/diy/16.jpg"
       },
       {
-        "text": "Bring it in if it rains hard. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Bring it in if it rains hard.",
+        "img": "img/diy/16.jpg"
       }
     ],
     "tweak": "Emma's stone says 'back in a spell'."
@@ -646,20 +646,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Wrap the jar, leaving a small gap. Leave it a little loose. A tight wrap splits when it heats or dries.",
-        "img": "img/steps/lib-jar.jpg"
+        "text": "Wrap the jar, leaving a small gap.",
+        "img": "img/diy/17.jpg"
       },
       {
-        "text": "Glue two candy eyes in the gap. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Glue two candy eyes in the gap.",
+        "img": "img/diy/17.jpg"
       },
       {
-        "text": "Tuck the end of the gauze. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-gauze.jpg"
+        "text": "Tuck the end of the gauze.",
+        "img": "img/diy/17.jpg"
       },
       {
-        "text": "Add a battery light if you want it to glow. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Add a battery light if you want it to glow.",
+        "img": "img/diy/17.jpg"
       }
     ],
     "tweak": "Emma wraps one jar looser, as if it is mid-escape."
@@ -681,20 +681,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Cut three bands. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cut three bands.",
+        "img": "img/diy/18.jpg"
       },
       {
-        "text": "Glue them into a cone, yellow at the tip. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Glue them into a cone, yellow at the tip.",
+        "img": "img/diy/18.jpg"
       },
       {
-        "text": "Fill with wrapped sweets. Leave it a little loose. A tight wrap splits when it heats or dries.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Fill with wrapped sweets.",
+        "img": "img/diy/18.jpg"
       },
       {
-        "text": "Tie twine at the top. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Tie twine at the top.",
+        "img": "img/diy/18.jpg"
       }
     ],
     "tweak": "Emma swaps the yellow tip for a cocoa-dusted one."
@@ -716,20 +716,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Paint the palm and fingers. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-dough.jpg"
+        "text": "Paint the palm and fingers.",
+        "img": "img/diy/19.jpg"
       },
       {
-        "text": "Press the hand on paper, fingers as legs. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-dough.jpg"
+        "text": "Press the hand on paper, fingers as legs.",
+        "img": "img/diy/19.jpg"
       },
       {
-        "text": "Glue a small oval body in the palm. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Glue a small oval body in the palm.",
+        "img": "img/diy/19.jpg"
       },
       {
-        "text": "Add two candy eyes. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Add two candy eyes.",
+        "img": "img/diy/19.jpg"
       }
     ],
     "tweak": "Emma uses the thumb as a waving leg."
@@ -750,20 +750,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Gather each filter at the center. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Gather each filter at the center.",
+        "img": "img/diy/20.jpg"
       },
       {
-        "text": "Tie with thread. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Tie with thread.",
+        "img": "img/diy/20.jpg"
       },
       {
-        "text": "Draw two eyes. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Draw two eyes.",
+        "img": "img/diy/20.jpg"
       },
       {
-        "text": "Hang them or stand a few in a cup. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-cups.jpg"
+        "text": "Hang them or stand a few in a cup.",
+        "img": "img/diy/20.jpg"
       }
     ],
     "tweak": "Emma stains one with a drop of cold cocoa."
@@ -785,20 +785,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Press leaves in a book overnight. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Press leaves in a book overnight.",
+        "img": "img/diy/21.jpg"
       },
       {
-        "text": "Lay them on twine. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Lay them on twine.",
+        "img": "img/diy/21.jpg"
       },
       {
-        "text": "Tape the stems at the back. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Tape the stems at the back.",
+        "img": "img/diy/21.jpg"
       },
       {
-        "text": "Hang where they will not get wet. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Hang where they will not get wet.",
+        "img": "img/diy/21.jpg"
       }
     ],
     "tweak": "Emma slips one black paper bat between the leaves."
@@ -819,20 +819,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Paint the pumpkin black. Leave the stem. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paint.jpg"
+        "text": "Paint the pumpkin black. Leave the stem.",
+        "img": "img/diy/22.jpg"
       },
       {
-        "text": "Dry fully. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Dry fully.",
+        "img": "img/diy/22.jpg"
       },
       {
-        "text": "Draw a moon and three stars. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Draw a moon and three stars.",
+        "img": "img/diy/22.jpg"
       },
       {
-        "text": "Do not carve it. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Do not carve it.",
+        "img": "img/diy/22.jpg"
       }
     ],
     "tweak": "Emma draws the moon on the side, not the front."
@@ -854,20 +854,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Glue the hand to the lid so the fingers curl over. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-dough.jpg"
+        "text": "Glue the hand to the lid so the fingers curl over.",
+        "img": "img/diy/23.jpg"
       },
       {
-        "text": "Set the battery candle in the jar. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-jar.jpg"
+        "text": "Set the battery candle in the jar.",
+        "img": "img/diy/23.jpg"
       },
       {
-        "text": "Screw the lid on. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Screw the lid on.",
+        "img": "img/diy/23.jpg"
       },
       {
-        "text": "Keep it away from food prep. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Keep it away from food prep.",
+        "img": "img/diy/23.jpg"
       }
     ],
     "tweak": "Emma turns the hand so it looks like it is offering the light."
@@ -889,20 +889,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Cover tubes in white paper. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cover tubes in white paper.",
+        "img": "img/diy/24.jpg"
       },
       {
-        "text": "Cut a tissue flame and glue it in the top. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Cut a tissue flame and glue it in the top.",
+        "img": "img/diy/24.jpg"
       },
       {
-        "text": "Tie clear thread to the top. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Tie clear thread to the top.",
+        "img": "img/diy/24.jpg"
       },
       {
-        "text": "Hang at different heights. No real flame. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Hang at different heights. No real flame.",
+        "img": "img/diy/24.jpg"
       }
     ],
     "tweak": "Emma hangs them over the table, not the hob."
@@ -924,20 +924,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Swirl frosting on each cupcake. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-cups.jpg"
+        "text": "Swirl frosting on each cupcake.",
+        "img": "img/diy/25.jpg"
       },
       {
-        "text": "Press in two candy eyes while soft. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Press in two candy eyes while soft.",
+        "img": "img/diy/25.jpg"
       },
       {
-        "text": "Tilt one if you want a wink. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Tilt one if you want a wink.",
+        "img": "img/diy/25.jpg"
       },
       {
-        "text": "Keep them cool. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Keep them cool.",
+        "img": "img/diy/25.jpg"
       }
     ],
     "tweak": "Emma gives one cupcake a third eye."
@@ -959,20 +959,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Cut pumpkin shapes and a small stem on each. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cut pumpkin shapes and a small stem on each.",
+        "img": "img/diy/26.jpg"
       },
       {
-        "text": "Cut a few bats. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Cut a few bats.",
+        "img": "img/diy/26.jpg"
       },
       {
-        "text": "Alternate them on the twine. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Alternate them on the twine.",
+        "img": "img/diy/26.jpg"
       },
       {
-        "text": "Hang on the mantel. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Hang on the mantel.",
+        "img": "img/diy/26.jpg"
       }
     ],
     "tweak": "Emma cuts one pumpkin with a bite taken out."
@@ -994,24 +994,24 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Wash and dry the stones. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Wash and dry the stones.",
+        "img": "img/diy/27.jpg"
       },
       {
-        "text": "Paint a base color. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paint.jpg"
+        "text": "Paint a base color.",
+        "img": "img/diy/27.jpg"
       },
       {
-        "text": "Add eyes and a mouth. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Add eyes and a mouth.",
+        "img": "img/diy/27.jpg"
       },
       {
-        "text": "Seal if rain is coming. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Seal if rain is coming.",
+        "img": "img/diy/27.jpg"
       },
       {
-        "text": "Line the step. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-sheet.jpg"
+        "text": "Line the step.",
+        "img": "img/diy/27.jpg"
       }
     ],
     "tweak": "Emma paints one rock with only one eye."
@@ -1032,20 +1032,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Draw a ring and a pupil on each ball. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Draw a ring and a pupil on each ball.",
+        "img": "img/diy/28.jpg"
       },
       {
-        "text": "Vary the iris color. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Vary the iris color.",
+        "img": "img/diy/28.jpg"
       },
       {
-        "text": "Set them in a bowl. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-bowl.jpg"
+        "text": "Set them in a bowl.",
+        "img": "img/diy/28.jpg"
       },
       {
-        "text": "Do not serve them as food. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Do not serve them as food.",
+        "img": "img/diy/28.jpg"
       }
     ],
     "tweak": "Emma draws one pupil off-center."
@@ -1067,20 +1067,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Roll cones and glue the seams. A small dot holds better than a puddle. Press for a few seconds and wipe any squeeze-out.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Roll cones and glue the seams.",
+        "img": "img/diy/29.jpg"
       },
       {
-        "text": "Add a brim to each. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-glue.jpg"
+        "text": "Add a brim to each.",
+        "img": "img/diy/29.jpg"
       },
       {
-        "text": "Tie clear thread to the tip. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Tie clear thread to the tip.",
+        "img": "img/diy/29.jpg"
       },
       {
-        "text": "Hang from the porch, out of the rain. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Hang from the porch, out of the rain.",
+        "img": "img/diy/29.jpg"
       }
     ],
     "tweak": "Emma tips one hat as if it is bowing."
@@ -1102,20 +1102,20 @@ window.EMMA_DIY = [
     ],
     "steps": [
       {
-        "text": "Tie herb bundles onto the ring. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Tie herb bundles onto the ring.",
+        "img": "img/diy/30.jpg"
       },
       {
-        "text": "Overlap them so the base disappears. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Overlap them so the base disappears.",
+        "img": "img/diy/30.jpg"
       },
       {
-        "text": "Tie the paper bat at the bottom. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-paper.jpg"
+        "text": "Tie the paper bat at the bottom.",
+        "img": "img/diy/30.jpg"
       },
       {
-        "text": "Hang on the door, inside if the night is wet. Tug the knot once before you let go, and keep it clear of the hob and any real flame.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Hang on the door, inside if the night is wet.",
+        "img": "img/diy/30.jpg"
       }
     ],
     "tweak": "Emma tucks a cinnamon stick in with the herbs."

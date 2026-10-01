@@ -12,8 +12,14 @@ window.EMMA_MEALS = [
     "serves": "2 mugs",
     "img": "img/meals/01.jpg?v=4",
     "prep": [
-      "img/prep/saucepan.jpg",
-      "img/prep/melt.jpg"
+      {
+        "src": "img/steps/fit-cocoa.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/fit-mug.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "500 ml whole milk (or oat milk)",
@@ -26,24 +32,24 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Warm the milk in a small saucepan on medium heat. Do not let it boil. Keep it at a gentle heat. A hard boil scorches milk and tightens meat.",
-        "img": "img/steps/lib-pan.jpg"
+        "text": "Warm the milk in a small saucepan on medium heat. Do not let it boil.",
+        "img": "img/steps/fit-cocoa.jpg"
       },
       {
-        "text": "Whisk in cocoa, sugar, cinnamon and salt until the steam smells like a bakery. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Whisk in cocoa, sugar, cinnamon and salt until the steam smells like a bakery.",
+        "img": "img/steps/fit-cocoa.jpg"
       },
       {
-        "text": "Take off the heat and stir in vanilla. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-bowl.jpg"
+        "text": "Take off the heat and stir in vanilla.",
+        "img": "img/steps/fit-cocoa.jpg"
       },
       {
-        "text": "Draw two dots and a wavy mouth on each marshmallow, or press in mini chips. A thin coat dries cleaner than a heavy one. Let it dry before you add the next mark.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Draw two dots and a wavy mouth on each marshmallow, or press in mini chips.",
+        "img": "img/steps/fit-mug.jpg"
       },
       {
-        "text": "Pour into mugs and float a ghost on top. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Pour into mugs and float a ghost on top.",
+        "img": "img/steps/fit-mug.jpg"
       }
     ],
     "tweak": "Emma's twist: a pinch of cinnamon and vanilla instead of only sugar. It tastes like a spell, not a packet."
@@ -61,8 +67,14 @@ window.EMMA_MEALS = [
     "serves": "8 pieces",
     "img": "img/meals/02.jpg?v=4",
     "prep": [
-      "img/prep/sheet.jpg",
-      "img/prep/oven.jpg"
+      {
+        "src": "img/steps/fit-oven.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/fit-pastry.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "8 chicken or pork sausages",
@@ -73,24 +85,24 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Heat the oven to 190°C. Line a tray with baking paper. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Heat the oven to 190°C. Line a tray with baking paper.",
+        "img": "img/steps/fit-oven.jpg"
       },
       {
-        "text": "Cut the pastry into thin strips, about a finger wide. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-dough.jpg"
+        "text": "Cut the pastry into thin strips, about a finger wide.",
+        "img": "img/steps/fit-pastry.jpg"
       },
       {
-        "text": "Wrap each sausage loosely, leaving a gap near one end for the face. Leave it a little loose. A tight wrap splits when it heats or dries.",
-        "img": "img/steps/lib-dough.jpg"
+        "text": "Wrap each sausage loosely, leaving a gap near one end for the face.",
+        "img": "img/steps/fit-mummy.jpg"
       },
       {
-        "text": "Brush with egg and bake 12–14 minutes until the wraps are gold. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Brush with egg and bake 12–14 minutes until the wraps are gold.",
+        "img": "img/meals/02.jpg"
       },
       {
-        "text": "Press two capers into the gap for eyes. Serve warm with mustard. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Press two capers into the gap for eyes. Serve warm with mustard.",
+        "img": "img/meals/02.jpg"
       }
     ],
     "tweak": "Emma's twist: puff pastry instead of canned crescent dough, and capers for eyes so they look slightly annoyed."
@@ -108,8 +120,14 @@ window.EMMA_MEALS = [
     "serves": "12 halves",
     "img": "img/meals/03.jpg?v=4",
     "prep": [
-      "img/prep/eggs.jpg",
-      "img/prep/bowl.jpg"
+      {
+        "src": "img/steps/fit-eggs.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/fit-deviled.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "6 eggs",
@@ -122,24 +140,24 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Boil the eggs 10 minutes, then cool in ice water. Keep it at a gentle heat. A hard boil scorches milk and tightens meat.",
-        "img": "img/steps/lib-pan.jpg"
+        "text": "Boil the eggs 10 minutes, then cool in ice water.",
+        "img": "img/steps/fit-eggs.jpg"
       },
       {
-        "text": "Crack the shells all over but do not peel. Soak 20 minutes in water with blue colour. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Crack the shells all over but do not peel. Soak 20 minutes in water with blue colour.",
+        "img": "img/steps/fit-eggs.jpg"
       },
       {
-        "text": "Peel. The cracks leave a web on the white. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Peel. The cracks leave a web on the white.",
+        "img": "img/steps/fit-deviled.jpg"
       },
       {
-        "text": "Halve the eggs. Mash yolks with mayo, mustard, vinegar, salt and pepper. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-bowl.jpg"
+        "text": "Halve the eggs. Mash yolks with mayo, mustard, vinegar, salt and pepper.",
+        "img": "img/steps/fit-deviled.jpg"
       },
       {
-        "text": "Pipe the filling back in and finish with black sesame seeds. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-pipe.jpg"
+        "text": "Pipe the filling back in and finish with black sesame seeds.",
+        "img": "img/steps/fit-deviled.jpg"
       }
     ],
     "tweak": "Emma's twist: a splash of vinegar in the yolk so the filling is sharp, not flat."
@@ -157,8 +175,14 @@ window.EMMA_MEALS = [
     "serves": "4",
     "img": "img/meals/04.jpg?v=4",
     "prep": [
-      "img/prep/board.jpg",
-      "img/prep/oven.jpg"
+      {
+        "src": "img/steps/fit-oven.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/04-1.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "4 orange bell peppers",
@@ -173,7 +197,7 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Heat the oven to 175°C / 350°F and put a rack in the middle. While it heats, cook the small pasta in salted water until it is just shy of done, then drain. Leave it a little firm — it finishes inside the pepper.",
-        "img": "img/steps/lib-oven.jpg"
+        "img": "img/steps/fit-oven.jpg"
       },
       {
         "text": "Slice a lid off each orange pepper, about 1 cm down from the stem, and keep the lids. Pull out the seeds and the white membranes with your fingers. If the wall splits, the filling leaks later, so go gently.",
@@ -215,8 +239,14 @@ window.EMMA_MEALS = [
     "serves": "12 fingers",
     "img": "img/meals/05.jpg?v=4",
     "prep": [
-      "img/prep/sheet.jpg",
-      "img/prep/oven.jpg"
+      {
+        "src": "img/steps/fit-dough.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/fit-fingers.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "350 g pizza dough",
@@ -228,24 +258,24 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Heat the oven to 190°C. Knead a drop of green colour into the dough. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Heat the oven to 190°C. Knead a drop of green colour into the dough.",
+        "img": "img/steps/fit-dough.jpg"
       },
       {
-        "text": "Divide into 12 pieces. Roll each into a skinny finger. Leave it a little loose. A tight wrap splits when it heats or dries.",
-        "img": "img/steps/lib-dough.jpg"
+        "text": "Divide into 12 pieces. Roll each into a skinny finger.",
+        "img": "img/steps/fit-fingers.jpg"
       },
       {
-        "text": "Press knuckle lines with a knife. Press an almond at one end as a nail. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Press knuckle lines with a knife. Press an almond at one end as a nail.",
+        "img": "img/steps/fit-fingers.jpg"
       },
       {
-        "text": "Brush with oil, dust with parmesan and bake 12–15 minutes. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Brush with oil, dust with parmesan and bake 12–15 minutes.",
+        "img": "img/meals/05.jpg"
       },
       {
-        "text": "Serve warm with a bowl of marinara. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-bowl.jpg"
+        "text": "Serve warm with a bowl of marinara.",
+        "img": "img/meals/05.jpg"
       }
     ],
     "tweak": "Emma's twist: parmesan on the 'skin' so the fingers look wrinkled, not cartoon-green."
@@ -263,8 +293,10 @@ window.EMMA_MEALS = [
     "serves": "12 bites",
     "img": "img/meals/06.jpg?v=4",
     "prep": [
-      "img/prep/platter.jpg",
-      "img/prep/board.jpg"
+      {
+        "src": "img/steps/fit-mozz.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "12 small mozzarella balls",
@@ -275,20 +307,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Pat the mozzarella dry. Soften 30 seconds in warm water if they feel tight. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Pat the mozzarella dry. Soften 30 seconds in warm water if they feel tight.",
+        "img": "img/steps/fit-mozz.jpg"
       },
       {
-        "text": "Press one olive into the centre of each ball so it looks like an iris. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Press one olive into the centre of each ball so it looks like an iris.",
+        "img": "img/steps/fit-mozz.jpg"
       },
       {
-        "text": "Wrap a thin strip of prosciutto around the back like an eyelid. Leave it a little loose. A tight wrap splits when it heats or dries.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Wrap a thin strip of prosciutto around the back like an eyelid.",
+        "img": "img/steps/fit-mozz.jpg"
       },
       {
-        "text": "Skewer and set on a plate. Finish with oil and pepper. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Skewer and set on a plate. Finish with oil and pepper.",
+        "img": "img/steps/fit-mozz.jpg"
       }
     ],
     "tweak": "Emma's twist: warm water first so the cheese hugs the olive instead of cracking."
@@ -306,8 +338,10 @@ window.EMMA_MEALS = [
     "serves": "6 cups",
     "img": "img/meals/07.jpg?v=4",
     "prep": [
-      "img/prep/bowl.jpg",
-      "img/prep/muffins.jpg"
+      {
+        "src": "img/steps/fit-dirt.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "1 packet chocolate pudding, made as directed",
@@ -319,20 +353,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Spoon pudding into clear cups, then a layer of crushed biscuits. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-cups.jpg"
+        "text": "Spoon pudding into clear cups, then a layer of crushed biscuits.",
+        "img": "img/steps/fit-dirt.jpg"
       },
       {
-        "text": "Add whipped cream and another dirt layer. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-cups.jpg"
+        "text": "Add whipped cream and another dirt layer.",
+        "img": "img/steps/fit-dirt.jpg"
       },
       {
-        "text": "Write RIP on the rectangular biscuits. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Write RIP on the rectangular biscuits.",
+        "img": "img/steps/fit-dirt.jpg"
       },
       {
-        "text": "Stand a tombstone in each cup and tuck in a worm just before serving. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-cups.jpg"
+        "text": "Stand a tombstone in each cup and tuck in a worm just before serving.",
+        "img": "img/steps/fit-dirt.jpg"
       }
     ],
     "tweak": "Emma's twist: a cream layer in the middle so the grave has two soils, not one muddy cup."
@@ -350,8 +384,10 @@ window.EMMA_MEALS = [
     "serves": "16 hats",
     "img": "img/meals/08.jpg?v=4",
     "prep": [
-      "img/prep/icing.jpg",
-      "img/prep/melt.jpg"
+      {
+        "src": "img/steps/fit-hat.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "16 round chocolate biscuits",
@@ -361,20 +397,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Flip each biscuit so the flat side is up. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Flip each biscuit so the flat side is up.",
+        "img": "img/steps/fit-hat.jpg"
       },
       {
-        "text": "Pipe a ring of orange icing around the centre. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-pipe.jpg"
+        "text": "Pipe a ring of orange icing around the centre.",
+        "img": "img/steps/fit-hat.jpg"
       },
       {
-        "text": "Press a kiss into the icing so it stands as the crown. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-pipe.jpg"
+        "text": "Press a kiss into the icing so it stands as the crown.",
+        "img": "img/steps/fit-hat.jpg"
       },
       {
-        "text": "Pipe a thin brim of icing around the base. Let set 15 minutes. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-pipe.jpg"
+        "text": "Pipe a thin brim of icing around the base. Let set 15 minutes.",
+        "img": "img/steps/fit-hat.jpg"
       }
     ],
     "tweak": "Emma's twist: a second thin ring of icing so the hat looks sewn on, not perched."
@@ -392,8 +428,10 @@ window.EMMA_MEALS = [
     "serves": "12 cookies",
     "img": "img/meals/09.jpg?v=4",
     "prep": [
-      "img/prep/bowl.jpg",
-      "img/prep/icing.jpg"
+      {
+        "src": "img/steps/fit-web.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "12 baked chocolate cookies",
@@ -403,20 +441,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Melt marshmallows with butter in a bowl, 30 seconds at a time, until stretchy. Stir in short bursts and stop while it is still a little thick. Leftover heat finishes the melt.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Melt marshmallows with butter in a bowl, 30 seconds at a time, until stretchy.",
+        "img": "img/steps/fit-web.jpg"
       },
       {
-        "text": "Pull threads of the melt over each cookie with two forks. Stir in short bursts and stop while it is still a little thick. Leftover heat finishes the melt.",
-        "img": "img/steps/lib-hang.jpg"
+        "text": "Pull threads of the melt over each cookie with two forks.",
+        "img": "img/steps/fit-web.jpg"
       },
       {
-        "text": "Work fast — the web sets as it cools. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Work fast — the web sets as it cools.",
+        "img": "img/steps/fit-web.jpg"
       },
       {
-        "text": "Park a candy spider on one side of each cookie. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Park a candy spider on one side of each cookie.",
+        "img": "img/steps/fit-web.jpg"
       }
     ],
     "tweak": "Emma's twist: a teaspoon of butter in the marshmallow so the web stretches instead of clumping."
@@ -434,8 +472,14 @@ window.EMMA_MEALS = [
     "serves": "6",
     "img": "img/meals/10.jpg?v=4",
     "prep": [
-      "img/prep/bowl.jpg",
-      "img/prep/oven.jpg"
+      {
+        "src": "img/steps/fit-feet.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/fit-oven.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "700 g minced beef or chicken",
@@ -449,24 +493,24 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Heat the oven to 180°C. Mix mince, egg, crumbs, onion, ketchup, soy, salt and paprika. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Heat the oven to 180°C. Mix mince, egg, crumbs, onion, ketchup, soy, salt and paprika.",
+        "img": "img/steps/fit-feet.jpg"
       },
       {
-        "text": "Shape two feet on a tray — heel, arch, five toes. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-sheet.jpg"
+        "text": "Shape two feet on a tray — heel, arch, five toes.",
+        "img": "img/steps/fit-feet.jpg"
       },
       {
-        "text": "Press onion slices onto the toes as nails. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-skillet.jpg"
+        "text": "Press onion slices onto the toes as nails.",
+        "img": "img/steps/fit-feet.jpg"
       },
       {
-        "text": "Bake 40 minutes. Brush with ketchup and bake 10 minutes more. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Bake 40 minutes. Brush with ketchup and bake 10 minutes more.",
+        "img": "img/steps/fit-oven.jpg"
       },
       {
-        "text": "Rest 8 minutes before slicing so it holds the shape. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-pipe.jpg"
+        "text": "Rest 8 minutes before slicing so it holds the shape.",
+        "img": "img/meals/10.jpg"
       }
     ],
     "tweak": "Emma's twist: a ketchup glaze at the end so the 'skin' looks roasted, not raw pink."
@@ -484,8 +528,10 @@ window.EMMA_MEALS = [
     "serves": "8 glasses",
     "img": "img/meals/11.jpg?v=4",
     "prep": [
-      "img/prep/punch.jpg",
-      "img/prep/saucepan.jpg"
+      {
+        "src": "img/steps/fit-punch.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "1 litre ginger ale, chilled",
@@ -497,20 +543,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "The night before, fill a clean glove with water and freeze it as a hand. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "The night before, fill a clean glove with water and freeze it as a hand.",
+        "img": "img/steps/fit-punch.jpg"
       },
       {
-        "text": "Stir ginger ale, pineapple and lime in a punch bowl. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-bowl.jpg"
+        "text": "Stir ginger ale, pineapple and lime in a punch bowl.",
+        "img": "img/steps/fit-punch.jpg"
       },
       {
-        "text": "Add sherbet scoops so the brew foams. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Add sherbet scoops so the brew foams.",
+        "img": "img/steps/fit-punch.jpg"
       },
       {
-        "text": "Float the ice hand and a few worms. Serve at once. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Float the ice hand and a few worms. Serve at once.",
+        "img": "img/steps/fit-punch.jpg"
       }
     ],
     "tweak": "Emma's twist: lime juice so the punch is sharp, not only sweet fizz."
@@ -528,8 +574,14 @@ window.EMMA_MEALS = [
     "serves": "8 halves",
     "img": "img/meals/12.jpg?v=4",
     "prep": [
-      "img/prep/sheet.jpg",
-      "img/prep/oven.jpg"
+      {
+        "src": "img/steps/fit-oven.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/fit-bagel.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "4 bagels, split",
@@ -540,20 +592,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Heat the oven to 200°C. Toast bagel halves 3 minutes. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Heat the oven to 200°C. Toast bagel halves 3 minutes.",
+        "img": "img/steps/fit-oven.jpg"
       },
       {
-        "text": "Spread sauce. Lay thin cheese strips across like bandages, leaving a gap. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-gauze.jpg"
+        "text": "Spread sauce. Lay thin cheese strips across like bandages, leaving a gap.",
+        "img": "img/steps/fit-bagel.jpg"
       },
       {
-        "text": "Add two olive slices as eyes. Dust oregano. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Add two olive slices as eyes. Dust oregano.",
+        "img": "img/steps/fit-bagel.jpg"
       },
       {
-        "text": "Bake 6–8 minutes until the cheese slumps. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Bake 6–8 minutes until the cheese slumps.",
+        "img": "img/meals/12.jpg"
       }
     ],
     "tweak": "Emma's twist: a short pre-toast so the bagel stays crisp under the sauce."
@@ -571,8 +623,10 @@ window.EMMA_MEALS = [
     "serves": "12 rods",
     "img": "img/meals/13.jpg?v=4",
     "prep": [
-      "img/prep/melt.jpg",
-      "img/prep/icing.jpg"
+      {
+        "src": "img/steps/fit-pretzel.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "12 pretzel rods",
@@ -582,20 +636,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Melt white chocolate with coconut oil until smooth. Stir in short bursts and stop while it is still a little thick. Leftover heat finishes the melt.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Melt white chocolate with coconut oil until smooth.",
+        "img": "img/steps/fit-pretzel.jpg"
       },
       {
-        "text": "Dip each rod two-thirds of the way. Let extra drip off. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Dip each rod two-thirds of the way. Let extra drip off.",
+        "img": "img/steps/fit-pretzel.jpg"
       },
       {
-        "text": "Drizzle more chocolate in zig-zags for bandages. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Drizzle more chocolate in zig-zags for bandages.",
+        "img": "img/steps/fit-pretzel.jpg"
       },
       {
-        "text": "Press on two eyes before it sets. Cool on paper. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Press on two eyes before it sets. Cool on paper.",
+        "img": "img/steps/fit-pretzel.jpg"
       }
     ],
     "tweak": "Emma's twist: a little coconut oil so the chocolate sets glossy, not chalky."
@@ -613,8 +667,10 @@ window.EMMA_MEALS = [
     "serves": "8",
     "img": "img/meals/14.jpg?v=4",
     "prep": [
-      "img/prep/bowl.jpg",
-      "img/prep/platter.jpg"
+      {
+        "src": "img/meals/14.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "200 g cream cheese, soft",
@@ -625,20 +681,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Beat cream cheese, herbed cheese and sour cream until fluffy. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Beat cream cheese, herbed cheese and sour cream until fluffy.",
+        "img": "img/meals/14.jpg"
       },
       {
-        "text": "Line a small bowl with cling film and pack the mix in. Chill 1 hour. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-cups.jpg"
+        "text": "Line a small bowl with cling film and pack the mix in. Chill 1 hour.",
+        "img": "img/meals/14.jpg"
       },
       {
-        "text": "Turn out onto a plate. Drag a spoon to make two brain hemispheres. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Turn out onto a plate. Drag a spoon to make two brain hemispheres.",
+        "img": "img/meals/14.jpg"
       },
       {
-        "text": "Spoon the jelly into the grooves. Serve with crackers. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Spoon the jelly into the grooves. Serve with crackers.",
+        "img": "img/meals/14.jpg"
       }
     ],
     "tweak": "Emma's twist: sweet chilli instead of only jelly, so the 'blood' has heat."
@@ -656,8 +712,14 @@ window.EMMA_MEALS = [
     "serves": "2",
     "img": "img/meals/15.jpg?v=4",
     "prep": [
-      "img/prep/skillet.jpg",
-      "img/prep/board.jpg"
+      {
+        "src": "img/steps/fit-tortilla.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/meals/15.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "4 flour tortillas",
@@ -668,20 +730,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Cut a jack-o'-lantern face out of two tortillas. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-jar.jpg"
+        "text": "Cut a jack-o'-lantern face out of two tortillas.",
+        "img": "img/steps/fit-tortilla.jpg"
       },
       {
-        "text": "Warm a skillet. Lay a plain tortilla down, cover with cheese and filling. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-skillet.jpg"
+        "text": "Warm a skillet. Lay a plain tortilla down, cover with cheese and filling.",
+        "img": "img/steps/fit-tortilla.jpg"
       },
       {
-        "text": "Set the carved tortilla on top. Cook 2 minutes a side until the cheese welds it. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Set the carved tortilla on top. Cook 2 minutes a side until the cheese welds it.",
+        "img": "img/meals/15.jpg"
       },
       {
-        "text": "Slide onto a plate. The face should glow with melted cheddar. Stir in short bursts and stop while it is still a little thick. Leftover heat finishes the melt.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Slide onto a plate. The face should glow with melted cheddar.",
+        "img": "img/meals/15.jpg"
       }
     ],
     "tweak": "Emma's twist: extra cheese right under the cut-outs so the eyes look lit from inside."
@@ -699,8 +761,10 @@ window.EMMA_MEALS = [
     "serves": "8 pops",
     "img": "img/meals/16.jpg?v=4",
     "prep": [
-      "img/prep/melt.jpg",
-      "img/prep/platter.jpg"
+      {
+        "src": "img/steps/fit-banana.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "4 bananas, halved",
@@ -710,20 +774,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Push a stick into each banana half. Freeze 40 minutes. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Push a stick into each banana half. Freeze 40 minutes.",
+        "img": "img/steps/fit-banana.jpg"
       },
       {
-        "text": "Melt white chocolate. Dip each banana and let extra drip. Stir in short bursts and stop while it is still a little thick. Leftover heat finishes the melt.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Melt white chocolate. Dip each banana and let extra drip.",
+        "img": "img/steps/fit-banana.jpg"
       },
       {
-        "text": "Add two chips for eyes and one for a mouth. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Add two chips for eyes and one for a mouth.",
+        "img": "img/steps/fit-banana.jpg"
       },
       {
-        "text": "Freeze another 20 minutes until the coats snap. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Freeze another 20 minutes until the coats snap.",
+        "img": "img/steps/fit-banana.jpg"
       }
     ],
     "tweak": "Emma's twist: freeze the banana first so the chocolate sets in one clean dip."
@@ -741,8 +805,10 @@ window.EMMA_MEALS = [
     "serves": "10",
     "img": "img/meals/17.jpg?v=4",
     "prep": [
-      "img/prep/platter.jpg",
-      "img/prep/board.jpg"
+      {
+        "src": "img/steps/fit-skeleton.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "1 round of hummus or ranch dip",
@@ -754,20 +820,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Set the dip bowl at the top of a long board as the head. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Set the dip bowl at the top of a long board as the head.",
+        "img": "img/steps/fit-skeleton.jpg"
       },
       {
-        "text": "Build a cauliflower skull around it. Olive slices for eyes. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Build a cauliflower skull around it. Olive slices for eyes.",
+        "img": "img/steps/fit-skeleton.jpg"
       },
       {
-        "text": "Lay celery as ribs, carrot sticks as arms and legs. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Lay celery as ribs, carrot sticks as arms and legs.",
+        "img": "img/steps/fit-skeleton.jpg"
       },
       {
-        "text": "Fill gaps with tomatoes. Serve cold. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Fill gaps with tomatoes. Serve cold.",
+        "img": "img/steps/fit-skeleton.jpg"
       }
     ],
     "tweak": "Emma's twist: hummus as the skull so the dip is the face, not a lonely bowl on the side."
@@ -785,8 +851,14 @@ window.EMMA_MEALS = [
     "serves": "4",
     "img": "img/meals/18.jpg?v=4",
     "prep": [
-      "img/prep/wings.jpg",
-      "img/prep/oven.jpg"
+      {
+        "src": "img/steps/fit-oven.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/fit-wings.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "1 kg chicken wings",
@@ -800,20 +872,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Heat the oven to 210°C. Pat the wings dry. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Heat the oven to 210°C. Pat the wings dry.",
+        "img": "img/steps/fit-oven.jpg"
       },
       {
-        "text": "Toss with soy, honey, vinegar, garlic, paprika and chilli. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-cups.jpg"
+        "text": "Toss with soy, honey, vinegar, garlic, paprika and chilli.",
+        "img": "img/steps/fit-wings.jpg"
       },
       {
-        "text": "Roast 35–40 minutes, turning once, until the skin is lacquered. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Roast 35–40 minutes, turning once, until the skin is lacquered.",
+        "img": "img/steps/fit-wings.jpg"
       },
       {
-        "text": "Finish in a hot pan 2 minutes if you want extra stick. Sesame on top. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Finish in a hot pan 2 minutes if you want extra stick. Sesame on top.",
+        "img": "img/steps/fit-wings.jpg"
       }
     ],
     "tweak": "Emma's twist: a last kiss in the pan so the glaze clings like midnight."
@@ -831,8 +903,10 @@ window.EMMA_MEALS = [
     "serves": "6 apples",
     "img": "img/meals/19.jpg?v=4",
     "prep": [
-      "img/prep/saucepan.jpg",
-      "img/prep/sheet.jpg"
+      {
+        "src": "img/steps/fit-apple.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "6 small apples, washed and dried hard",
@@ -845,20 +919,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Push a stick into each apple. Set a tray with greased paper. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-sheet.jpg"
+        "text": "Push a stick into each apple. Set a tray with greased paper.",
+        "img": "img/steps/fit-apple.jpg"
       },
       {
-        "text": "Boil sugar, water and syrup to hard-crack, about 150°C. Keep it at a gentle heat. A hard boil scorches milk and tightens meat.",
-        "img": "img/steps/lib-pan.jpg"
+        "text": "Boil sugar, water and syrup to hard-crack, about 150°C.",
+        "img": "img/steps/fit-apple.jpg"
       },
       {
-        "text": "Take off the heat. Stir in black colour and cinnamon. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-bowl.jpg"
+        "text": "Take off the heat. Stir in black colour and cinnamon.",
+        "img": "img/steps/fit-apple.jpg"
       },
       {
-        "text": "Dip each apple, twirl, and stand on the tray to set. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-sheet.jpg"
+        "text": "Dip each apple, twirl, and stand on the tray to set.",
+        "img": "img/steps/fit-apple.jpg"
       }
     ],
     "tweak": "Emma's twist: cinnamon in the sugar so they smell like a forest, not only look cursed."
@@ -876,8 +950,10 @@ window.EMMA_MEALS = [
     "serves": "12 squares",
     "img": "img/meals/20.jpg?v=4",
     "prep": [
-      "img/prep/bowl.jpg",
-      "img/prep/icing.jpg"
+      {
+        "src": "img/steps/fit-brownie.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "1 pan of brownies, baked and cooled",
@@ -888,20 +964,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Cut brownies into rectangles. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-skillet.jpg"
+        "text": "Cut brownies into rectangles.",
+        "img": "img/steps/fit-brownie.jpg"
       },
       {
-        "text": "Beat icing sugar, milk and vanilla until pipeable. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-pan.jpg"
+        "text": "Beat icing sugar, milk and vanilla until pipeable.",
+        "img": "img/steps/fit-brownie.jpg"
       },
       {
-        "text": "Zig-zag the icing across each square, leaving a gap. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-pipe.jpg"
+        "text": "Zig-zag the icing across each square, leaving a gap.",
+        "img": "img/steps/fit-brownie.jpg"
       },
       {
-        "text": "Set two eyes in the gap. Let the bandages dry 20 minutes. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Set two eyes in the gap. Let the bandages dry 20 minutes.",
+        "img": "img/steps/fit-brownie.jpg"
       }
     ],
     "tweak": "Emma's twist: a thicker icing so the wraps sit up instead of melting into the brownie."
@@ -919,8 +995,14 @@ window.EMMA_MEALS = [
     "serves": "20 cookies",
     "img": "img/meals/21.jpg?v=4",
     "prep": [
-      "img/prep/sheet.jpg",
-      "img/prep/oven.jpg"
+      {
+        "src": "img/steps/fit-fingers.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/meals/21.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "200 g butter, soft",
@@ -933,20 +1015,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Cream butter and sugar. Beat in egg and vanilla, then flour. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Cream butter and sugar. Beat in egg and vanilla, then flour.",
+        "img": "img/steps/fit-fingers.jpg"
       },
       {
-        "text": "Chill 20 minutes. Roll into skinny fingers. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-cups.jpg"
+        "text": "Chill 20 minutes. Roll into skinny fingers.",
+        "img": "img/steps/fit-fingers.jpg"
       },
       {
-        "text": "Press knuckle lines. Stick an almond at the tip with a dab of jam. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-sheet.jpg"
+        "text": "Press knuckle lines. Stick an almond at the tip with a dab of jam.",
+        "img": "img/steps/fit-fingers.jpg"
       },
       {
-        "text": "Bake at 175°C for 12 minutes. Cool on the tray. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Bake at 175°C for 12 minutes. Cool on the tray.",
+        "img": "img/meals/21.jpg"
       }
     ],
     "tweak": "Emma's twist: jam under the almond so the nail looks freshly attached."
@@ -964,8 +1046,10 @@ window.EMMA_MEALS = [
     "serves": "3–4",
     "img": "img/meals/22.jpg?v=4",
     "prep": [
-      "img/prep/oven.jpg",
-      "img/prep/skillet.jpg"
+      {
+        "src": "img/steps/fit-pizza.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "1 pizza base",
@@ -977,20 +1061,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Heat the oven to 220°C. Sauce the base and cover with mozzarella. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Heat the oven to 220°C. Sauce the base and cover with mozzarella.",
+        "img": "img/steps/fit-pizza.jpg"
       },
       {
-        "text": "Bake 10–12 minutes until the edge blisters. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Bake 10–12 minutes until the edge blisters.",
+        "img": "img/steps/fit-pizza.jpg"
       },
       {
-        "text": "Pipe sour cream in rings, then drag a toothpick from the centre out to make a web. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-pipe.jpg"
+        "text": "Pipe sour cream in rings, then drag a toothpick from the centre out to make a web.",
+        "img": "img/steps/fit-pizza.jpg"
       },
       {
-        "text": "Set an olive in the middle as the spider. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Set an olive in the middle as the spider.",
+        "img": "img/steps/fit-pizza.jpg"
       }
     ],
     "tweak": "Emma's twist: the web goes on after baking so it stays white and sharp."
@@ -1008,8 +1092,10 @@ window.EMMA_MEALS = [
     "serves": "4",
     "img": "img/meals/23.jpg?v=4",
     "prep": [
-      "img/prep/saucepan.jpg",
-      "img/prep/oven.jpg"
+      {
+        "src": "img/steps/fit-potato.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "800 g potatoes",
@@ -1020,16 +1106,16 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Boil potatoes until soft. Mash with butter, milk, salt and pepper. Keep it at a gentle heat. A hard boil scorches milk and tightens meat.",
-        "img": "img/steps/lib-pan.jpg"
+        "text": "Boil potatoes until soft. Mash with butter, milk, salt and pepper.",
+        "img": "img/steps/fit-potato.jpg"
       },
       {
-        "text": "Spoon into a bag and pipe tall blobs onto a tray. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-pipe.jpg"
+        "text": "Spoon into a bag and pipe tall blobs onto a tray.",
+        "img": "img/steps/fit-potato.jpg"
       },
       {
-        "text": "Add two eyes. Bake 12 minutes at 200°C so the tips brown. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Add two eyes. Bake 12 minutes at 200°C so the tips brown.",
+        "img": "img/steps/fit-potato.jpg"
       }
     ],
     "tweak": "Emma's twist: a short roast so the ghosts get toasted hats, not pale blobs."
@@ -1047,8 +1133,14 @@ window.EMMA_MEALS = [
     "serves": "12 poppers",
     "img": "img/meals/24.jpg?v=4",
     "prep": [
-      "img/prep/sheet.jpg",
-      "img/prep/oven.jpg"
+      {
+        "src": "img/steps/fit-jalapeno.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/meals/24.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "6 jalapeños, halved and seeded",
@@ -1059,16 +1151,16 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Heat the oven to 190°C. Mix the two cheeses and fill each half. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Heat the oven to 190°C. Mix the two cheeses and fill each half.",
+        "img": "img/steps/fit-jalapeno.jpg"
       },
       {
-        "text": "Wrap pastry strips around, leaving a face gap. Leave it a little loose. A tight wrap splits when it heats or dries.",
-        "img": "img/steps/lib-dough.jpg"
+        "text": "Wrap pastry strips around, leaving a face gap.",
+        "img": "img/steps/fit-jalapeno.jpg"
       },
       {
-        "text": "Bake 14–16 minutes. Add eyes while hot. Use the middle rack, and start checking a couple of minutes early. Ovens run hot.",
-        "img": "img/steps/lib-oven.jpg"
+        "text": "Bake 14–16 minutes. Add eyes while hot.",
+        "img": "img/meals/24.jpg"
       }
     ],
     "tweak": "Emma's twist: cheddar in the filling so it leaks a little through the wraps."
@@ -1086,8 +1178,10 @@ window.EMMA_MEALS = [
     "serves": "8",
     "img": "img/meals/25.jpg?v=4",
     "prep": [
-      "img/prep/platter.jpg",
-      "img/prep/board.jpg"
+      {
+        "src": "img/steps/fit-board.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "2 cheeses (cheddar cubes + a soft cheese)",
@@ -1099,20 +1193,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Put bowls of jam and olives down first. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-bowl.jpg"
+        "text": "Put bowls of jam and olives down first.",
+        "img": "img/steps/fit-board.jpg"
       },
       {
-        "text": "Add cheese in two corners, fruit in two others. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Add cheese in two corners, fruit in two others.",
+        "img": "img/steps/fit-board.jpg"
       },
       {
-        "text": "Fill the gaps with crackers and the spooky leftovers. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Fill the gaps with crackers and the spooky leftovers.",
+        "img": "img/steps/fit-board.jpg"
       },
       {
-        "text": "Keep one empty patch so it looks styled, not stuffed. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Keep one empty patch so it looks styled, not stuffed.",
+        "img": "img/steps/fit-board.jpg"
       }
     ],
     "tweak": "Emma's twist: one dark jam bowl in the centre so the board has a 'cauldron'."
@@ -1130,8 +1224,10 @@ window.EMMA_MEALS = [
     "serves": "10",
     "img": "img/meals/26.jpg?v=4",
     "prep": [
-      "img/prep/bowl.jpg",
-      "img/prep/platter.jpg"
+      {
+        "src": "img/steps/fit-cheese.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "250 g cream cheese",
@@ -1143,20 +1239,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Beat cheeses, paprika and soy. Chill 1 hour. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-cups.jpg"
+        "text": "Beat cheeses, paprika and soy. Chill 1 hour.",
+        "img": "img/steps/fit-cheese.jpg"
       },
       {
-        "text": "Roll into a ball, then in more paprika. Leave it a little loose. A tight wrap splits when it heats or dries.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Roll into a ball, then in more paprika.",
+        "img": "img/steps/fit-cheese.jpg"
       },
       {
-        "text": "Press shallow grooves from top to bottom with a spoon. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Press shallow grooves from top to bottom with a spoon.",
+        "img": "img/steps/fit-cheese.jpg"
       },
       {
-        "text": "Push in the pretzel stem. Serve with crackers. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-dough.jpg"
+        "text": "Push in the pretzel stem. Serve with crackers.",
+        "img": "img/steps/fit-cheese.jpg"
       }
     ],
     "tweak": "Emma's twist: paprika on the outside only, so the inside stays pale like pumpkin flesh."
@@ -1174,8 +1270,10 @@ window.EMMA_MEALS = [
     "serves": "12 bars",
     "img": "img/meals/27.jpg?v=4",
     "prep": [
-      "img/prep/saucepan.jpg",
-      "img/prep/icing.jpg"
+      {
+        "src": "img/steps/fit-frank.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "3 tbsp butter",
@@ -1187,20 +1285,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Melt butter and marshmallows. Tint green. Fold in puffed rice. Stir in short bursts and stop while it is still a little thick. Leftover heat finishes the melt.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Melt butter and marshmallows. Tint green. Fold in puffed rice.",
+        "img": "img/steps/fit-frank.jpg"
       },
       {
-        "text": "Press into a greased tray. Cool 15 minutes and cut rectangles. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Press into a greased tray. Cool 15 minutes and cut rectangles.",
+        "img": "img/steps/fit-frank.jpg"
       },
       {
-        "text": "Dip the top edge in melted chocolate for hair. Stir in short bursts and stop while it is still a little thick. Leftover heat finishes the melt.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Dip the top edge in melted chocolate for hair.",
+        "img": "img/steps/fit-frank.jpg"
       },
       {
-        "text": "Add eyes and a tiny stitch mouth. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Add eyes and a tiny stitch mouth.",
+        "img": "img/steps/fit-frank.jpg"
       }
     ],
     "tweak": "Emma's twist: chocolate only on the top third so he looks like he has a bowl cut."
@@ -1218,8 +1316,10 @@ window.EMMA_MEALS = [
     "serves": "6 mugs",
     "img": "img/meals/28.jpg?v=4",
     "prep": [
-      "img/prep/saucepan.jpg",
-      "img/prep/soup.jpg"
+      {
+        "src": "img/steps/fit-cider.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "1.5 litres apple juice or cider",
@@ -1231,16 +1331,16 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Pour juice into a pot with orange, cloves, cinnamon and star anise. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Pour juice into a pot with orange, cloves, cinnamon and star anise.",
+        "img": "img/steps/fit-cider.jpg"
       },
       {
-        "text": "Simmer gently 15 minutes. Do not boil hard. Keep it at a gentle heat. A hard boil scorches milk and tightens meat.",
-        "img": "img/steps/lib-pan.jpg"
+        "text": "Simmer gently 15 minutes. Do not boil hard.",
+        "img": "img/steps/fit-cider.jpg"
       },
       {
-        "text": "Stir in honey. Ladle into mugs. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-bowl.jpg"
+        "text": "Stir in honey. Ladle into mugs.",
+        "img": "img/steps/fit-cider.jpg"
       }
     ],
     "tweak": "Emma's twist: star anise with the cinnamon so it smells like a spice market, not only an orchard."
@@ -1258,8 +1358,10 @@ window.EMMA_MEALS = [
     "serves": "8",
     "img": "img/meals/29.jpg?v=4",
     "prep": [
-      "img/prep/bowl.jpg",
-      "img/prep/platter.jpg"
+      {
+        "src": "img/meals/29.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "1 cup refried beans or mashed black beans",
@@ -1271,16 +1373,16 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Spread beans in a shallow dish, then sour cream, salsa, cheese and lettuce. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Spread beans in a shallow dish, then sour cream, salsa, cheese and lettuce.",
+        "img": "img/meals/29.jpg"
       },
       {
-        "text": "Stand chip tombstones along the back. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Stand chip tombstones along the back.",
+        "img": "img/meals/29.jpg"
       },
       {
-        "text": "Serve the rest of the chips on the side. Give it the full time. If you move it early, the shape slumps.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Serve the rest of the chips on the side.",
+        "img": "img/meals/29.jpg"
       }
     ],
     "tweak": "Emma's twist: spice in the sour cream so every layer tastes like a taco, not only the salsa."
@@ -1298,8 +1400,10 @@ window.EMMA_MEALS = [
     "serves": "4",
     "img": "img/meals/30.jpg?v=4",
     "prep": [
-      "img/prep/soup.jpg",
-      "img/prep/board.jpg"
+      {
+        "src": "img/meals/30.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "1 small edible pumpkin or 500 g pumpkin cubes",
@@ -1311,20 +1415,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "If using a whole pumpkin, cut a lid and scoop the seeds. Roast the shell 20 minutes at 180°C. Cut away from your fingers, and stop when the shape is clear. A second pass is safer than forcing the first.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "If using a whole pumpkin, cut a lid and scoop the seeds. Roast the shell 20 minutes at 180°C.",
+        "img": "img/meals/30.jpg"
       },
       {
-        "text": "Cook onion and garlic in oil. Add pumpkin cubes and stock. Simmer 20 minutes. Keep it at a gentle heat. A hard boil scorches milk and tightens meat.",
-        "img": "img/steps/lib-skillet.jpg"
+        "text": "Cook onion and garlic in oil. Add pumpkin cubes and stock. Simmer 20 minutes.",
+        "img": "img/meals/30.jpg"
       },
       {
-        "text": "Blend until silk. Stir in cream, nutmeg, salt. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-bowl.jpg"
+        "text": "Blend until silk. Stir in cream, nutmeg, salt.",
+        "img": "img/meals/30.jpg"
       },
       {
-        "text": "Ladle into the roasted shell. Seeds on top. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Ladle into the roasted shell. Seeds on top.",
+        "img": "img/meals/30.jpg"
       }
     ],
     "tweak": "Emma's twist: coconut milk instead of only cream, so the soup stays orange and lush."
@@ -1342,8 +1446,14 @@ window.EMMA_MEALS = [
     "serves": "12 cupcakes",
     "img": "img/meals/31.jpg?v=4",
     "prep": [
-      "img/prep/muffins.jpg",
-      "img/prep/icing.jpg"
+      {
+        "src": "img/steps/fit-cupcake.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/meals/31.jpg",
+        "cap": ""
+      }
     ],
     "ingredients": [
       "12 vanilla or chocolate cupcakes, baked",
@@ -1355,20 +1465,20 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Beat butter, sugar, vanilla and milk until the frosting stands up. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-pan.jpg"
+        "text": "Beat butter, sugar, vanilla and milk until the frosting stands up.",
+        "img": "img/steps/fit-cupcake.jpg"
       },
       {
-        "text": "Pipe a tall swirl on each cupcake. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-cups.jpg"
+        "text": "Pipe a tall swirl on each cupcake.",
+        "img": "img/steps/fit-cupcake.jpg"
       },
       {
-        "text": "Press two chips in for eyes. A third chip makes a howling mouth. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-candy.jpg"
+        "text": "Press two chips in for eyes. A third chip makes a howling mouth.",
+        "img": "img/steps/fit-cupcake.jpg"
       },
       {
-        "text": "Serve the same night. Ghosts do not keep well in the fridge. Look at it before you move on. If a seam, a face, or a sauce looks off, fix it while it is still soft.",
-        "img": "img/steps/lib-board.jpg"
+        "text": "Serve the same night. Ghosts do not keep well in the fridge.",
+        "img": "img/meals/31.jpg"
       }
     ],
     "tweak": "Emma's twist: a tall swirl, not a flat smear, so they look like they're rising out of the paper."
