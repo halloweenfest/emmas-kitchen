@@ -141,13 +141,17 @@ nav a:hover { color: var(--purple); }
 }
 
 .mail {
-  background: var(--purple); color: #fff; text-align: center;
-  padding: 30px 16px; margin: 18px 0 0;
+  position: fixed; top: 12px; left: 12px; z-index: 30;
+  background: var(--purple); color: #fff;
+  padding: 10px 12px; border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(40,20,8,.18);
+  width: min(280px, calc(100% - 24px));
 }
-.mail p { font-family: var(--serif); font-size: 28px; margin-bottom: 12px; }
-.mail form { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
-.mail input { border: 0; padding: 12px 14px; min-width: 220px; font: 16px var(--sans); }
-.mail button { border: 0; background: var(--gold); color: #1a1a1a; font-weight: 800; padding: 12px 18px; cursor: pointer; }
+.mail p { font-family: var(--serif); font-size: 16px; margin-bottom: 8px; }
+.mail form { display: flex; gap: 6px; }
+.mail input { border: 0; padding: 8px 10px; min-width: 0; flex: 1; font: 14px var(--sans); }
+.mail button { border: 0; background: var(--gold); color: #1a1a1a; font-weight: 800; padding: 8px 12px; cursor: pointer; }
+body.reading .mail { display: none; }
 
 .page { width: min(1120px, calc(100% - 32px)); margin: 52px auto; position: relative; z-index: 2; }
 .page h1 { font-family: var(--serif); font-size: clamp(32px, 6vw, 48px); font-weight: 500; }
