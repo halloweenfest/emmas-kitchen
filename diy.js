@@ -19,23 +19,23 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Blow up the balloon to head size.",
-        "img": "img/diy/01.jpg"
+        "img": "img/steps/d01a.jpg"
       },
       {
         "text": "Dip the cheesecloth in the glue water and drape it over the balloon, leaving a hem at the bottom.",
-        "img": "img/diy/01.jpg"
+        "img": "img/steps/d01b.jpg"
       },
       {
         "text": "Let it dry hard, then pop the balloon.",
-        "img": "img/diy/01.jpg"
+        "img": "img/steps/d01a.jpg"
       },
       {
         "text": "Draw two eyes. Leave the mouth off.",
-        "img": "img/diy/01.jpg"
+        "img": "img/steps/d01b.jpg"
       },
       {
         "text": "Set a battery tea light inside. Hang it from clear thread.",
-        "img": "img/diy/01.jpg"
+        "img": "img/steps/d01a.jpg"
       },
       {
         "text": "Keep it away from a real flame.",
@@ -62,23 +62,23 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Cut tissue into hand-size squares.",
-        "img": "img/diy/02.jpg"
+        "img": "img/steps/d02a.jpg"
       },
       {
         "text": "Fold each square over the twine and pinch the top.",
-        "img": "img/diy/02.jpg"
+        "img": "img/steps/d02b.jpg"
       },
       {
         "text": "Trim the bottom into an uneven hem.",
-        "img": "img/diy/02.jpg"
+        "img": "img/steps/d02a.jpg"
       },
       {
         "text": "Draw two small eyes.",
-        "img": "img/diy/02.jpg"
+        "img": "img/steps/d02b.jpg"
       },
       {
         "text": "Space them a palm apart.",
-        "img": "img/diy/02.jpg"
+        "img": "img/steps/d02a.jpg"
       },
       {
         "text": "Hang away from the candle.",
@@ -105,19 +105,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Draw a simple face.",
-        "img": "img/diy/03.jpg"
+        "img": "img/steps/d03a.jpg"
       },
       {
         "text": "Cut the eyes, nose, and smile wide enough to glow.",
-        "img": "img/diy/03.jpg"
+        "img": "img/steps/d03b.jpg"
       },
       {
         "text": "Scrunch the top into a stem and tape it.",
-        "img": "img/diy/03.jpg"
+        "img": "img/steps/d03a.jpg"
       },
       {
         "text": "Drop in a battery tea light. No real flame.",
-        "img": "img/diy/03.jpg"
+        "img": "img/steps/d03b.jpg"
       },
       {
         "text": "Set it on the counter, away from water.",
@@ -145,19 +145,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Wash off old labels.",
-        "img": "img/diy/04.jpg"
+        "img": "img/steps/d04a.jpg"
       },
       {
         "text": "Glue tissue over the glass in thin pieces.",
-        "img": "img/diy/04.jpg"
+        "img": "img/steps/d04b.jpg"
       },
       {
         "text": "Cut a small bat, cat, or house from black paper and stick it on.",
-        "img": "img/diy/04.jpg"
+        "img": "img/steps/d04a.jpg"
       },
       {
         "text": "Drop in a battery tea light.",
-        "img": "img/diy/04.jpg"
+        "img": "img/steps/d04b.jpg"
       },
       {
         "text": "Line them on the table.",
@@ -184,19 +184,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Wipe the pumpkin dry.",
-        "img": "img/diy/05.jpg"
+        "img": "img/steps/d05a.jpg"
       },
       {
         "text": "Paint a base coat and let it dry.",
-        "img": "img/diy/05.jpg"
+        "img": "img/steps/d05b.jpg"
       },
       {
         "text": "Add eyes and a small mouth with the thin brush.",
-        "img": "img/diy/05.jpg"
+        "img": "img/steps/d05a.jpg"
       },
       {
         "text": "Blot any drip you do not want.",
-        "img": "img/diy/05.jpg"
+        "img": "img/steps/d05b.jpg"
       },
       {
         "text": "Leave the stem natural.",
@@ -224,15 +224,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Paint the tubes black and let them dry.",
-        "img": "img/diy/06.jpg"
+        "img": "img/steps/d06a.jpg"
       },
       {
         "text": "Cut two wing shapes and glue them on.",
-        "img": "img/diy/06.jpg"
+        "img": "img/steps/d06b.jpg"
       },
       {
         "text": "Add eyes.",
-        "img": "img/diy/06.jpg"
+        "img": "img/steps/d06a.jpg"
       },
       {
         "text": "Thread twine through and hang them in a row.",
@@ -259,15 +259,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Fold paper and cut a simple bat so both wings match.",
-        "img": "img/diy/07.jpg"
+        "img": "img/steps/d07a.jpg"
       },
       {
         "text": "Cut eight to twelve.",
-        "img": "img/diy/07.jpg"
+        "img": "img/steps/d07b.jpg"
       },
       {
         "text": "Space them on the twine and tape the backs.",
-        "img": "img/diy/07.jpg"
+        "img": "img/steps/d07a.jpg"
       },
       {
         "text": "Hang in the doorway, not over the stove.",
@@ -294,23 +294,23 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Cut sticks to one length.",
-        "img": "img/diy/08.jpg"
+        "img": "img/steps/d08a.jpg"
       },
       {
         "text": "Bundle five or six.",
-        "img": "img/diy/08.jpg"
+        "img": "img/steps/d08b.jpg"
       },
       {
         "text": "Tie twine a third of the way down.",
-        "img": "img/diy/08.jpg"
+        "img": "img/steps/d08a.jpg"
       },
       {
         "text": "Add a black bow.",
-        "img": "img/diy/08.jpg"
+        "img": "img/steps/d08b.jpg"
       },
       {
         "text": "Trim the bristle end flat.",
-        "img": "img/diy/08.jpg"
+        "img": "img/steps/d08a.jpg"
       },
       {
         "text": "Set one at each place.",
@@ -338,19 +338,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Wash and dry the jars.",
-        "img": "img/diy/09.jpg"
+        "img": "img/steps/d09a.jpg"
       },
       {
         "text": "Paint the outside, leaving one oval clear.",
-        "img": "img/diy/09.jpg"
+        "img": "img/steps/d09b.jpg"
       },
       {
         "text": "Add a second coat when dry.",
-        "img": "img/diy/09.jpg"
+        "img": "img/steps/d09a.jpg"
       },
       {
         "text": "Write the label. Use an edible marker if it holds food.",
-        "img": "img/diy/09.jpg"
+        "img": "img/steps/d09b.jpg"
       },
       {
         "text": "Fill with cocoa, sugar, or wrapped sweets. Do not store open food against fresh paint.",
@@ -377,19 +377,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Roll a half-circle into a cone and glue the seam.",
-        "img": "img/diy/10.jpg"
+        "img": "img/steps/d10a.jpg"
       },
       {
         "text": "Cut a brim with a hole the size of the cone base.",
-        "img": "img/diy/10.jpg"
+        "img": "img/steps/d10b.jpg"
       },
       {
         "text": "Glue the cone into the brim.",
-        "img": "img/diy/10.jpg"
+        "img": "img/steps/d10a.jpg"
       },
       {
         "text": "Glue the hat onto a paper ring.",
-        "img": "img/diy/10.jpg"
+        "img": "img/steps/d10b.jpg"
       },
       {
         "text": "Slip a folded napkin through.",
@@ -415,19 +415,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Tape yarn from one side of the corner to the other.",
-        "img": "img/diy/11.jpg"
+        "img": "img/steps/d11a.jpg"
       },
       {
         "text": "Add five or six spokes.",
-        "img": "img/diy/11.jpg"
+        "img": "img/steps/d11b.jpg"
       },
       {
         "text": "Spiral a second piece across the spokes.",
-        "img": "img/diy/11.jpg"
+        "img": "img/steps/d11a.jpg"
       },
       {
         "text": "Knot the joins lightly.",
-        "img": "img/diy/11.jpg"
+        "img": "img/steps/d11b.jpg"
       },
       {
         "text": "Take it down with warm water if tape marks the glass.",
@@ -455,19 +455,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Color the plate orange.",
-        "img": "img/diy/12.jpg"
+        "img": "img/steps/d12a.jpg"
       },
       {
         "text": "Cut triangle eyes and a smile from black paper.",
-        "img": "img/diy/12.jpg"
+        "img": "img/steps/d12b.jpg"
       },
       {
         "text": "Glue them on.",
-        "img": "img/diy/12.jpg"
+        "img": "img/steps/d12a.jpg"
       },
       {
         "text": "Add a green stem at the top.",
-        "img": "img/diy/12.jpg"
+        "img": "img/steps/d12b.jpg"
       },
       {
         "text": "Prop it on the board.",
@@ -494,15 +494,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Paint the cones and let them dry.",
-        "img": "img/diy/13.jpg"
+        "img": "img/steps/d13a.jpg"
       },
       {
         "text": "Cut small felt stems.",
-        "img": "img/diy/13.jpg"
+        "img": "img/steps/d13b.jpg"
       },
       {
         "text": "Glue a stem on the top of each.",
-        "img": "img/diy/13.jpg"
+        "img": "img/steps/d13a.jpg"
       },
       {
         "text": "Group them on the board.",
@@ -529,19 +529,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Cut the apple across, not lengthwise.",
-        "img": "img/diy/14.jpg"
+        "img": "img/steps/d14a.jpg"
       },
       {
         "text": "Press the cut face in a thin layer of paint.",
-        "img": "img/diy/14.jpg"
+        "img": "img/steps/d14b.jpg"
       },
       {
         "text": "Stamp on paper.",
-        "img": "img/diy/14.jpg"
+        "img": "img/steps/d14a.jpg"
       },
       {
         "text": "Add two white dots for eyes when dry.",
-        "img": "img/diy/14.jpg"
+        "img": "img/steps/d14b.jpg"
       },
       {
         "text": "Wash the board before food comes back.",
@@ -568,19 +568,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Fill the can with water and freeze so it holds its shape.",
-        "img": "img/diy/15.jpg"
+        "img": "img/steps/d15a.jpg"
       },
       {
         "text": "Mark a simple star pattern.",
-        "img": "img/diy/15.jpg"
+        "img": "img/steps/d15b.jpg"
       },
       {
         "text": "Tap holes with a nail. Adult hands only.",
-        "img": "img/diy/15.jpg"
+        "img": "img/steps/d15a.jpg"
       },
       {
         "text": "Let the ice melt, dry the can, paint if you want.",
-        "img": "img/diy/15.jpg"
+        "img": "img/steps/d15b.jpg"
       },
       {
         "text": "Set a battery tea light inside.",
@@ -607,19 +607,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Cut a rounded top.",
-        "img": "img/diy/16.jpg"
+        "img": "img/steps/d16a.jpg"
       },
       {
         "text": "Paint gray and dry.",
-        "img": "img/diy/16.jpg"
+        "img": "img/steps/d16b.jpg"
       },
       {
         "text": "Write a short silly line, not a real name.",
-        "img": "img/diy/16.jpg"
+        "img": "img/steps/d16a.jpg"
       },
       {
         "text": "Weight the base so wind does not take it.",
-        "img": "img/diy/16.jpg"
+        "img": "img/steps/d16b.jpg"
       },
       {
         "text": "Bring it in if it rains hard.",
@@ -647,15 +647,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Wrap the jar, leaving a small gap.",
-        "img": "img/diy/17.jpg"
+        "img": "img/steps/d17a.jpg"
       },
       {
         "text": "Glue two candy eyes in the gap.",
-        "img": "img/diy/17.jpg"
+        "img": "img/steps/d17b.jpg"
       },
       {
         "text": "Tuck the end of the gauze.",
-        "img": "img/diy/17.jpg"
+        "img": "img/steps/d17a.jpg"
       },
       {
         "text": "Add a battery light if you want it to glow.",
@@ -682,15 +682,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Cut three bands.",
-        "img": "img/diy/18.jpg"
+        "img": "img/steps/d18a.jpg"
       },
       {
         "text": "Glue them into a cone, yellow at the tip.",
-        "img": "img/diy/18.jpg"
+        "img": "img/steps/d18b.jpg"
       },
       {
         "text": "Fill with wrapped sweets.",
-        "img": "img/diy/18.jpg"
+        "img": "img/steps/d18a.jpg"
       },
       {
         "text": "Tie twine at the top.",
@@ -717,15 +717,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Paint the palm and fingers.",
-        "img": "img/diy/19.jpg"
+        "img": "img/steps/d19a.jpg"
       },
       {
         "text": "Press the hand on paper, fingers as legs.",
-        "img": "img/diy/19.jpg"
+        "img": "img/steps/d19b.jpg"
       },
       {
         "text": "Glue a small oval body in the palm.",
-        "img": "img/diy/19.jpg"
+        "img": "img/steps/d19a.jpg"
       },
       {
         "text": "Add two candy eyes.",
@@ -751,15 +751,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Gather each filter at the center.",
-        "img": "img/diy/20.jpg"
+        "img": "img/steps/d20a.jpg"
       },
       {
         "text": "Tie with thread.",
-        "img": "img/diy/20.jpg"
+        "img": "img/steps/d20b.jpg"
       },
       {
         "text": "Draw two eyes.",
-        "img": "img/diy/20.jpg"
+        "img": "img/steps/d20a.jpg"
       },
       {
         "text": "Hang them or stand a few in a cup.",
@@ -786,15 +786,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Press leaves in a book overnight.",
-        "img": "img/diy/21.jpg"
+        "img": "img/steps/d21a.jpg"
       },
       {
         "text": "Lay them on twine.",
-        "img": "img/diy/21.jpg"
+        "img": "img/steps/d21b.jpg"
       },
       {
         "text": "Tape the stems at the back.",
-        "img": "img/diy/21.jpg"
+        "img": "img/steps/d21a.jpg"
       },
       {
         "text": "Hang where they will not get wet.",
@@ -820,15 +820,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Paint the pumpkin black. Leave the stem.",
-        "img": "img/diy/22.jpg"
+        "img": "img/steps/d22a.jpg"
       },
       {
         "text": "Dry fully.",
-        "img": "img/diy/22.jpg"
+        "img": "img/steps/d22b.jpg"
       },
       {
         "text": "Draw a moon and three stars.",
-        "img": "img/diy/22.jpg"
+        "img": "img/steps/d22a.jpg"
       },
       {
         "text": "Do not carve it.",
@@ -855,15 +855,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Glue the hand to the lid so the fingers curl over.",
-        "img": "img/diy/23.jpg"
+        "img": "img/steps/d23a.jpg"
       },
       {
         "text": "Set the battery candle in the jar.",
-        "img": "img/diy/23.jpg"
+        "img": "img/steps/d23b.jpg"
       },
       {
         "text": "Screw the lid on.",
-        "img": "img/diy/23.jpg"
+        "img": "img/steps/d23a.jpg"
       },
       {
         "text": "Keep it away from food prep.",
@@ -890,15 +890,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Cover tubes in white paper.",
-        "img": "img/diy/24.jpg"
+        "img": "img/steps/d24a.jpg"
       },
       {
         "text": "Cut a tissue flame and glue it in the top.",
-        "img": "img/diy/24.jpg"
+        "img": "img/steps/d24b.jpg"
       },
       {
         "text": "Tie clear thread to the top.",
-        "img": "img/diy/24.jpg"
+        "img": "img/steps/d24a.jpg"
       },
       {
         "text": "Hang at different heights. No real flame.",
@@ -925,15 +925,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Swirl frosting on each cupcake.",
-        "img": "img/diy/25.jpg"
+        "img": "img/steps/d25a.jpg"
       },
       {
         "text": "Press in two candy eyes while soft.",
-        "img": "img/diy/25.jpg"
+        "img": "img/steps/d25b.jpg"
       },
       {
         "text": "Tilt one if you want a wink.",
-        "img": "img/diy/25.jpg"
+        "img": "img/steps/d25a.jpg"
       },
       {
         "text": "Keep them cool.",
@@ -960,15 +960,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Cut pumpkin shapes and a small stem on each.",
-        "img": "img/diy/26.jpg"
+        "img": "img/steps/d26a.jpg"
       },
       {
         "text": "Cut a few bats.",
-        "img": "img/diy/26.jpg"
+        "img": "img/steps/d26b.jpg"
       },
       {
         "text": "Alternate them on the twine.",
-        "img": "img/diy/26.jpg"
+        "img": "img/steps/d26a.jpg"
       },
       {
         "text": "Hang on the mantel.",
@@ -995,19 +995,19 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Wash and dry the stones.",
-        "img": "img/diy/27.jpg"
+        "img": "img/steps/d27a.jpg"
       },
       {
         "text": "Paint a base color.",
-        "img": "img/diy/27.jpg"
+        "img": "img/steps/d27b.jpg"
       },
       {
         "text": "Add eyes and a mouth.",
-        "img": "img/diy/27.jpg"
+        "img": "img/steps/d27a.jpg"
       },
       {
         "text": "Seal if rain is coming.",
-        "img": "img/diy/27.jpg"
+        "img": "img/steps/d27b.jpg"
       },
       {
         "text": "Line the step.",
@@ -1033,15 +1033,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Draw a ring and a pupil on each ball.",
-        "img": "img/diy/28.jpg"
+        "img": "img/steps/d28a.jpg"
       },
       {
         "text": "Vary the iris color.",
-        "img": "img/diy/28.jpg"
+        "img": "img/steps/d28b.jpg"
       },
       {
         "text": "Set them in a bowl.",
-        "img": "img/diy/28.jpg"
+        "img": "img/steps/d28a.jpg"
       },
       {
         "text": "Do not serve them as food.",
@@ -1068,15 +1068,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Roll cones and glue the seams.",
-        "img": "img/diy/29.jpg"
+        "img": "img/steps/d29a.jpg"
       },
       {
         "text": "Add a brim to each.",
-        "img": "img/diy/29.jpg"
+        "img": "img/steps/d29b.jpg"
       },
       {
         "text": "Tie clear thread to the tip.",
-        "img": "img/diy/29.jpg"
+        "img": "img/steps/d29a.jpg"
       },
       {
         "text": "Hang from the porch, out of the rain.",
@@ -1103,15 +1103,15 @@ window.EMMA_DIY = [
     "steps": [
       {
         "text": "Tie herb bundles onto the ring.",
-        "img": "img/diy/30.jpg"
+        "img": "img/steps/d30a.jpg"
       },
       {
         "text": "Overlap them so the base disappears.",
-        "img": "img/diy/30.jpg"
+        "img": "img/steps/d30b.jpg"
       },
       {
         "text": "Tie the paper bat at the bottom.",
-        "img": "img/diy/30.jpg"
+        "img": "img/steps/d30a.jpg"
       },
       {
         "text": "Hang on the door, inside if the night is wet.",

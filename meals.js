@@ -13,11 +13,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/01.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-cocoa.jpg",
+        "src": "img/steps/r01a.jpg",
         "cap": ""
       },
       {
-        "src": "img/steps/fit-mug.jpg",
+        "src": "img/steps/r01b.jpg",
         "cap": ""
       }
     ],
@@ -33,11 +33,11 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Warm the milk in a small saucepan on medium heat. Do not let it boil.",
-        "img": "img/steps/fit-cocoa.jpg"
+        "img": "img/steps/r01a.jpg"
       },
       {
         "text": "Whisk in cocoa, sugar, cinnamon and salt until the steam smells like a bakery.",
-        "img": "img/steps/fit-cocoa.jpg"
+        "img": "img/steps/r01b.jpg"
       },
       {
         "text": "Take off the heat and stir in vanilla.",
@@ -45,7 +45,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Draw two dots and a wavy mouth on each marshmallow, or press in mini chips.",
-        "img": "img/steps/fit-mug.jpg"
+        "img": "img/steps/r01c.jpg"
       },
       {
         "text": "Pour into mugs and float a ghost on top.",
@@ -98,7 +98,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Brush with egg and bake 12–14 minutes until the wraps are gold.",
-        "img": "img/meals/02.jpg"
+        "img": "img/steps/x02.jpg"
       },
       {
         "text": "Press two capers into the gap for eyes. Serve warm with mustard.",
@@ -145,7 +145,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Crack the shells all over but do not peel. Soak 20 minutes in water with blue colour.",
-        "img": "img/steps/fit-eggs.jpg"
+        "img": "img/steps/x03b.jpg"
       },
       {
         "text": "Peel. The cracks leave a web on the white.",
@@ -153,11 +153,11 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Halve the eggs. Mash yolks with mayo, mustard, vinegar, salt and pepper.",
-        "img": "img/steps/fit-deviled.jpg"
+        "img": "img/steps/x03c.jpg"
       },
       {
         "text": "Pipe the filling back in and finish with black sesame seeds.",
-        "img": "img/steps/fit-deviled.jpg"
+        "img": "img/steps/x03d.jpg"
       }
     ],
     "tweak": "Emma's twist: a splash of vinegar in the yolk so the filling is sharp, not flat."
@@ -213,7 +213,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Take the pan off the heat. Fold in the pasta and half the cheddar. Taste the filling — it should be a little saltier than you want on its own, because the pepper itself is bland.",
-        "img": "img/steps/04-3.jpg"
+        "img": "img/steps/x04.jpg"
       },
       {
         "text": "Stand the peppers in a snug baking dish. Spoon the filling in and press lightly so there are no air pockets. Set the lids back on. Pour a splash of water around the peppers so they steam instead of drying out.",
@@ -267,7 +267,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Press knuckle lines with a knife. Press an almond at one end as a nail.",
-        "img": "img/steps/fit-fingers.jpg"
+        "img": "img/steps/x05k.jpg"
       },
       {
         "text": "Brush with oil, dust with parmesan and bake 12–15 minutes.",
@@ -275,7 +275,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Serve warm with a bowl of marinara.",
-        "img": "img/meals/05.jpg"
+        "img": "img/steps/x05m.jpg"
       }
     ],
     "tweak": "Emma's twist: parmesan on the 'skin' so the fingers look wrinkled, not cartoon-green."
@@ -294,7 +294,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/06.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-mozz.jpg",
+        "src": "img/steps/r06a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r06b.jpg",
         "cap": ""
       }
     ],
@@ -308,15 +312,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Pat the mozzarella dry. Soften 30 seconds in warm water if they feel tight.",
-        "img": "img/steps/fit-mozz.jpg"
+        "img": "img/steps/r06a.jpg"
       },
       {
         "text": "Press one olive into the centre of each ball so it looks like an iris.",
-        "img": "img/steps/fit-mozz.jpg"
+        "img": "img/steps/r06b.jpg"
       },
       {
         "text": "Wrap a thin strip of prosciutto around the back like an eyelid.",
-        "img": "img/steps/fit-mozz.jpg"
+        "img": "img/steps/r06c.jpg"
       },
       {
         "text": "Skewer and set on a plate. Finish with oil and pepper.",
@@ -339,7 +343,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/07.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-dirt.jpg",
+        "src": "img/steps/r07a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r07b.jpg",
         "cap": ""
       }
     ],
@@ -354,15 +362,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Spoon pudding into clear cups, then a layer of crushed biscuits.",
-        "img": "img/steps/fit-dirt.jpg"
+        "img": "img/steps/r07a.jpg"
       },
       {
         "text": "Add whipped cream and another dirt layer.",
-        "img": "img/steps/fit-dirt.jpg"
+        "img": "img/steps/r07b.jpg"
       },
       {
         "text": "Write RIP on the rectangular biscuits.",
-        "img": "img/steps/fit-dirt.jpg"
+        "img": "img/steps/r07c.jpg"
       },
       {
         "text": "Stand a tombstone in each cup and tuck in a worm just before serving.",
@@ -385,7 +393,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/08.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-hat.jpg",
+        "src": "img/steps/r08a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r08b.jpg",
         "cap": ""
       }
     ],
@@ -398,15 +410,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Flip each biscuit so the flat side is up.",
-        "img": "img/steps/fit-hat.jpg"
+        "img": "img/steps/r08a.jpg"
       },
       {
         "text": "Pipe a ring of orange icing around the centre.",
-        "img": "img/steps/fit-hat.jpg"
+        "img": "img/steps/r08b.jpg"
       },
       {
         "text": "Press a kiss into the icing so it stands as the crown.",
-        "img": "img/steps/fit-hat.jpg"
+        "img": "img/steps/r08c.jpg"
       },
       {
         "text": "Pipe a thin brim of icing around the base. Let set 15 minutes.",
@@ -429,7 +441,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/09.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-web.jpg",
+        "src": "img/steps/r09a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r09b.jpg",
         "cap": ""
       }
     ],
@@ -442,15 +458,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Melt marshmallows with butter in a bowl, 30 seconds at a time, until stretchy.",
-        "img": "img/steps/fit-web.jpg"
+        "img": "img/steps/r09a.jpg"
       },
       {
         "text": "Pull threads of the melt over each cookie with two forks.",
-        "img": "img/steps/fit-web.jpg"
+        "img": "img/steps/r09b.jpg"
       },
       {
         "text": "Work fast — the web sets as it cools.",
-        "img": "img/steps/fit-web.jpg"
+        "img": "img/steps/r09c.jpg"
       },
       {
         "text": "Park a candy spider on one side of each cookie.",
@@ -498,7 +514,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Shape two feet on a tray — heel, arch, five toes.",
-        "img": "img/steps/fit-feet.jpg"
+        "img": "img/steps/x10.jpg"
       },
       {
         "text": "Press onion slices onto the toes as nails.",
@@ -529,7 +545,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/11.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-punch.jpg",
+        "src": "img/steps/r11a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r11b.jpg",
         "cap": ""
       }
     ],
@@ -544,15 +564,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "The night before, fill a clean glove with water and freeze it as a hand.",
-        "img": "img/steps/fit-punch.jpg"
+        "img": "img/steps/r11a.jpg"
       },
       {
         "text": "Stir ginger ale, pineapple and lime in a punch bowl.",
-        "img": "img/steps/fit-punch.jpg"
+        "img": "img/steps/r11b.jpg"
       },
       {
         "text": "Add sherbet scoops so the brew foams.",
-        "img": "img/steps/fit-punch.jpg"
+        "img": "img/steps/r11c.jpg"
       },
       {
         "text": "Float the ice hand and a few worms. Serve at once.",
@@ -601,7 +621,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Add two olive slices as eyes. Dust oregano.",
-        "img": "img/steps/fit-bagel.jpg"
+        "img": "img/steps/x12.jpg"
       },
       {
         "text": "Bake 6–8 minutes until the cheese slumps.",
@@ -624,7 +644,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/13.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-pretzel.jpg",
+        "src": "img/steps/r13a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r13b.jpg",
         "cap": ""
       }
     ],
@@ -637,15 +661,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Melt white chocolate with coconut oil until smooth.",
-        "img": "img/steps/fit-pretzel.jpg"
+        "img": "img/steps/r13a.jpg"
       },
       {
         "text": "Dip each rod two-thirds of the way. Let extra drip off.",
-        "img": "img/steps/fit-pretzel.jpg"
+        "img": "img/steps/r13b.jpg"
       },
       {
         "text": "Drizzle more chocolate in zig-zags for bandages.",
-        "img": "img/steps/fit-pretzel.jpg"
+        "img": "img/steps/r13c.jpg"
       },
       {
         "text": "Press on two eyes before it sets. Cool on paper.",
@@ -668,7 +692,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/14.jpg?v=4",
     "prep": [
       {
-        "src": "img/meals/14.jpg",
+        "src": "img/steps/r14a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r14b.jpg",
         "cap": ""
       }
     ],
@@ -682,15 +710,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Beat cream cheese, herbed cheese and sour cream until fluffy.",
-        "img": "img/meals/14.jpg"
+        "img": "img/steps/r14a.jpg"
       },
       {
         "text": "Line a small bowl with cling film and pack the mix in. Chill 1 hour.",
-        "img": "img/meals/14.jpg"
+        "img": "img/steps/r14b.jpg"
       },
       {
         "text": "Turn out onto a plate. Drag a spoon to make two brain hemispheres.",
-        "img": "img/meals/14.jpg"
+        "img": "img/steps/r14c.jpg"
       },
       {
         "text": "Spoon the jelly into the grooves. Serve with crackers.",
@@ -735,7 +763,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Warm a skillet. Lay a plain tortilla down, cover with cheese and filling.",
-        "img": "img/steps/fit-tortilla.jpg"
+        "img": "img/steps/x15a.jpg"
       },
       {
         "text": "Set the carved tortilla on top. Cook 2 minutes a side until the cheese welds it.",
@@ -743,7 +771,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Slide onto a plate. The face should glow with melted cheddar.",
-        "img": "img/meals/15.jpg"
+        "img": "img/steps/x15b.jpg"
       }
     ],
     "tweak": "Emma's twist: extra cheese right under the cut-outs so the eyes look lit from inside."
@@ -762,7 +790,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/16.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-banana.jpg",
+        "src": "img/steps/r16a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r16b.jpg",
         "cap": ""
       }
     ],
@@ -775,15 +807,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Push a stick into each banana half. Freeze 40 minutes.",
-        "img": "img/steps/fit-banana.jpg"
+        "img": "img/steps/r16a.jpg"
       },
       {
         "text": "Melt white chocolate. Dip each banana and let extra drip.",
-        "img": "img/steps/fit-banana.jpg"
+        "img": "img/steps/r16b.jpg"
       },
       {
         "text": "Add two chips for eyes and one for a mouth.",
-        "img": "img/steps/fit-banana.jpg"
+        "img": "img/steps/r16c.jpg"
       },
       {
         "text": "Freeze another 20 minutes until the coats snap.",
@@ -806,7 +838,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/17.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-skeleton.jpg",
+        "src": "img/steps/r17a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r17b.jpg",
         "cap": ""
       }
     ],
@@ -821,15 +857,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Set the dip bowl at the top of a long board as the head.",
-        "img": "img/steps/fit-skeleton.jpg"
+        "img": "img/steps/r17a.jpg"
       },
       {
         "text": "Build a cauliflower skull around it. Olive slices for eyes.",
-        "img": "img/steps/fit-skeleton.jpg"
+        "img": "img/steps/r17b.jpg"
       },
       {
         "text": "Lay celery as ribs, carrot sticks as arms and legs.",
-        "img": "img/steps/fit-skeleton.jpg"
+        "img": "img/steps/r17c.jpg"
       },
       {
         "text": "Fill gaps with tomatoes. Serve cold.",
@@ -881,11 +917,11 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Roast 35–40 minutes, turning once, until the skin is lacquered.",
-        "img": "img/steps/fit-wings.jpg"
+        "img": "img/steps/x18a.jpg"
       },
       {
         "text": "Finish in a hot pan 2 minutes if you want extra stick. Sesame on top.",
-        "img": "img/steps/fit-wings.jpg"
+        "img": "img/steps/x18b.jpg"
       }
     ],
     "tweak": "Emma's twist: a last kiss in the pan so the glaze clings like midnight."
@@ -904,7 +940,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/19.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-apple.jpg",
+        "src": "img/steps/r19a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r19b.jpg",
         "cap": ""
       }
     ],
@@ -920,15 +960,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Push a stick into each apple. Set a tray with greased paper.",
-        "img": "img/steps/fit-apple.jpg"
+        "img": "img/steps/r19a.jpg"
       },
       {
         "text": "Boil sugar, water and syrup to hard-crack, about 150°C.",
-        "img": "img/steps/fit-apple.jpg"
+        "img": "img/steps/r19b.jpg"
       },
       {
         "text": "Take off the heat. Stir in black colour and cinnamon.",
-        "img": "img/steps/fit-apple.jpg"
+        "img": "img/steps/r19c.jpg"
       },
       {
         "text": "Dip each apple, twirl, and stand on the tray to set.",
@@ -951,7 +991,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/20.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-brownie.jpg",
+        "src": "img/steps/r20a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r20b.jpg",
         "cap": ""
       }
     ],
@@ -965,15 +1009,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Cut brownies into rectangles.",
-        "img": "img/steps/fit-brownie.jpg"
+        "img": "img/steps/r20a.jpg"
       },
       {
         "text": "Beat icing sugar, milk and vanilla until pipeable.",
-        "img": "img/steps/fit-brownie.jpg"
+        "img": "img/steps/r20b.jpg"
       },
       {
         "text": "Zig-zag the icing across each square, leaving a gap.",
-        "img": "img/steps/fit-brownie.jpg"
+        "img": "img/steps/r20c.jpg"
       },
       {
         "text": "Set two eyes in the gap. Let the bandages dry 20 minutes.",
@@ -1020,11 +1064,11 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Chill 20 minutes. Roll into skinny fingers.",
-        "img": "img/steps/fit-fingers.jpg"
+        "img": "img/steps/x21a.jpg"
       },
       {
         "text": "Press knuckle lines. Stick an almond at the tip with a dab of jam.",
-        "img": "img/steps/fit-fingers.jpg"
+        "img": "img/steps/x21b.jpg"
       },
       {
         "text": "Bake at 175°C for 12 minutes. Cool on the tray.",
@@ -1047,7 +1091,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/22.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-pizza.jpg",
+        "src": "img/steps/r22a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r22b.jpg",
         "cap": ""
       }
     ],
@@ -1062,11 +1110,11 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Heat the oven to 220°C. Sauce the base and cover with mozzarella.",
-        "img": "img/steps/fit-pizza.jpg"
+        "img": "img/steps/r22a.jpg"
       },
       {
         "text": "Bake 10–12 minutes until the edge blisters.",
-        "img": "img/steps/fit-pizza.jpg"
+        "img": "img/steps/r22b.jpg"
       },
       {
         "text": "Pipe sour cream in rings, then drag a toothpick from the centre out to make a web.",
@@ -1074,7 +1122,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Set an olive in the middle as the spider.",
-        "img": "img/steps/fit-pizza.jpg"
+        "img": "img/meals/22.jpg"
       }
     ],
     "tweak": "Emma's twist: the web goes on after baking so it stays white and sharp."
@@ -1093,7 +1141,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/23.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-potato.jpg",
+        "src": "img/steps/r23a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r23b.jpg",
         "cap": ""
       }
     ],
@@ -1107,11 +1159,11 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Boil potatoes until soft. Mash with butter, milk, salt and pepper.",
-        "img": "img/steps/fit-potato.jpg"
+        "img": "img/steps/r23a.jpg"
       },
       {
         "text": "Spoon into a bag and pipe tall blobs onto a tray.",
-        "img": "img/steps/fit-potato.jpg"
+        "img": "img/steps/r23b.jpg"
       },
       {
         "text": "Add two eyes. Bake 12 minutes at 200°C so the tips brown.",
@@ -1156,7 +1208,7 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Wrap pastry strips around, leaving a face gap.",
-        "img": "img/steps/fit-jalapeno.jpg"
+        "img": "img/steps/x24.jpg"
       },
       {
         "text": "Bake 14–16 minutes. Add eyes while hot.",
@@ -1179,7 +1231,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/25.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-board.jpg",
+        "src": "img/steps/r25a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r25b.jpg",
         "cap": ""
       }
     ],
@@ -1194,15 +1250,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Put bowls of jam and olives down first.",
-        "img": "img/steps/fit-board.jpg"
+        "img": "img/steps/r25a.jpg"
       },
       {
         "text": "Add cheese in two corners, fruit in two others.",
-        "img": "img/steps/fit-board.jpg"
+        "img": "img/steps/r25b.jpg"
       },
       {
         "text": "Fill the gaps with crackers and the spooky leftovers.",
-        "img": "img/steps/fit-board.jpg"
+        "img": "img/steps/r25c.jpg"
       },
       {
         "text": "Keep one empty patch so it looks styled, not stuffed.",
@@ -1225,7 +1281,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/26.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-cheese.jpg",
+        "src": "img/steps/r26a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r26b.jpg",
         "cap": ""
       }
     ],
@@ -1240,15 +1300,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Beat cheeses, paprika and soy. Chill 1 hour.",
-        "img": "img/steps/fit-cheese.jpg"
+        "img": "img/steps/r26a.jpg"
       },
       {
         "text": "Roll into a ball, then in more paprika.",
-        "img": "img/steps/fit-cheese.jpg"
+        "img": "img/steps/r26b.jpg"
       },
       {
         "text": "Press shallow grooves from top to bottom with a spoon.",
-        "img": "img/steps/fit-cheese.jpg"
+        "img": "img/steps/r26c.jpg"
       },
       {
         "text": "Push in the pretzel stem. Serve with crackers.",
@@ -1271,7 +1331,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/27.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-frank.jpg",
+        "src": "img/steps/r27a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r27b.jpg",
         "cap": ""
       }
     ],
@@ -1286,15 +1350,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Melt butter and marshmallows. Tint green. Fold in puffed rice.",
-        "img": "img/steps/fit-frank.jpg"
+        "img": "img/steps/r27a.jpg"
       },
       {
         "text": "Press into a greased tray. Cool 15 minutes and cut rectangles.",
-        "img": "img/steps/fit-frank.jpg"
+        "img": "img/steps/r27b.jpg"
       },
       {
         "text": "Dip the top edge in melted chocolate for hair.",
-        "img": "img/steps/fit-frank.jpg"
+        "img": "img/steps/r27c.jpg"
       },
       {
         "text": "Add eyes and a tiny stitch mouth.",
@@ -1317,7 +1381,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/28.jpg?v=4",
     "prep": [
       {
-        "src": "img/steps/fit-cider.jpg",
+        "src": "img/steps/r28a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r28b.jpg",
         "cap": ""
       }
     ],
@@ -1332,11 +1400,11 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Pour juice into a pot with orange, cloves, cinnamon and star anise.",
-        "img": "img/steps/fit-cider.jpg"
+        "img": "img/steps/r28a.jpg"
       },
       {
         "text": "Simmer gently 15 minutes. Do not boil hard.",
-        "img": "img/steps/fit-cider.jpg"
+        "img": "img/steps/r28b.jpg"
       },
       {
         "text": "Stir in honey. Ladle into mugs.",
@@ -1359,7 +1427,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/29.jpg?v=4",
     "prep": [
       {
-        "src": "img/meals/29.jpg",
+        "src": "img/steps/r29a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r29b.jpg",
         "cap": ""
       }
     ],
@@ -1374,11 +1446,11 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Spread beans in a shallow dish, then sour cream, salsa, cheese and lettuce.",
-        "img": "img/meals/29.jpg"
+        "img": "img/steps/r29a.jpg"
       },
       {
         "text": "Stand chip tombstones along the back.",
-        "img": "img/meals/29.jpg"
+        "img": "img/steps/r29b.jpg"
       },
       {
         "text": "Serve the rest of the chips on the side.",
@@ -1401,7 +1473,11 @@ window.EMMA_MEALS = [
     "img": "img/meals/30.jpg?v=4",
     "prep": [
       {
-        "src": "img/meals/30.jpg",
+        "src": "img/steps/r30a.jpg",
+        "cap": ""
+      },
+      {
+        "src": "img/steps/r30b.jpg",
         "cap": ""
       }
     ],
@@ -1416,15 +1492,15 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "If using a whole pumpkin, cut a lid and scoop the seeds. Roast the shell 20 minutes at 180°C.",
-        "img": "img/meals/30.jpg"
+        "img": "img/steps/r30a.jpg"
       },
       {
         "text": "Cook onion and garlic in oil. Add pumpkin cubes and stock. Simmer 20 minutes.",
-        "img": "img/meals/30.jpg"
+        "img": "img/steps/r30b.jpg"
       },
       {
         "text": "Blend until silk. Stir in cream, nutmeg, salt.",
-        "img": "img/meals/30.jpg"
+        "img": "img/steps/r30c.jpg"
       },
       {
         "text": "Ladle into the roasted shell. Seeds on top.",
@@ -1470,11 +1546,11 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Pipe a tall swirl on each cupcake.",
-        "img": "img/steps/fit-cupcake.jpg"
+        "img": "img/steps/x31a.jpg"
       },
       {
         "text": "Press two chips in for eyes. A third chip makes a howling mouth.",
-        "img": "img/steps/fit-cupcake.jpg"
+        "img": "img/steps/x31b.jpg"
       },
       {
         "text": "Serve the same night. Ghosts do not keep well in the fridge.",
