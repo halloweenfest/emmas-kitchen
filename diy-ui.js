@@ -14,13 +14,15 @@ function renderDiy() {
   const box = document.getElementById("diy-list");
   if (!box) return;
   if (count) count.textContent = list.length + " projects from Emma's kitchen table";
+  document.querySelectorAll("#diy-tiles [data-diy-type]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.diyType === diyActive)));
   box.innerHTML = list.map(d => `
     <article class="card">
-      <img src="${d.img}" alt="${d.title}" loading="lazy" onerror="this.src='img/meals/08.jpg'" />
+      <img src="${d.img}" alt="" width="900" height="600" loading="lazy" decoding="async" onerror="this.src='img/meals/08.jpg'" />
       <div>
-        <h3>${d.title}</h3>
+        <p class="card-meta">${d.time} · Makes ${d.makes}</p>
+        <h3><a href="#diy-${d.id}" data-diy="${d.id}">${d.title}</a></h3>
         <p>${d.blurb}</p>
-        <button class="more" data-diy="${d.id}" type="button">Continue Reading</button>
+        <span class="more" aria-hidden="true">See the make →</span>
       </div>
     </article>`).join("");
 }
@@ -31,8 +33,8 @@ function showDiy(id) {
   const materials = (d.materials || []).map(i => `<li>${i}</li>`).join("");
   const steps = (d.steps || []).map((s, i) => {
     const text = typeof s === "string" ? s : s.text;
-    const img = (s && s.img) ? `<img class="step-img" src="${s.img}" alt="" />` : "";
-    return `<li><span class="n">${i + 1}</span><div><p>${text}</p>${img}</div></li>`;
+    const img = (s && s.img) ? `<img class="step-img" src="${s.img}" alt="" width="1000" height="667" loading="lazy" decoding="async" />` : "";
+    return `<li><span class="n" aria-hidden="true">${i + 1}</span><div><p>${text}</p>${img}</div></li>`;
   }).join("");
   const stepText = (d.steps || []).map(s => typeof s === "string" ? s : s.text);
   const related = (typeof relatedShop === "function")
@@ -45,7 +47,7 @@ function showDiy(id) {
       <button class="back" type="button" id="backBtn">← DIY</button>
       <span>Make</span>
     </div>
-    <img class="hero" src="${d.img}" alt="${d.title}" onerror="this.src='img/meals/08.jpg'" />
+    <img class="hero" src="${d.img}" alt="${d.title.replace(/"/g, "&quot;")}" width="900" height="600" onerror="this.src='img/meals/08.jpg'" />
     <div class="recipe-wrap">
     <div class="recipe-body">
       <p class="eyebrow">DIY</p>
@@ -53,11 +55,11 @@ function showDiy(id) {
       <p class="meta">${d.time} · Makes ${d.makes}</p>
       <p class="quote">“${d.hook}”</p>
       <p class="lede-r">${d.blurb}</p>
-      <h3>You need</h3>
-      <ul class="ings">${materials}</ul>
+      <section class="ing-box"><h3>You need</h3>
+      <ul class="ings">${materials}</ul></section>
       <h3>How to build</h3>
       <ol class="steps">${steps}</ol>
-      <p class="tweak">${d.tweak || ""}</p>
+      ${d.tweak ? `<p class="tweak">${d.tweak}</p>` : ""}
     </div>
     <aside class="need">
       <p class="eyebrow">For this make</p>
@@ -65,16 +67,15 @@ function showDiy(id) {
       <div class="need-list">${shop}</div>
     </aside>
     </div>`;
-  page.classList.add("open");
-  document.body.classList.add("reading");
-  page.scrollTop = 0;
   document.getElementById("backBtn").onclick = () => {
     history.pushState("", document.title, location.pathname + location.search + "#diy");
-    page.classList.remove("open");
-    page.innerHTML = "";
-    document.body.classList.remove("reading");
+    if (typeof closeOverlay === "function") closeOverlay(page);
     showSection("diy");
   };
+  if (typeof openOverlay === "function") openOverlay(page, d.title);
+  if (window.posthog && typeof posthog.capture === "function") {
+    posthog.capture("diy_opened", { id: d.id, title: d.title, type: d.type });
+  }
 }
 
 function openDiy(id) {

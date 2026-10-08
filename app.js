@@ -10,13 +10,21 @@ const THEMES = {
   newyear: { label: "New Year", ribbon: "\u2728   \uD83E\uDD42   \u2728", props: ["\u2728", "\uD83E\uDD42", "\uD83C\uDF86", "\u2B50"] },
   easter: { label: "Easter", ribbon: "\uD83C\uDF38   \uD83D\uDC23   \uD83C\uDF38", props: ["\uD83D\uDC23", "\uD83C\uDF38", "\uD83E\uDD5A", "\uD83D\uDC30"] }
 };
+function store(kind, key, val) {
+  try {
+    const st = window[kind];
+    if (val === undefined) return st.getItem(key);
+    st.setItem(key, val);
+  } catch (e) { return null; }
+}
+function esc(t) { return String(t == null ? "" : t).replace(/"/g, "&quot;"); }
 function placeProps(list) {
   ["p1","p2","p3","p4"].forEach((id,i) => { const el = document.getElementById(id); if (el) el.textContent = list[i] || ""; });
 }
 function applyTheme(id) {
   const theme = THEMES[id] || THEMES.halloween;
   document.documentElement.dataset.theme = id;
-  localStorage.setItem("emma-theme", id);
+  store("localStorage", "emma-theme", id);
   document.getElementById("festiveLabel").textContent = theme.label;
   document.getElementById("ribbon").textContent = theme.ribbon;
   const season = document.getElementById("season");
@@ -113,7 +121,7 @@ function shopUrl(item) {
 function shopLinks(items) {
   const list = items && items.length ? items : SHOP;
   const extra = inAppBrowser() ? "" : " target=\"_blank\" rel=\"noopener sponsored\"";
-  return list.map(s => `<a href="${shopUrl(s)}"${extra}>${s.name}</a>`).join("");
+  return list.map(s => `<a href="${shopUrl(s)}"${extra}><img src="img/shop/${s.file}" alt="" width="56" height="56" loading="lazy" decoding="async" /><span>${s.name}</span></a>`).join("");
 }
 function relatedShop(text) {
   const blob = String(text || "").toLowerCase();
@@ -145,7 +153,7 @@ function relatedShop(text) {
   };
   const scored = SHOP.map(s => ({
     s,
-    score: (keys[s.name] || [s.name.toLowerCase()]).reduce((n, k) => n + (blob.includes(k) ? 1 : 0), 0)
+    score: (keys[s.name] || [s.name.toLowerCase()]).reduce((n, k) => n + (new RegExp("\\b" + k).test(blob) ? 1 : 0), 0)
   })).filter(x => x.score > 0).sort((a, b) => b.score - a.score);
   const picks = scored.map(x => x.s);
   return (picks.length ? picks : SHOP.slice(0, 4)).slice(0, 6);
@@ -159,28 +167,33 @@ function shopCards() {
     (groups[g] = groups[g] || []).push(s);
   });
   return order.filter(g => groups[g]).map(g => {
-    const cards = groups[g].map(s => `<a class="shop-card" href="${shopUrl(s)}"${extra}><img src="img/shop/${s.file}" alt="${s.name}"><span>${s.name}</span></a>`).join("");
-    return `<h3 class="shop-h">${g}</h3><div class="shop-grid">${cards}</div>`;
+    const cards = groups[g].map(s => `<a class="shop-card" href="${shopUrl(s)}"${extra}><img src="img/shop/${s.file}" alt="" width="240" height="180" loading="lazy" decoding="async" /><span class="shop-name">${s.name}</span><span class="shop-go">View on Amazon</span></a>`).join("");
+    return `<h3 class="shop-h">${g} <small>${groups[g].length}</small></h3><div class="shop-grid">${cards}</div>`;
   }).join("");
 }
 function paintShop() {
   const grid = document.getElementById("shop-groups");
   if (grid) grid.innerHTML = shopCards();
   const fine = document.querySelector(".shop .fine");
-  if (fine) fine.textContent = "Shop links open " + visitor.store.label + " for your country. " + SHOP.length + " things this site uses.";
+  if (fine) fine.textContent = "Shop links open " + visitor.store.label + " for your country. " + SHOP.length + " things this site uses. As an Amazon Associate, Emma earns from qualifying purchases.";
 }
 async function detectCountry() {
-  const cached = sessionStorage.getItem("emma-country");
+  const cached = store("sessionStorage", "emma-country");
   if (cached) { visitor = { country: cached, store: storeFor(cached) }; paintShop(); return; }
   let code = "";
-  try {
-    const t = await fetch("https://www.cloudflare.com/cdn-cgi/trace").then(r => r.text());
-    const line = t.split("\n").find(l => l.startsWith("loc="));
-    if (line) code = line.slice(4).trim();
-  } catch (e) {}
+  // Same-origin trace first (Cloudflare Pages serves it and ad blockers leave it alone), then cloudflare.com.
+  const traces = location.protocol === "https:" ? ["/cdn-cgi/trace", "https://www.cloudflare.com/cdn-cgi/trace"] : ["https://www.cloudflare.com/cdn-cgi/trace"];
+  for (const url of traces) {
+    try {
+      const r = await fetch(url);
+      if (!r.ok) continue;
+      const line = (await r.text()).split("\n").find(l => l.startsWith("loc="));
+      if (line) { code = line.slice(4).trim(); break; }
+    } catch (e) {}
+  }
   code = (code || "IN").toUpperCase();
   if (code === "XX" || code === "T1") code = "IN";
-  sessionStorage.setItem("emma-country", code);
+  store("sessionStorage", "emma-country", code);
   visitor = { country: code, store: storeFor(code) };
   paintShop();
 }
@@ -188,15 +201,38 @@ let active = "all";
 function render() {
   const list = EMMA_MEALS.filter(m => active === "all" || m.type === active);
   document.getElementById("count").textContent = list.length + " recipes";
+  document.querySelectorAll("#start [data-cat]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.cat === active)));
   document.getElementById("list").innerHTML = list.map(m => `
     <article class="card">
-      <img src="${pic(m)}" alt="${m.title}" loading="lazy" />
+      <img src="${pic(m)}" alt="" width="900" height="600" loading="lazy" decoding="async" />
       <div>
-        <h3>${m.title}</h3>
+        <p class="card-meta">Night ${m.night} \u00b7 ${m.time}</p>
+        <h3><a href="#night-${m.night}" data-night="${m.night}">${m.title}</a></h3>
         <p>${m.blurb}</p>
-        <button class="more" data-night="${m.night}" type="button">Continue Reading</button>
+        <span class="more" aria-hidden="true">Read the recipe \u2192</span>
       </div>
     </article>`).join("");
+}
+const BASE_TITLE = document.title;
+let lastFocus = null;
+function openOverlay(page, title) {
+  if (!page.classList.contains("open")) lastFocus = document.activeElement;
+  page.classList.add("open");
+  document.body.classList.add("reading");
+  page.scrollTop = 0;
+  page.setAttribute("aria-label", title);
+  document.title = title + " \u2014 Emma's Festive Vibes";
+  page.setAttribute("tabindex", "-1");
+  page.focus({ preventScroll: true });
+}
+function closeOverlay(page) {
+  const wasOpen = page.classList.contains("open");
+  page.classList.remove("open");
+  page.innerHTML = "";
+  document.body.classList.remove("reading");
+  document.title = BASE_TITLE;
+  if (wasOpen && lastFocus && document.contains(lastFocus)) lastFocus.focus({ preventScroll: true });
+  lastFocus = null;
 }
 function openMeal(night) {
   if (location.hash !== "#night-" + night) location.hash = "night-" + night;
@@ -209,23 +245,23 @@ function closeMeal() {
 function showRecipe(night) {
   const m = EMMA_MEALS.find(x => x.night === Number(night));
   if (!m) return hideRecipe();
-  const prep = (m.prep || []).map(p => {
-    const src = typeof p === "string" ? p : p.src;
-    const cap = typeof p === "string" ? "" : (p.cap || "");
-    return `<figure><img src="${src}" alt="${cap || m.title}" onerror="this.parentNode.style.display='none'" /><figcaption>${cap}</figcaption></figure>`;
-  }).join("");
+  // The prep gallery repeated the first two method photos on every recipe; only show prep shots the method does not use.
+  const stepSrcs = (m.steps || []).map(s => s && s.img && s.img.split("?")[0]);
+  const prep = (m.prep || []).map(p => typeof p === "string" ? { src: p, cap: "" } : p)
+    .filter(p => stepSrcs.indexOf(p.src.split("?")[0]) === -1)
+    .map(p => `<figure><img src="${p.src}" alt="${esc(p.cap || m.title)}" width="1000" height="667" loading="lazy" decoding="async" onerror="this.parentNode.style.display='none'" />${p.cap ? `<figcaption>${p.cap}</figcaption>` : ""}</figure>`).join("");
   const ingredients = (m.ingredients || []).map(i => `<li>${i}</li>`).join("");
   const steps = (m.steps || []).map((s, i) => {
     const text = typeof s === "string" ? s : s.text;
-    const img = (s && s.img) ? `<img class="step-img" src="${s.img}" alt="" />` : "";
-    return `<li><span class="n">${i + 1}</span><div><p>${text}</p>${img}</div></li>`;
+    const img = (s && s.img) ? `<img class="step-img" src="${s.img}" alt="" width="1000" height="667" loading="lazy" decoding="async" />` : "";
+    return `<li><span class="n" aria-hidden="true">${i + 1}</span><div><p>${text}</p>${img}</div></li>`;
   }).join("");
   const stepText = (m.steps || []).map(s => typeof s === "string" ? s : s.text);
   const related = relatedShop([m.title, m.blurb, ...(m.ingredients || []), ...stepText].join(" "));
   const page = document.getElementById("recipe");
   page.innerHTML = `
     <div class="recipe-bar"><button class="back" type="button" id="backBtn">\u2190 Kitchen</button><span>Night ${m.night}</span></div>
-    <img class="hero" src="${pic(m)}" alt="${m.title}" />
+    <img class="hero" src="${pic(m)}" alt="${esc(m.title)}" width="900" height="600" />
     <div class="recipe-wrap">
     <div class="recipe-body">
       <p class="eyebrow">Night ${m.night} \u00b7 ${m.date}</p>
@@ -233,13 +269,12 @@ function showRecipe(night) {
       <p class="meta">${m.time} \u00b7 Serves ${m.serves}</p>
       <p class="quote">\u201c${m.hook}\u201d</p>
       <p class="lede-r">${m.blurb}</p>
-      <h3>In the kitchen</h3>
-      <div class="prep">${prep}</div>
-      <h3>Ingredients</h3>
-      <ul class="ings">${ingredients}</ul>
+      ${prep ? `<h3>In the kitchen</h3><div class="prep">${prep}</div>` : ""}
+      <section class="ing-box"><h3>Ingredients</h3>
+      <ul class="ings">${ingredients}</ul></section>
       <h3>Method, step by step</h3>
       <ol class="steps">${steps}</ol>
-      <p class="tweak">${m.tweak || ""}</p>
+      ${m.tweak ? `<p class="tweak">${m.tweak}</p>` : ""}
       <aside class="haunt"><p>Food in the oven? <a href="https://halloweenfest.github.io/">Play Holly Haunt</a></p></aside>
     </div>
     <aside class="need">
@@ -248,19 +283,14 @@ function showRecipe(night) {
       <div class="need-list">${shopLinks(related)}</div>
     </aside>
     </div>`;
-  page.classList.add("open");
-  document.body.classList.add("reading");
-  page.scrollTop = 0;
   document.getElementById("backBtn").onclick = closeMeal;
+  openOverlay(page, m.title);
   if (window.posthog && typeof posthog.capture === "function") {
     posthog.capture("recipe_opened", { night: m.night, title: m.title, type: m.type });
   }
 }
 function hideRecipe() {
-  const page = document.getElementById("recipe");
-  page.classList.remove("open");
-  page.innerHTML = "";
-  document.body.classList.remove("reading");
+  closeOverlay(document.getElementById("recipe"));
 }
 function onHash() {
   const match = location.hash.match(/^#night-(\d+)/);
@@ -269,9 +299,11 @@ function onHash() {
 document.addEventListener("DOMContentLoaded", () => {
   const menu = document.getElementById("festiveMenu");
   menu.innerHTML = Object.entries(THEMES).map(([id, t]) => `<button type="button" data-theme-id="${id}">${t.label}</button>`).join("");
-  document.getElementById("festiveBtn").onclick = e => { e.stopPropagation(); document.getElementById("festive").classList.toggle("open"); };
-  menu.onclick = e => { const id = e.target.dataset.themeId; if (!id) return; applyTheme(id); document.getElementById("festive").classList.remove("open"); };
-  document.addEventListener("click", () => document.getElementById("festive").classList.remove("open"));
+  const festBtn = document.getElementById("festiveBtn");
+  const setFest = open => { document.getElementById("festive").classList.toggle("open", open); festBtn.setAttribute("aria-expanded", String(open)); };
+  festBtn.onclick = e => { e.stopPropagation(); setFest(!document.getElementById("festive").classList.contains("open")); };
+  menu.onclick = e => { const id = e.target.dataset.themeId; if (!id) return; applyTheme(id); setFest(false); festBtn.focus(); };
+  document.addEventListener("click", () => setFest(false));
   document.querySelector(".tiles").onclick = e => {
     const b = e.target.closest("[data-cat]");
     if (!b) return;
@@ -284,7 +316,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (b) openMeal(Number(b.dataset.night));
   };
   window.addEventListener("hashchange", onHash);
-  applyTheme(localStorage.getItem("emma-theme") || "halloween");
+  document.addEventListener("keydown", e => {
+    if (e.key !== "Escape") return;
+    const fest = document.getElementById("festive");
+    if (fest.classList.contains("open")) { fest.classList.remove("open"); document.getElementById("festiveBtn").setAttribute("aria-expanded", "false"); return; }
+    const back = document.getElementById("backBtn");
+    if (back && document.getElementById("recipe").classList.contains("open")) back.click();
+  });
+  applyTheme(store("localStorage", "emma-theme") || "halloween");
   render();
   paintShop();
   detectCountry();
