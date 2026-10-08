@@ -289,6 +289,31 @@ function showRecipe(night) {
     posthog.capture("recipe_opened", { night: m.night, title: m.title, type: m.type });
   }
 }
+// Newsletter signups go to PostHog: the email becomes a person property and a
+// newsletter_signup event, so the list lives under People in the PostHog project.
+function setupNewsletter() {
+  const form = document.getElementById("mail-form");
+  if (!form) return;
+  const input = document.getElementById("mail-in");
+  const msg = document.getElementById("mail-msg");
+  const btn = form.querySelector("button");
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const email = input.value.trim().toLowerCase();
+    if (!input.checkValidity() || !email) { msg.textContent = "Please enter a valid email address."; return; }
+    const ph = window.posthog;
+    if (!ph || typeof ph.capture !== "function" || !ph.__loaded) {
+      msg.textContent = "We couldn’t save that (an ad blocker may be stopping it). Email info@merahissa.co.in and we’ll add you.";
+      return;
+    }
+    ph.identify(email, { email, newsletter: true, newsletter_signed_up_at: new Date().toISOString() });
+    ph.capture("newsletter_signup", { email, page: location.pathname + location.hash }, { send_instantly: true });
+    btn.textContent = "Subscribed";
+    btn.disabled = true;
+    input.disabled = true;
+    msg.textContent = "You’re on the list. New recipes will come to " + email + ".";
+  });
+}
 function hideRecipe() {
   closeOverlay(document.getElementById("recipe"));
 }
@@ -297,6 +322,7 @@ function onHash() {
   if (match) showRecipe(match[1]); else hideRecipe();
 }
 document.addEventListener("DOMContentLoaded", () => {
+  setupNewsletter();
   const menu = document.getElementById("festiveMenu");
   menu.innerHTML = Object.entries(THEMES).map(([id, t]) => `<button type="button" data-theme-id="${id}">${t.label}</button>`).join("");
   const festBtn = document.getElementById("festiveBtn");

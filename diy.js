@@ -29,10 +29,12 @@ window.EMMA_DIY = [
         "text": "Let it dry hard, then pop the balloon."
       },
       {
-        "text": "Draw two eyes. Leave the mouth off."
+        "text": "Draw two eyes. Leave the mouth off.",
+        "img": "img/steps/d01-4.jpg"
       },
       {
-        "text": "Set a battery tea light inside. Hang it from clear thread."
+        "text": "Set a battery tea light inside. Hang it from clear thread.",
+        "img": "img/steps/d01-5.jpg"
       },
       {
         "text": "Keep it away from a real flame.",
@@ -66,13 +68,16 @@ window.EMMA_DIY = [
         "img": "img/steps/d02b.jpg"
       },
       {
-        "text": "Trim the bottom into an uneven hem."
+        "text": "Trim the bottom into an uneven hem.",
+        "img": "img/steps/d02-3.jpg"
       },
       {
-        "text": "Draw two small eyes."
+        "text": "Draw two small eyes.",
+        "img": "img/steps/d02-4.jpg"
       },
       {
-        "text": "Space them a palm apart."
+        "text": "Space them a palm apart.",
+        "img": "img/steps/d02-5.jpg"
       },
       {
         "text": "Hang away from the candle.",
@@ -102,7 +107,8 @@ window.EMMA_DIY = [
         "img": "img/steps/d03a.jpg"
       },
       {
-        "text": "Cut the eyes, nose, and smile wide enough to glow."
+        "text": "Cut the eyes, nose, and smile wide enough to glow.",
+        "img": "img/steps/d03-2.jpg"
       },
       {
         "text": "Scrunch the top into a stem and tape it."

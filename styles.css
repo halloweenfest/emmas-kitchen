@@ -353,7 +353,11 @@ html.in-ig .nav-ig { display: none; }
 }
 .mail .eyebrow { color: #ffd9b8; }
 .mail h2 { font-family: var(--serif); font-size: clamp(24px, 4vw, 30px); font-weight: 500; line-height: 1.15; margin-top: 4px; }
-.mail form { display: flex; gap: 8px; flex: 1 1 300px; max-width: 440px; }
+.mail form { display: flex; flex-wrap: wrap; gap: 8px; flex: 1 1 300px; max-width: 440px; }
+.mail input { flex: 1 1 200px; min-width: 0; }
+.mail-msg { flex-basis: 100%; margin: 0; font-size: 14px; color: #ffd9b8; min-height: 0; }
+.mail-msg:empty { display: none; }
+.mail button:disabled { cursor: default; filter: none; opacity: .85; }
 .mail input {
   border: 0; padding: 13px 16px; min-width: 0; flex: 1; font: 16px var(--sans);
   border-radius: 999px; background: var(--cream); color: #2a221c;
