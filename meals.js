@@ -466,11 +466,11 @@ window.EMMA_MEALS = [
       },
       {
         "text": "Work fast — the web sets as it cools.",
-        "img": "img/steps/r09c.jpg"
+        "img": "img/steps/fit-web.jpg"
       },
       {
         "text": "Park a candy spider on one side of each cookie.",
-        "img": "img/steps/fit-web.jpg"
+        "img": "img/steps/r09c.jpg"
       }
     ],
     "tweak": "Emma's twist: a teaspoon of butter in the marshmallow so the web stretches instead of clumping."
@@ -510,7 +510,7 @@ window.EMMA_MEALS = [
     "steps": [
       {
         "text": "Heat the oven to 180°C. Mix mince, egg, crumbs, onion, ketchup, soy, salt and paprika.",
-        "img": "img/steps/fit-feet.jpg"
+        "img": "img/steps/fit-oven.jpg"
       },
       {
         "text": "Shape two feet on a tray — heel, arch, five toes.",
@@ -521,8 +521,7 @@ window.EMMA_MEALS = [
         "img": "img/steps/fit-feet.jpg"
       },
       {
-        "text": "Bake 40 minutes. Brush with ketchup and bake 10 minutes more.",
-        "img": "img/steps/fit-oven.jpg"
+        "text": "Bake 40 minutes. Brush with ketchup and bake 10 minutes more."
       },
       {
         "text": "Rest 8 minutes before slicing so it holds the shape.",
@@ -912,8 +911,7 @@ window.EMMA_MEALS = [
         "img": "img/steps/fit-oven.jpg"
       },
       {
-        "text": "Toss with soy, honey, vinegar, garlic, paprika and chilli.",
-        "img": "img/steps/fit-wings.jpg"
+        "text": "Toss with soy, honey, vinegar, garlic, paprika and chilli."
       },
       {
         "text": "Roast 35–40 minutes, turning once, until the skin is lacquered.",
@@ -1059,8 +1057,7 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Cream butter and sugar. Beat in egg and vanilla, then flour.",
-        "img": "img/steps/fit-fingers.jpg"
+        "text": "Cream butter and sugar. Beat in egg and vanilla, then flour."
       },
       {
         "text": "Chill 20 minutes. Roll into skinny fingers.",
@@ -1203,8 +1200,7 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Heat the oven to 190°C. Mix the two cheeses and fill each half.",
-        "img": "img/steps/fit-jalapeno.jpg"
+        "text": "Heat the oven to 190°C. Mix the two cheeses and fill each half."
       },
       {
         "text": "Wrap pastry strips around, leaving a face gap.",
@@ -1541,8 +1537,7 @@ window.EMMA_MEALS = [
     ],
     "steps": [
       {
-        "text": "Beat butter, sugar, vanilla and milk until the frosting stands up.",
-        "img": "img/steps/fit-cupcake.jpg"
+        "text": "Beat butter, sugar, vanilla and milk until the frosting stands up."
       },
       {
         "text": "Pipe a tall swirl on each cupcake.",
