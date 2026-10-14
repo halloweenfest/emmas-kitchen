@@ -1,15 +1,4 @@
 const IMGS = Object.fromEntries(Array.from({length:31}, (_,i) => [i+1, `img/meals/${String(i+1).padStart(2,"0")}.jpg?v=4`]));
-const THEMES = {
-  kitchen: { label: "Everyday", ribbon: "\uD83C\uDF3F   \uD83C\uDF4B   \uD83C\uDF3F", props: ["\uD83C\uDF4B", "\uD83C\uDF3F", "\uD83E\uDDC4", "\uD83C\uDF5E"] },
-  halloween: { label: "Halloween", ribbon: "\uD83C\uDF83   \uD83D\uDD6F   \uD83C\uDF83", props: ["\uD83C\uDF83", "\uD83E\uDD87", "\uD83D\uDD6F", "\uD83D\uDD78"] },
-  diwali: { label: "Diwali", ribbon: "\uD83E\uDE94   \u2728   \uD83E\uDE94", props: ["\uD83E\uDE94", "\u2728", "\uD83D\uDD6F", "\uD83C\uDF15"] },
-  christmas: { label: "Christmas", ribbon: "\uD83C\uDF84   \u2B50   \uD83C\uDF84", props: ["\uD83C\uDF84", "\uD83C\uDF81", "\u2744\uFE0F", "\u2B50"] },
-  holi: { label: "Holi", ribbon: "\uD83C\uDF38   \uD83C\uDFA8   \uD83C\uDF38", props: ["\uD83C\uDF38", "\uD83C\uDFA8", "\uD83D\uDC9B", "\uD83E\uDEF6"] },
-  eid: { label: "Eid", ribbon: "\uD83C\uDF19   \u2728   \uD83C\uDF19", props: ["\uD83C\uDF19", "\u2728", "\uD83D\uDD4C", "\uD83D\uDD6F"] },
-  thanksgiving: { label: "Thanksgiving", ribbon: "\uD83C\uDF42   \uD83E\uDD67   \uD83C\uDF42", props: ["\uD83C\uDF42", "\uD83E\uDD83", "\uD83E\uDD67", "\uD83C\uDF41"] },
-  newyear: { label: "New Year", ribbon: "\u2728   \uD83E\uDD42   \u2728", props: ["\u2728", "\uD83E\uDD42", "\uD83C\uDF86", "\u2B50"] },
-  easter: { label: "Easter", ribbon: "\uD83C\uDF38   \uD83D\uDC23   \uD83C\uDF38", props: ["\uD83D\uDC23", "\uD83C\uDF38", "\uD83E\uDD5A", "\uD83D\uDC30"] }
-};
 function store(kind, key, val) {
   try {
     const st = window[kind];
@@ -18,24 +7,6 @@ function store(kind, key, val) {
   } catch (e) { return null; }
 }
 function esc(t) { return String(t == null ? "" : t).replace(/"/g, "&quot;"); }
-function placeProps(list) {
-  ["p1","p2","p3","p4"].forEach((id,i) => { const el = document.getElementById(id); if (el) el.textContent = list[i] || ""; });
-}
-function applyTheme(id) {
-  const theme = THEMES[id] || THEMES.halloween;
-  document.documentElement.dataset.theme = id;
-  store("localStorage", "emma-theme", id);
-  document.getElementById("festiveLabel").textContent = theme.label;
-  document.getElementById("ribbon").textContent = theme.ribbon;
-  const season = document.getElementById("season");
-  if (season) {
-    season.hidden = id === "kitchen";
-    season.textContent = id === "halloween" ? "Halloween" : theme.label;
-    season.classList.toggle("on-halloween", id === "halloween");
-  }
-  placeProps(theme.props);
-  document.querySelectorAll("[data-theme-id]").forEach(b => b.classList.toggle("on", b.dataset.themeId === id));
-}
 function inAppBrowser() { return /Instagram|FBAN|FBAV|Line\//i.test(navigator.userAgent || ""); }
 function fixInAppLinks() {
   if (!inAppBrowser()) return;
@@ -323,13 +294,6 @@ function onHash() {
 }
 document.addEventListener("DOMContentLoaded", () => {
   setupNewsletter();
-  const menu = document.getElementById("festiveMenu");
-  menu.innerHTML = Object.entries(THEMES).map(([id, t]) => `<button type="button" data-theme-id="${id}">${t.label}</button>`).join("");
-  const festBtn = document.getElementById("festiveBtn");
-  const setFest = open => { document.getElementById("festive").classList.toggle("open", open); festBtn.setAttribute("aria-expanded", String(open)); };
-  festBtn.onclick = e => { e.stopPropagation(); setFest(!document.getElementById("festive").classList.contains("open")); };
-  menu.onclick = e => { const id = e.target.dataset.themeId; if (!id) return; applyTheme(id); setFest(false); festBtn.focus(); };
-  document.addEventListener("click", () => setFest(false));
   document.querySelector(".tiles").onclick = e => {
     const b = e.target.closest("[data-cat]");
     if (!b) return;
@@ -344,12 +308,9 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("hashchange", onHash);
   document.addEventListener("keydown", e => {
     if (e.key !== "Escape") return;
-    const fest = document.getElementById("festive");
-    if (fest.classList.contains("open")) { fest.classList.remove("open"); document.getElementById("festiveBtn").setAttribute("aria-expanded", "false"); return; }
     const back = document.getElementById("backBtn");
     if (back && document.getElementById("recipe").classList.contains("open")) back.click();
   });
-  applyTheme(store("localStorage", "emma-theme") || "halloween");
   render();
   paintShop();
   detectCountry();

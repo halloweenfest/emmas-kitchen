@@ -9,48 +9,6 @@
   --sans: "Source Sans 3", "Helvetica Neue", sans-serif;
   --serif: "Playfair Display", Georgia, serif;
 }
-[data-theme="halloween"] {
-  --paper: #f6c27a;
-  --ink: #3a1c08;
-  --muted: #7a4520;
-  --line: #e8a85a;
-  --purple: #c2410c;
-  --gold: #e07a1a;
-  --glow: rgba(255, 160, 60, .35);
-}
-[data-theme="diwali"] {
-  --paper: #fff6e8; --ink: #3a1608; --muted: #8a5a2a; --line: #f0d7a8;
-  --purple: #9a1c1c; --gold: #e0b13a; --glow: rgba(224, 177, 58, .28);
-}
-[data-theme="christmas"] {
-  --paper: #f4f7f3; --ink: #16301f; --muted: #4d6556; --line: #d5e0d6;
-  --purple: #1f5a3a; --gold: #c41e3a; --glow: rgba(31, 90, 58, .16);
-}
-[data-theme="holi"] {
-  --paper: #fff7fb; --ink: #3a1230; --muted: #7a4a68; --line: #f3d4e4;
-  --purple: #d11d74; --gold: #2563eb; --glow: rgba(209, 29, 116, .16);
-}
-[data-theme="eid"] {
-  --paper: #f4f7f2; --ink: #14301f; --muted: #4e6a56; --line: #d4e0d2;
-  --purple: #1f6f4a; --gold: #c9a227; --glow: rgba(201, 162, 39, .2);
-}
-[data-theme="thanksgiving"] {
-  --paper: #f8f0e4; --ink: #3a2010; --muted: #7a5a38; --line: #e6d2b4;
-  --purple: #8a3e12; --gold: #c45c26; --glow: rgba(196, 92, 38, .2);
-}
-[data-theme="newyear"] {
-  --paper: #f3f4f8; --ink: #16182a; --muted: #5a5e78; --line: #d8dbe8;
-  --purple: #1b1f4a; --gold: #d4af37; --glow: rgba(212, 175, 55, .2);
-}
-[data-theme="easter"] {
-  --paper: #fbf8f1; --ink: #2a3324; --muted: #66705c; --line: #e4ead8;
-  --purple: #d97b93; --gold: #6a9b6a; --glow: rgba(217, 123, 147, .16);
-}
-[data-theme="kitchen"] {
-  --paper: #fffaf4; --ink: #2a221c; --muted: #6d6156; --line: #eadfce;
-  --purple: #6c3d7a; --gold: #d4a017; --glow: rgba(212, 160, 23, .14);
-}
-
 /* Shared tokens on top of the theme palettes above */
 :root {
   --accent-text: var(--purple);
@@ -64,9 +22,6 @@
   --gutter: 16px;
   --ease: cubic-bezier(.2, .7, .2, 1);
 }
-/* Burnt orange is fine for fills, but too light for small text on the pumpkin paper: use a deeper shade there. */
-[data-theme="halloween"] { --accent-text: #9a3412; --card: rgba(255, 248, 238, .82); --card-solid: #fff6ea; }
-
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
@@ -97,26 +52,6 @@ p { text-wrap: pretty; }
 }
 .skip:focus { top: 12px; }
 
-.glow {
-  pointer-events: none;
-  position: fixed; inset: auto 12% -80px;
-  height: 180px;
-  background: radial-gradient(ellipse at center, var(--glow), transparent 70%);
-  z-index: 0;
-}
-
-.scene { pointer-events: none; }
-.prop {
-  position: fixed; z-index: 5;
-  font-size: 40px;
-  filter: drop-shadow(0 8px 12px rgba(0,0,0,.12));
-  opacity: .9;
-}
-.p1 { top: 18px; left: 18px; }
-.p2 { top: 64px; right: 22px; }
-.p3 { bottom: 18px; left: 18px; }
-.p4 { bottom: 18px; right: 18px; }
-
 .eyebrow {
   letter-spacing: .18em; text-transform: uppercase;
   font-size: 12px; font-weight: 700; color: var(--accent-text);
@@ -124,6 +59,12 @@ p { text-wrap: pretty; }
 
 /* ---------- Header ---------- */
 .site-head { text-align: center; padding: 30px var(--gutter) 6px; position: relative; z-index: 6; }
+.mark-face {
+  width: 88px; height: 88px; margin: 0 auto 8px;
+  border-radius: 50%; object-fit: cover; object-position: center 18%;
+  background: #fffaf4; border: 3px solid #fff;
+  box-shadow: var(--shadow-sm);
+}
 .mark {
   display: inline-block;
   font-family: var(--serif);
@@ -143,22 +84,6 @@ p { text-wrap: pretty; }
   font-weight: 700;
   color: var(--accent-text);
 }
-.ribbon { margin: 10px 0 0; letter-spacing: .55em; font-size: 18px; opacity: .9; }
-.season {
-  display: inline-block;
-  margin: 14px auto 0;
-  padding: 7px 18px;
-  border-radius: 999px;
-  background: #1a1210;
-  color: #f4e8d8;
-  letter-spacing: .28em;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
-}
-.season[hidden] { display: none; }
-.season.on-halloween { background: #c2410c; color: var(--cream); }
-
 .site-head nav {
   display: flex; justify-content: center; align-items: center;
   gap: 10px; row-gap: 10px; margin: 20px auto 14px; flex-wrap: wrap;
@@ -191,25 +116,6 @@ p { text-wrap: pretty; }
 .site-head nav a.on { transform: none; }
 .site-head nav a:focus-visible { outline-offset: 2px; border-radius: 999px; }
 html.in-ig .nav-ig { display: none; }
-
-.feel-wrap { position: absolute; right: 12px; top: 12px; z-index: 8; }
-.feel {
-  border: 1px solid var(--line); background: rgba(255,255,255,.72);
-  color: var(--accent-text); border-radius: 999px;
-  font: 700 11px var(--sans); letter-spacing: .1em; text-transform: uppercase;
-  padding: 9px 13px; cursor: pointer;
-  transition: background .16s ease, border-color .16s ease;
-}
-.feel:hover { background: #fff; border-color: var(--purple); }
-.feel-menu {
-  display: none; position: absolute; right: 0; top: 42px;
-  background: #fff; border: 1px solid var(--line); min-width: 200px; border-radius: var(--radius-sm);
-  text-align: left; padding: 6px; z-index: 40; box-shadow: var(--shadow-md);
-}
-.feel-wrap.open .feel-menu { display: grid; }
-.feel-menu button { border: 0; background: none; text-align: left; padding: 9px 12px; font: 600 15px var(--sans); cursor: pointer; border-radius: 8px; color: #2a221c; }
-.feel-menu button:hover { background: #fbf1e4; }
-.feel-menu button.on { color: #9a3412; font-weight: 800; }
 
 /* ---------- Panels ---------- */
 .panel { display: none; }
@@ -336,7 +242,7 @@ html.in-ig .nav-ig { display: none; }
   display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(24px, 5vw, 48px); align-items: center;
   position: relative; z-index: 2; scroll-margin-top: 16px;
 }
-.hi img { width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; object-position: center 18%; border-radius: var(--radius); box-shadow: var(--shadow-md); }
+.hi img { width: 100%; height: auto; aspect-ratio: 4/5; object-fit: contain; background: #fffaf4; border-radius: var(--radius); box-shadow: var(--shadow-md); }
 .hi h2 { font-family: var(--serif); font-size: clamp(32px, 5vw, 44px); font-weight: 500; margin: 6px 0 12px; }
 .hi p { color: var(--muted); line-height: 1.65; margin-bottom: 12px; }
 .hi a { font-weight: 700; }
@@ -511,12 +417,8 @@ body.reading { overflow: hidden; }
 }
 @media (max-width: 720px) {
   body { font-size: 16px; }
-  .prop { position: absolute; font-size: 26px; opacity: .8; }
-  .p1 { top: 14px; left: 10px; }
-  .p2, .p3, .p4 { display: none; }
-  .site-head { padding-top: 12px; }
-  .feel-wrap { position: relative; right: auto; top: auto; display: flex; justify-content: flex-end; margin-bottom: 6px; }
-  .feel-menu { top: 100%; margin-top: 6px; }
+  .site-head { padding-top: 18px; }
+  .mark-face { width: 72px; height: 72px; }
   .site-head nav { gap: 8px; margin-top: 16px; }
   .site-head nav a { font-size: 12.5px; padding: 10px 13px; letter-spacing: .06em; }
   .tiles { gap: 10px; }
@@ -532,7 +434,7 @@ body.reading { overflow: hidden; }
   .shop-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .shop-h { font-size: 23px; }
   .hi { grid-template-columns: 1fr; }
-  .hi img { aspect-ratio: 1; max-height: 340px; object-position: center 20%; }
+  .hi img { aspect-ratio: 1; max-height: 420px; }
   #recipe .hero { height: 36vh; }
   .recipe-body { padding-top: 20px; }
   .recipe-body h3 { font-size: 23px; margin-top: 30px; }
@@ -554,7 +456,7 @@ body.reading { overflow: hidden; }
 }
 
 @media print {
-  .scene, .glow, .site-head, .tiles, .game, .mail, footer, .recipe-bar, .need, .haunt { display: none !important; }
+  .site-head, .tiles, .game, .mail, footer, .recipe-bar, .need, .haunt { display: none !important; }
   #recipe { position: static; overflow: visible; }
   body.reading > *:not(#recipe) { display: none !important; }
 }
